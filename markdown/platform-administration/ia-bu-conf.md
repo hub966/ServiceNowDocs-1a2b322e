@@ -1,22 +1,25 @@
 ---
-title: Product modules configuration in Now Assist for Setup
+title: Product modules configuration in Setup Hub
 description: Explore the following information to know more about the configurations of specific product modules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-bu-conf.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure, Now Assist for Setup, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure, Setup Hub, Get started, Administer the ServiceNow AI Platform]
 ---
 
-# Product modules configuration in Now Assist for Setup
+# Product modules configuration in Setup Hub
 
 Explore the following information to know more about the configurations of specific product modules.
 
--   Simplified IT Service Management \(ITSM\): See [Configuring Simplified IT Service Management](https://www.servicenow.com/docs/access?context=configuring-ai-native-itsm&version=australia&pubname=australia-it-service-management&ft:locale=en-US) for more information on configuration of ITSM product module.
--   Core Business Suite Foundation \(CBS\): See [Configure Core Business Suite Foundation](https://www.servicenow.com/docs/access?context=configure-cbs&version=australia&pubname=australia-core-business-suite&ft:locale=en-US) for more information on configuration of CBS product module.
--   IT Operations Management \(ITOM\): See [Now Assist for Setup \(ITOM Visibility\)](https://www.servicenow.com/docs/access?context=nowassist-setup-itom-visibility-landing-page&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) for more information on installation of ITOM product module. The configuration for ITOM will be available in future releases.
--   Now Assist Admin: See [Now Assist](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) for more information on configuration of Now Assist Admin module.
+-   Simplified IT Service Management \(ITSM\): See [Configuring Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configuring-ai-native-itsm.md) for more information on configuration of ITSM product module.
+-   Core Business Suite Foundation \(CBS\): See [Configure Core Business Suite Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/configure-cbs.md) for more information on configuration of CBS product module.
+-   IT Operations Management \(ITOM\): See [Install ITOM using Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/exploring-nowassist-setup-itom-aiops.md) for more information on configuration of ITOM product module.
+-   Now Assist Admin: See [Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md) for more information on configuration of Now Assist Admin module.
+-   Employee Slate: See [Configure branding and theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/eslate-config-admin-console.md) for more information on configuration of the Employee Slate product module.
+-   Strategic Portfolio Management \(SPM\): See [Modules in Setup Hub \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/spm-config-console-modules.md) for more information on configuration of the Strategic Portfolio Management \(SPM\) product module.
 
-**Parent Topic:**[Configure in Now Assist for Setup](ia-config-landing.md)
+**Parent Topic:**[Configure in Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-landing.md)
 

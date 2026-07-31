@@ -2,10 +2,11 @@
 title: Configure Sales Forecasting
 description: Use the Sales Forecasting application to project your future sales volumes and revenue based data from opportunities and pipeline analysis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/configure-sales-forecasting.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Lead and opportunity management apps, Configure, Sales Customer Relationship Management]
 ---
 
@@ -15,7 +16,7 @@ Use the Sales Forecasting application to project your future sales volumes and r
 
 ## Activate Sales Forecasting
 
-As an admin, you can activate the following plugins to enable users to access Sales Forecasting. For more information, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+As an admin, you can activate the following plugins to enable users to access Sales Forecasting. For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
 
 <table id="table_o13_hpv_v2c"><thead><tr><th>
 
@@ -194,4 +195,10 @@ sn\_sales\_forecast.submission\_writer
 Edit the forecast-submitted records that they own.
 
 </td></tr></tbody>
-</table>
+</table>**Related topics**  
+
+
+[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-sales-forecasting.md)
+
+[Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-forecasting.md)
+

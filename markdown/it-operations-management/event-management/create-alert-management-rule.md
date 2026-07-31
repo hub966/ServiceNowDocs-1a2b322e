@@ -2,6 +2,7 @@
 title: Create an alert management rule
 description: Create an alert management rule to track alerts and resolve them by determining the required response, for example, to open an incident or launch remediation action.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/create-alert-management-rule.html
 release: australia
 product: Event Management
 classification: event-management
@@ -17,13 +18,15 @@ Create an alert management rule to track alerts and resolve them by determining 
 
 ## Before you begin
 
-To enable remediation with a subflow, you can use a subflow that is available with the base system, or you can create your own subflow. For details, see [Create a custom subflow for alerts](create-custom-create-incident-subflow.md).
+To enable remediation with a subflow, you can use a subflow that is available with the base system, or you can create your own subflow. For details, see [Create a custom subflow for alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-custom-create-incident-subflow.md).
 
 Role required: evt\_mgmt\_admin, flow\_designer
 
 ## About this task
 
 Use alert management rules to track and resolve alerts.
+
+To automate alert responses with an easier interface, you can also create a respond automation in Service Operations Workspace. For more information, see [Create Respond automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/respond-alert-sow-itom.md).
 
 While working in the alert management rule designer, you can work in multiple sections without losing information in any section.
 
@@ -171,7 +174,7 @@ No
 </td></tr></tbody>
 </table>If your instance was upgraded from Kingston, the alert action rules that were provided with the Kingston base system are available to you. However, if you modified any of the rules, the changes made are not carried over.
 
-Alert management rules run 5 seconds after an alert is updated, resetting the timer if updates occur within that window. This delay ensures remediation actions, such as incident creation, are triggered only when the issue is clear and stable, reducing duplicates and unnecessary noise. To change the default 5-second delay, create the **evt\_mgmt.alert\_rule\_delay** property on the **All** &gt; **System Properties** &gt; **All Properties** and change the value. To know how to create a property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+Alert management rules run 5 seconds after an alert is updated, resetting the timer if updates occur within that window. This delay ensures remediation actions, such as incident creation, are triggered only when the issue is clear and stable, reducing duplicates and unnecessary noise. To change the default 5-second delay, create the **evt\_mgmt.alert\_rule\_delay** property on the **All** &gt; **System Properties** &gt; **All Properties** and change the value. To know how to create a property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 ## Procedure
 
@@ -278,7 +281,7 @@ Preview
 
 </td><td>
 
-Function to preview alerts that match the specified condition. A hyperlink shows how many alerts match the filter. ![Alert Preview filter](../image/alert-preview-filter.png) If you click the hyperlink, the browser opens another tab that lists alerts in the Alerts \[em\_alert\_list\] table. The list shows which alerts match the rule, including closed alerts. Alerts that have already been run by the rule are not marked in any way. You can click any alert to view further details.
+Function to preview alerts that match the specified condition. A hyperlink shows how many alerts match the filter. \[Omitted image "alert-preview-filter.png"\] Alt text: Alert Preview filter If you click the hyperlink, the browser opens another tab that lists alerts in the Alerts \[em\_alert\_list\] table. The list shows which alerts match the rule, including closed alerts. Alerts that have already been run by the rule are not marked in any way. You can click any alert to view further details.
 
 </td></tr><tr><td>
 
@@ -286,7 +289,7 @@ Conditions
 
 </td><td>
 
-Conditions that, if fulfilled, cause the filter to be applied. For more information about building conditions, see [Using the condition builder](https://www.servicenow.com/docs/access?context=create-cond-state-using-cond-build&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).To add another condition, click **New Criteria**.
+Conditions that, if fulfilled, cause the filter to be applied. For more information about building conditions, see [Using the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-cond-state-using-cond-build.md).To add another condition, click **New Criteria**.
 
 **Note:** The **Created on** condition is not invoked when running the **Event Management - Evaluate Alert Management Rules** job. Instead, use the **Updated on** condition, as the job detects alerts based on the time they were updated and not on the time they were created.
 
@@ -298,7 +301,7 @@ Related List Conditions
 
 Conditions to include a relationship with another table in the filter.1.  Click **Table** and select the required table.
 2.  Specify the conditions for this filter.
-For more information about creating related lists, see [Add related list conditions](https://www.servicenow.com/docs/access?context=create-related-list-query&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+For more information about creating related lists, see [Add related list conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-related-list-query.md).
 
 </td></tr></tbody>
 </table>4.  Click **Actions**.
@@ -313,15 +316,15 @@ For more information about creating related lists, see [Add related list conditi
 
     1.  Under **Subflow**, double-click the cell.
 
-    2.  Click the search icon ![Look-up icon](../image/LookupUsingList.png).
+    2.  Click the search icon \[Omitted image "LookupUsingList.png"\] Alt text: Look-up icon.
 
-        The list of subflows provided with the base system appears. For more information, see [Event Management subflows in the base system](../reference/subflows-provided.md).
+        The list of subflows provided with the base system appears. For more information, see [Event Management subflows in the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/subflows-provided.md).
 
     3.  From the subflow list, select a subflow.
 
     4.  Repeat, adding as many subflows as required.
 
-        ![Remediation workflow example](../image/alert-remediation-subflows-example.png)
+        \[Omitted image "alert-remediation-subflows-example.png"\] Alt text: Remediation workflow example
 
     5.  To specify when the subflow must be executed, double-click the cell under **Execution**.
 
@@ -339,7 +342,7 @@ For more information about creating related lists, see [Add related list conditi
 
         A link in the cell under **Link to Flow Designer** appears only after a subflow has been selected and the rule has been saved.
 
-        ![Link to subflow](../image/link-to-flow-designer.png)
+        \[Omitted image "link-to-flow-designer.png"\] Alt text: Link to subflow
 
 6.  To add instructions to launch applications or to open browser windows, in the Launch Applications area:
 
@@ -360,10 +363,10 @@ For more information about creating related lists, see [Add related list conditi
 
 The alert management rule is added to the list of available rules that can be used to resolve alerts.
 
-**Parent Topic:**[Alert management rules for resolving alerts](../concept/alert-management-rule.md)
+**Parent Topic:**[Alert management rules for resolving alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-management-rule.md)
 
 **Related topics**  
 
 
-[Apply a quick response in an alert](apply-quick-response-in-alert.md)
+[Apply a quick response in an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/apply-quick-response-in-alert.md)
 

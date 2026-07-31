@@ -16,20 +16,20 @@ The ServiceNow® Sales Territory Management​ application structures and optimi
 
 Sales Territory Member role gets access to view the sales territory associated on the CRM entities like Lead, Opportunity, Account, or Consumer.
 
-See [Sales Territory Management​](https://www.servicenow.com/docs/access?context=explore-sales-territory-management&version=australia&pubname=australia-order-management&ft:locale=en-US) for more information.
+See [Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-sales-territory-management.md) for more information.
 
 **Important:** Sales Territory Management​ is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## Sales Territory Management​ features
 
--   **[Sales Territory Management​ users](https://www.servicenow.com/docs/access?context=components-installed-sales-territory-management&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **[Sales Territory Management​ users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/components-installed-sales-territory-management.md)**
 
     Activate the Sales Territory Management plugin to install the Sales Territory Member role for sales execution within assigned territories, with defined ownership, accountability, and territory‑based CRM record assignment.
 
 
 ## Activation information
 
-Install Sales Territory Management​ by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Sales Territory Management​ by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
-**Parent Topic:**[Sales Customer Relationship Management release notes](sales-order-management-rn-landing.md)
+**Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/sales-order-management-rn-landing.md)
 

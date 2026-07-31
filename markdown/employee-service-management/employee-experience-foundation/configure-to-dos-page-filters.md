@@ -2,6 +2,7 @@
 title: Create or modify to-dos
 description: Create or modify a to-dos in the Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/configure-to-dos-page-filters.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -71,7 +72,7 @@ Conditions
 
 </td><td>
 
-Conditions that a task must meet to appear on the to-dos page in the Employee Center.The conditions available to use are dependent on the table you select. **Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://www.servicenow.com/docs/access?context=c_GlideFilterScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+Conditions that a task must meet to appear on the to-dos page in the Employee Center.The conditions available to use are dependent on the table you select. **Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
 
 </td></tr><tr><td>
 
@@ -245,7 +246,7 @@ Conditions
 
 </td><td>
 
-Conditions that a to-do must meet for it to display with the widget.**Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://www.servicenow.com/docs/access?context=c_GlideFilterScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+Conditions that a to-do must meet for it to display with the widget.**Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
 
 </td></tr><tr><td>
 
@@ -261,7 +262,7 @@ Widget
 
 </td><td>
 
-Name of the widget that the to-dos configuration is associated with.**Note:** To learn more about widgets and how to configure them, see [Service Portal widgets](https://www.servicenow.com/docs/access?context=service-portal-widgets&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+Name of the widget that the to-dos configuration is associated with.**Note:** To learn more about widgets and how to configure them, see [Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal-widgets.md)
 
 </td></tr></tbody>
 </table>    3.  Click **Submit** or **Update**.
@@ -310,7 +311,7 @@ Conditions
 
 </td><td>
 
-Enter the Conditions that a to-do must meet for the configuration mapping.**Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://www.servicenow.com/docs/access?context=c_GlideFilterScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+Enter the Conditions that a to-do must meet for the configuration mapping.**Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
 
 </td></tr><tr><td>
 
@@ -331,7 +332,7 @@ Enter the order number in which you want the To-do to appear in the widget.
 </td></tr></tbody>
 </table>    3.  Under **Field Mappings**, map the fields of the selected **To-dos configuration** table with the **To-do target** table.
 
-        ![field mapping details](../images/to-do-config-field-mapping.png "To-do configuration detail field mappings")
+        \[Omitted image "to-do-config-field-mapping.png"\] Alt text: field mapping details
 
     4.  Click **Submit** or **Update**.
 
@@ -341,5 +342,5 @@ Enter the order number in which you want the To-do to appear in the widget.
 **Related topics**  
 
 
-[Enable task configuration for approvals](approval-hub-to-dos-page-filters.md)
+[Enable task configuration for approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/approval-hub-to-dos-page-filters.md)
 

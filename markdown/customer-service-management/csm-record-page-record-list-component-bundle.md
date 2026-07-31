@@ -2,6 +2,7 @@
 title: Record List component bundle
 description: The Record List component bundle is a list component bundle that uses a dedicated controller to configure list actions such as sorting, filtering, and grouping.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-record-page-record-list-component-bundle.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -54,7 +55,7 @@ This example uses the Customer Service Case Types application, which includes mu
     -   Source Component = Record List Header
     -   Controller = List Controller
     -   Target Event = Open modal
-    For more information, see [Create a UX add-on event mapping](https://www.servicenow.com/docs/access?context=create-a-ux-add-on-event-mapping&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    For more information, see [Create a UX add-on event mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-a-ux-add-on-event-mapping.md).
 
 6.  Select **Submit**.
 
@@ -72,7 +73,7 @@ To make the modal available, add it to the List Page Modals page collection.
     1.  Select the **+** icon next to Pages and variants and then select **Create a new page**.
     2.  Add a name in the **Name** field and select **Continue**. For example, add create\_case as the name.
     3.  Select **Build responsive** and then select **Create**. The create\_case page is added to the list of pages and variants for the page collection
-    For more information, see [Page collections](https://www.servicenow.com/docs/access?context=page-collections&version=australia&pubname=australia-application-development&ft:locale=en-US).
+    For more information, see [Page collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/page-collections.md).
 
 7.  Go to the app route record and change the screen collection to point to the existing screen collection. For example, the Create Case screen collection.
     1.  Select **Settings** for the create\_case page to open the general page settings.

@@ -2,6 +2,7 @@
 title: Portal Case Cards widget instance options form
 description: Instance options enable you to configure the Portal Case Cards widget on a portal page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/r-port-case-cards-instan-options.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -37,7 +38,7 @@ Query
 
 Query to filter the case records.The default query shows cases that are awaiting information or are resolved.
 
-**Note:** If no query is provided, all case records are displayed in the widget. For more information, see [Generate an encoded query string through a filter](https://www.servicenow.com/docs/access?context=t_GenEncodQueryStringFilter&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+**Note:** If no query is provided, all case records are displayed in the widget. For more information, see [Generate an encoded query string through a filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_GenEncodQueryStringFilter.md).
 
 </td></tr><tr><td>
 
@@ -165,7 +166,7 @@ The text displayed in the widget when **Hide Empty Case Widget** isn’t selecte
 </table>**Related topics**  
 
 
-[Add and configure the Portal Case Cards widget](../task/portal-case-card-widget-inst-optns.md)
+[Add and configure the Portal Case Cards widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-case-card-widget-inst-optns.md)
 
-[Display the integer values of all case states](../task/integer-value-case-states.md)
+[Display the integer values of all case states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/integer-value-case-states.md)
 

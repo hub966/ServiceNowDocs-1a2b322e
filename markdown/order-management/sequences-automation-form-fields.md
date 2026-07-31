@@ -2,6 +2,7 @@
 title: Automation form fields
 description: The Automation form enables you to configure properties and pull data from referenced tables for an automated call attempt.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/sequences-automation-form-fields.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -13,7 +14,7 @@ breadcrumb: [Customer Engagement Sequences reference, Lead and opportunity manag
 
 The Automation form enables you to configure properties and pull data from referenced tables for an automated call attempt.
 
-Dot-walking enables you to access columns from referenced tables so you can pull data beyond the current record into your configuration. For more information, see [Dot-walking examples](https://www.servicenow.com/docs/access?context=dot-walking-examples&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Dot-walking enables you to access columns from referenced tables so you can pull data beyond the current record into your configuration. For more information, see [Dot-walking examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/dot-walking-examples.md).
 
 <table id="table_dmy_q1m_ghc"><thead><tr><th>
 
@@ -92,5 +93,5 @@ The state of the call task. The available options include:-   Open
 -   Cancelled
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Customer Engagement Sequences reference](../concept/customer-engagement-sequences-reference.md)
+</table>**Parent Topic:**[Customer Engagement Sequences reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/customer-engagement-sequences-reference.md)
 

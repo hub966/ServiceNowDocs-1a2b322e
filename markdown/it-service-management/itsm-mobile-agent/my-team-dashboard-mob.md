@@ -2,6 +2,7 @@
 title: My team dashboard
 description: As a group manager, with the My team dashboard, gain insights into the data like incidents at risk, breached incidents or overdue changes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/my-team-dashboard-mob.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
@@ -17,15 +18,15 @@ As a group manager, with the My team dashboard, gain insights into the data like
 
 Tap on the sections to process the incidents.
 
-![my team dashboard](../image/itsm-ma-my-team-dashboard.png)
+\[Omitted image "itsm-ma-my-team-dashboard.png"\] Alt text: my team dashboard
 
 **Note:**
 
--   The data visualization changes for My team dashboard are available in the base system for both the new or upgrade customers. You can also view mobile analytics in Platform analytics workspace to configure or create new data visualization. For more information, see [Create a mobile analytics preview](https://www.servicenow.com/docs/access?context=sg-mobile-dashboard-preview&version=australia&pubname=australia-mobile&ft:locale=en-US).
+-   The data visualization changes for My team dashboard are available in the base system for both the new or upgrade customers. You can also view mobile analytics in Platform analytics workspace to configure or create new data visualization. For more information, see [Create a mobile analytics preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-dashboard-preview.md).
 -   For the upgrade customers who have already customized the analytics sections, the data visualizations changes are not available by default. You can enable the new analytics section records from the Mobile Agent section of the Mobile App Builder to view the visualized changes.
 
 **Related topics**  
 
 
-[Overdue changes](../task/overdue-change-mobile.md)
+[Overdue changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/overdue-change-mobile.md)
 

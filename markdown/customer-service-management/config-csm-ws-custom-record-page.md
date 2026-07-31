@@ -2,6 +2,7 @@
 title: Customize a record page
 description: To customize a record page, you first create a variant, or copy, of the page and then make changes to the variant.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/config-csm-ws-custom-record-page.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -47,9 +48,9 @@ Role required: workspace\_admin, ui\_builder\_admin, admin
 
     For more information, see the following UI Builder topics:
 
-    -   [Work with pages](https://www.servicenow.com/docs/access?context=work-pages&version=australia&pubname=australia-application-development&ft:locale=en-US)
-    -   [Work with components](https://www.servicenow.com/docs/access?context=work-components&version=australia&pubname=australia-application-development&ft:locale=en-US)
-    -   [Layouts in UI Builder](https://www.servicenow.com/docs/access?context=work-layouts&version=australia&pubname=australia-application-development&ft:locale=en-US)
+    -   [Work with pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/work-pages.md)
+    -   [Work with components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/work-components.md)
+    -   [Layouts in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/work-layouts.md)
 8.  To delete a page variant:
 
     1.  Locate the page variant to be deleted in the **Pages and variants** list.

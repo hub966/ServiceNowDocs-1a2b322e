@@ -2,6 +2,7 @@
 title: Approval summarizer formatter
 description: The approval summarizer formatter creates the summary at the bottom of an approval form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/approvals/r\_ApprovalSummarizerFormatter.html
 release: australia
 product: Approvals
 classification: approvals
@@ -17,7 +18,7 @@ The approval summarizer formatter creates the summary at the bottom of an approv
 
 The approval summarizer displays full information for the record used to request approval.
 
-![The approval summarizer displays information from the original request directly in the approval request.](../image/SummaryOfAChangeRequest.png "Summary of a change request")
+\[Omitted image "SummaryOfAChangeRequest.png"\] Alt text: The approval summarizer displays information from the original request directly in the approval request.
 
 The **Reject** button allows the approver to deny one or more requested items in a multi-item request, before approving the overall request. If a requested item is denied, the workflow for that item never starts. The approver can then choose to **Accept** the item.
 
@@ -26,5 +27,5 @@ The **Reject** button allows the approver to deny one or more requested items in
 **Related topics**  
 
 
-[Using formatters](https://www.servicenow.com/docs/access?context=c_Formatters&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[Using formatters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_Formatters.md)
 

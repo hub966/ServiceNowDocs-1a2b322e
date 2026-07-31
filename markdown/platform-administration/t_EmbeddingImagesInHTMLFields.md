@@ -2,6 +2,7 @@
 title: Embed images in the HTML editor
 description: You can use the HTML field image picker to embed images into HTML fields, and to add images to the image library.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_EmbeddingImagesInHTMLFields.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Role required: the role necessary to update the record that contains the HTML fi
 
 ## About this task
 
-**Note:** Administrators and users with the image\_admin role manage the image library at **System UI** &gt; **Images**. See [Storing images in the database](https://www.servicenow.com/docs/access?context=c_StoringImagesInTheDatabase&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) .
+**Note:** Administrators and users with the image\_admin role manage the image library at **System UI** &gt; **Images**. See [Storing images in the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_StoringImagesInTheDatabase.md) .
 
 ## Procedure
 
@@ -27,7 +28,7 @@ Role required: the role necessary to update the record that contains the HTML fi
 
 2.  Click the position where the image is to appear, or to modify an existing image, click the image.
 
-3.  Click the insert/edit image icon \(![Insert or edit image icon](../image/TinyMCEV4Image.png)\) on the HTML editor toolbar.
+3.  Click the insert/edit image icon \(\[Omitted image "TinyMCEV4Image.png"\] Alt text: Insert or edit image icon\) on the HTML editor toolbar.
 
 4.  In the Insert/Modify image form, enter information in each field.
 

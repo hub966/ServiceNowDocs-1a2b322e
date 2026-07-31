@@ -2,6 +2,7 @@
 title: Automatically run a script of your choosing
 description: Schedule both conditional and non-conditional scripts. If Domain Separation is installed in the instance, you can also select, filter, sort, and schedule scripts based on their assigned domains.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/t\_ScheduleAScriptExecution.html
 release: australia
 product: Time Configuration
 classification: time-configuration
@@ -90,7 +91,7 @@ Condition
 
 </td><td>
 
-A conditional script that determines if a scheduled job should run. The last expression of the script should evaluate to a Boolean \(true/false\) value. This text box appears only if you select **Use conditions**. **Warning:** Conditional scripts for scheduled report emails and Performance Analytics data collection jobs are executed in the sandbox. Therefore, function definitions are not allowed. Some API calls and keywords are also not allowed.For more information, see [Script sandbox evaluator](https://www.servicenow.com/docs/access?context=script-sandbox&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+A conditional script that determines if a scheduled job should run. The last expression of the script should evaluate to a Boolean \(true/false\) value. This text box appears only if you select **Use conditions**. **Warning:** Conditional scripts for scheduled report emails and Performance Analytics data collection jobs are executed in the sandbox. Therefore, function definitions are not allowed. Some API calls and keywords are also not allowed.For more information, see [Script sandbox evaluator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-sandbox.md).
 
 After upgrade, jobs with conditional scripts that contain these disallowed API components finish with errors.
 
@@ -119,7 +120,7 @@ For example, if the business calendar represents a fiscal year, and the starting
 
 **Note:** When you select **Business Calendar: Entry Start** or **Business Calendar: Entry End**, you can apply an offset factor to schedule the job to run before or after the time span of the selected business calendar. If you select a business calendar and all its business calendar spans are in the past, the job would never run since that is an invalid configuration. To learn more, see the **Offset type** and **Offset** fields.
 
-To learn more about creating and using business calendars and defining business calendar entries, see [Creating business calendars](../../time/concept/business-calendars.md) and [Define business calendar entries](../../time/task/define-business-calendar-entries.md#).
+To learn more about creating and using business calendars and defining business calendar entries, see [Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/business-calendars.md) and [Define business calendar entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/define-business-calendar-entries.md).
 
 </td></tr><tr><td>
 
@@ -242,7 +243,7 @@ Name of the script to run at the scheduled date and time. For example, copy scri
 </td></tr></tbody>
 </table>5.  If Domain Separation is installed in this instance, the following fields also appear for selecting, sorting, and scheduling jobs by domain.
 
-    **Note:** The Domain Support - Domain Extensions Installer plugin installs these fields. To learn more, see [Request domain separation](https://www.servicenow.com/docs/access?context=t_ActivateDomainSeparation&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    **Note:** The Domain Support - Domain Extensions Installer plugin installs these fields. To learn more, see [Request domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ActivateDomainSeparation.md).
 
 <table id="table_m2n_yyf_tlb"><thead><tr><th>
 
@@ -266,7 +267,7 @@ Domain source table
 
 </td><td>
 
-Name of the domain-separated table that is the source of the domains in which the scheduled job should run. For example, select **Department \(cmn\_department\)** if you want to use it as the source of the assigned domains used to schedule scripts. The scheduled job determines these domains from the sys\_domain field of the source table records. To learn more, see [Domain assignment](https://www.servicenow.com/docs/access?context=c_DomainAssignment&version=australia&pubname=australia-platform-security&ft:locale=en-US). **Note:** It's a good idea to create a domain-separated table solely dedicated to sourcing domains, unless you have a use case that warrants using an existing one. If you do create a new one, simply select it using this field.
+Name of the domain-separated table that is the source of the domains in which the scheduled job should run. For example, select **Department \(cmn\_department\)** if you want to use it as the source of the assigned domains used to schedule scripts. The scheduled job determines these domains from the sys\_domain field of the source table records. To learn more, see [Domain assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainAssignment.md). **Note:** It's a good idea to create a domain-separated table solely dedicated to sourcing domains, unless you have a use case that warrants using an existing one. If you do create a new one, simply select it using this field.
 
 </td></tr><tr><td>
 
@@ -275,7 +276,7 @@ Domain source filter
 </td><td>
 
 Optional condition you can specify to filter the records queried from the selected domain source table. 1.  Select the field to use for filtering records.
-2.  Add filtering conditions and operators to narrow the domain selection criteria. To learn more, see [Filters](https://www.servicenow.com/docs/access?context=c_Filters&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+2.  Add filtering conditions and operators to narrow the domain selection criteria. To learn more, see [Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_Filters.md).
 
 
 </td></tr></tbody>
@@ -287,20 +288,20 @@ Optional condition you can specify to filter the records queried from the select
 6.  Select **Update** to update the scheduled job, **Execute Now** to execute the scheduled script immediately, or **Delete** to delete the job.
 
 
-**Parent Topic:**[Create a scheduled job](../../time/task/t_CreateAScheduledJob.md)
+**Parent Topic:**[Create a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_CreateAScheduledJob.md)
 
 **Related topics**  
 
 
-[Advanced options for scheduled jobs](../../time/task/advanced-options-for-scheduled-jobs.md)
+[Advanced options for scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/advanced-options-for-scheduled-jobs.md)
 
-[Create a scheduled job](../../time/task/t_CreateAScheduledJob.md)
+[Create a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_CreateAScheduledJob.md)
 
-[Enable run types for scheduled job child tables](../../time/task/customize-run-times-for-scheduled-jobs.md#)
+[Enable run types for scheduled job child tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/customize-run-times-for-scheduled-jobs.md)
 
-[Personalize the system date format](../../time/task/t_PersonalizeTheSystemDateFormat.md)
+[Personalize the system date format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_PersonalizeTheSystemDateFormat.md)
 
-[Set a system time zone](../../time/task/t_SetASystemTimeZone.md)
+[Set a system time zone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_SetASystemTimeZone.md)
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 

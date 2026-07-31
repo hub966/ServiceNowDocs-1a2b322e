@@ -2,11 +2,12 @@
 title: Now Assist for Sales CRM for Telecommunications AI agent Move order voice AI agent
 description: Use this agent to automatically create a customer move order capture journey.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-move-order-somt.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [AI agents in SOMT, Use agentic workflows, Now Assist for Sales CRM for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Standalone AI agents, Use agentic workflows, Now Assist for Sales CRM for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Now Assist for Sales CRM for Telecommunications AI agent Move order voice AI agent
@@ -28,9 +29,9 @@ To create a move order, AI agent collects these details:
 -   Product or services to be moved
 -   New service location
 
-To integrate AI agent with supported third-party CCaaS \(Contact Center as a Service\) providers, see [Integrating voice assistant with CCaaS provider](https://www.servicenow.com/docs/access?context=integrating-voice-service-with-ccaas-providers&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+To integrate AI agent with supported third-party CCaaS \(Contact Center as a Service\) providers, see [Integrating voice assistant with CCaaS provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrating-voice-service-with-ccaas-providers.md).
 
-To add tools and information, see [Add tools and information to an AI agent](https://www.servicenow.com/docs/access?context=add-tool-aia&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) for details.
+To add tools and information, see [Add tools and information to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-tool-aia.md) for details.
 
 Role required: sn\_customerservice.consumer
 
@@ -44,7 +45,7 @@ To configure the AI agent:
 2.  In Now Assist Voice Deployment tile, select **Edit**.
 3.  Select **Settings** tab and review the details.
 
-To create SoftPIN, see [Configure Soft PIN](https://www.servicenow.com/docs/access?context=configure-soft-pin&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+To create SoftPIN, see [Configure Soft PIN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-soft-pin.md).
 
 ## Move order voice AI agent
 

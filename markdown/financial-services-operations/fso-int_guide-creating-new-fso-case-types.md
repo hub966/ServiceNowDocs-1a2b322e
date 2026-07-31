@@ -2,6 +2,7 @@
 title: Creating FSO Case Types
 description: If you need a new case type that can't be extended from an existing application, you can create one by extending the FSO Base Case \(sn\_bom\_case\) table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/fso-int\_guide-creating-new-fso-case-types.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,7 +14,7 @@ breadcrumb: [Using case types and service definitions in FSO, Developer resource
 
 If you need a new case type that can't be extended from an existing application, you can create one by extending the FSO Base Case \(sn\_bom\_case\) table.
 
-Creating a case type involves creating roles, modules, workspaces, and other required entities. For additional information on case types, see [Customer Service Case Types](https://www.servicenow.com/docs/access?context=customer-service-case-types&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+Creating a case type involves creating roles, modules, workspaces, and other required entities. For additional information on case types, see [Customer Service Case Types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-case-types.md).
 
 Here’s a list of questions that you may consider when evaluating whether you must create a case type in FSO. This isn’t an exhaustive list, and you should conduct further analysis based on your individual requirements and use cases.
 
@@ -37,5 +38,5 @@ When implementing, for example, ACH payment disputes, you may want to create a n
 -   The attributes needed to capture the ACH disputes
 -   Different teams processing disputes that have differing access and training requirements
 
-**Parent Topic:**[Using case types and service definitions in FSO](fso-int_guide-work_case_types.md)
+**Parent Topic:**[Using case types and service definitions in FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-int_guide-work_case_types.md)
 

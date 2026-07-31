@@ -2,6 +2,7 @@
 title: Using Service Exchange for Public Sector Digital Services
 description: As a government service agency provider, learn how to use Service Bridge to receive and fulfill service requests from the service catalog from your provider instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-servicebridge-using.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -41,8 +42,8 @@ Remote Catalog items are ordered from the consumer instance, and create provider
 
 The process for agency providers to create a remote catalog is as follows:
 
-1.  Create a remote record producer in a remote catalog. For information on how to do this, see [Create a remote record producers in a remote catalog in Service Exchange for Providers](https://www.servicenow.com/docs/access?context=service-bridge-v2-create-remote-rec-prod&version=australia&pubname=australia-service-exchange&ft:locale=en-US).
-2.  Create variables for remote record producers. For information on how to do this, [Create variables for remote record producers in Service Exchange for Providers](https://www.servicenow.com/docs/access?context=service-bridge-v2-assign-variables-ser-defn&version=australia&pubname=australia-service-exchange&ft:locale=en-US).
+1.  Create a remote record producer in a remote catalog. For information on how to do this, see [Create remote record producers for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-remote-rec-prod.md).
+2.  Create variables for remote record producers. For information on how to do this, [Create variables for remote record producers for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-assign-variables-ser-defn.md).
 3.  Associate flows to the record producers.
 
 Remote tasks enable you to assign and synchronize the task's data on separate instances so that you can quickly fulfill the service requests from your constituents. Some examples of the consumer requests are as follows:
@@ -50,7 +51,7 @@ Remote tasks enable you to assign and synchronize the task's data on separate in
 1.  Request help for issues that your constituents are having.​
 2.  Request to assign the existing tasks to you so that you can support your constituent's issues​.
 
-For information on how to create a remote task definition that triggers the assignment of a remote task, see [Create a remote task definition in Service Exchange for Providers](https://www.servicenow.com/docs/access?context=service-bridge-v2-create-remote-tasks-defs&version=australia&pubname=australia-service-exchange&ft:locale=en-US).
+For information on how to create a remote task definition that triggers the assignment of a remote task, see [Create a remote task definition in Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-remote-tasks-defs.md).
 
 ## Service Exchange request fulfillment process
 

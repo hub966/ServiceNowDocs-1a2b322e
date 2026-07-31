@@ -2,6 +2,7 @@
 title: Configuring user access and data permissions for AI agents
 description: Configure the security controls to specify the users who can discover or use the agentic workflow, and provide data permissions for AI agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-conf-users-ai-agents.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -15,7 +16,7 @@ breadcrumb: [Configure agentic workflows, Configure, Now Assist in CM Pro, Contr
 
 Configure the security controls to specify the users who can discover or use the agentic workflow, and provide data permissions for AI agents.
 
-AI agents use [role masking](https://www.servicenow.com/docs/access?context=aia-role-masking&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an AI agent](https://www.servicenow.com/docs/access?context=define-sec-controls-aia&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aia.md).
 
 The following roles are configured with the base system to provide data access to the AI agents in the agentic workflows of Contract Management Pro.
 
@@ -39,12 +40,12 @@ To ensure that the AI agent can access all the required information for your wor
         This configuration controls what information the AI agent can read, update, or share, based on the permissions of the selected roles.
 
 
-For more information on configuring the security controls, see [Define security controls for an AI agent](https://www.servicenow.com/docs/access?context=define-sec-controls-aia&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For more information on configuring the security controls, see [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aia.md).
 
-**Parent Topic:**[Configuring agentic workflows in Now Assist in Contract Management](cmpro-conf-agentic-workflow.md)
+**Parent Topic:**[Configuring agentic workflows in Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-conf-agentic-workflow.md)
 
 **Related topics**  
 
 
-[Configuring user access and data permissions for agentic workflows](cmpro-conf-users-agentic-wf.md)
+[Configuring user access and data permissions for agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-conf-users-agentic-wf.md)
 

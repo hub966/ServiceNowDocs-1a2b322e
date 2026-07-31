@@ -2,12 +2,14 @@
 title: Configure Now Assist for Field Service Management \(FSM\)
 description: If you have the admin role, you can configure Now Assist for Field Service Management \(FSM\) application so that users can generate work order summaries and knowledge articles, or summarize Sidebar discussions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/now-assist-for-field-service-management-fsm/configure-now-assist-fsm.html
 release: australia
 product: Now Assist for Field Service Management \(FSM\)
 classification: now-assist-for-field-service-management-fsm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-05-13"
 reading_time_minutes: 2
+keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Now Assist for FSM]
 ---
 
@@ -21,7 +23,7 @@ Role required: wm\_admin
 
 ## About this task
 
-Use the Now Assist Admin console to configure Now Assist for FSM. This console contains everything that you need to install the plugins and configure the generative AI skills. For more information, [Overview tab in Now Assist Admin](https://www.servicenow.com/docs/access?context=configuring-now-assist&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Use the Now Assist Admin console to configure Now Assist for FSM. This console contains everything that you need to install the plugins and configure the generative AI skills. For more information, [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
 
 The following table lists the features and skills that you can access from the Now Assist Admin console.
 
@@ -31,13 +33,13 @@ The following table lists the features and skills that you can access from the N
 |Knowledge|KB generation|
 |Chat|Sidebar summarization|
 
-The ServiceNow® large language model \(Now LLM Service\) is currently the only provider for this Now Assist application's skills.
+Now LLM Service is currently the only provider for this application's skills.
 
 ## Procedure
 
 1.  If necessary, install the Now Assist for FSM plugin \(sn\_fsm\_gen\_ai\).
 
-    For information about the installation process, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features** to access the **Features** tab of the Now Assist Admin console.
 
@@ -53,7 +55,7 @@ The ServiceNow® large language model \(Now LLM Service\) is currently the only 
 
 7.  Select the inputs or triggers for the selected skill.
 
-    For information about the inputs and triggers for each skill, see [Skill inputs for Now Assist for Field Service Management \(FSM\)](../concept/now-assist-fsm-skill-inputs.md).
+    For information about the inputs and triggers for each skill, see [Skill inputs for Now Assist for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-for-field-service-management-fsm/now-assist-fsm-skill-inputs.md).
 
 8.  After you've configured the inputs or triggers for the selected skill, select **Save and continue** to go to the next step.
 
@@ -77,13 +79,13 @@ The ServiceNow® large language model \(Now LLM Service\) is currently the only 
 
 14. Configure the Generate closure notes UI actions.
 
-    To complete activation for the work order task summarization skill, you must enable the Generate closure notes UI actions for the Close complete and Close incomplete states. For more information, see [Configure the Generate closure notes UI action](configure-close-ui-actions.md).
+    To complete activation for the work order task summarization skill, you must enable the Generate closure notes UI actions for the Close complete and Close incomplete states. For more information, see [Configure the Generate closure notes UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-for-field-service-management-fsm/configure-close-ui-actions.md).
 
 
 **Related topics**  
 
 
-[Overview tab in Now Assist Admin](https://www.servicenow.com/docs/access?context=configuring-now-assist&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md)
 
-[Configuring Now Assist Admin features](https://www.servicenow.com/docs/access?context=configuring-na-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[Configuring Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-na-landing.md)
 

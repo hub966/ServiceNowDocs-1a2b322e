@@ -2,6 +2,7 @@
 title: Add a workspace action button for initiating a contract request
 description: Define an action button in your workspace and map it to the built-in action that initiates a contract request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-config-initiate-cont.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -26,7 +27,7 @@ Role required: admin
 
     1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Declarative Actions** &gt; **Form Actions**
 
-        For more information, see [Customizing Configurable Workspace with declarative actions](https://www.servicenow.com/docs/access?context=declarative-actions-landing&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+        For more information, see [Customizing Configurable Workspace with declarative actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/declarative-actions-landing.md)
 
     2.  Select **New**.
 
@@ -37,11 +38,11 @@ Role required: admin
         |Implemented as|UFX Client Action|
         |Specify client action|Initiate contract|
 
-        ![Add initiate contract declarative action to your workspace](../image/cmpro-bu-form-actn-initiate-cntr.png)
+        \[Omitted image "cmpro-bu-form-actn-initiate-cntr.png"\] Alt text: Add initiate contract declarative action to your workspace
 
     4.  On the form, fill in the other fields.
 
-        For details, see [Action assignment form](../reference/cmpro-actn-assignment-form.md)
+        For details, see [Action assignment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-actn-assignment-form.md)
 
     5.  Right-click the form header and select **Save**.
 
@@ -97,9 +98,9 @@ Role required: admin
 
     9.  On the form, fill in the other fields.
 
-        ![Create event mapping for initiate contract action](../image/cmpro-uptake-ux-add-event.png)
+        \[Omitted image "cmpro-uptake-ux-add-event.png"\] Alt text: Create event mapping for initiate contract action
 
-        For a description of the field values, see [UFX Add on Event mapping form](../reference/cmpro-ufx-event-map-form.md).
+        For a description of the field values, see [UFX Add on Event mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-ufx-event-map-form.md).
 
     10. Select **Submit**.
 
@@ -116,32 +117,32 @@ Role required: admin
 
 An action button to initiate contract requests from a contract record is available in your workspace.
 
-![Initiate action button added to your workspace](../image/cmpro-bu-initiate-contract-button.png "Initiate contract action configured")
+\[Omitted image "cmpro-bu-initiate-contract-button.png"\] Alt text: Initiate action button added to your workspace
 
-**Parent Topic:**[Add and configure contract request functionality into your workspace](../concept/cncore-uptake-steps.md)
+**Parent Topic:**[Add and configure contract request functionality into your workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-uptake-steps.md)
 
 **Related topics**  
 
 
-[Configure non-task tables for contract templates](cmpro-config-non-tsk-tbl-cn-tmplt.md)
+[Configure non-task tables for contract templates]()
 
-[Add Contract requests tab to the contract request record](cncore-add-relatedlist-conreq.md)
+[Add Contract requests tab to the contract request record]()
 
-[Add amendment tabs to contract repository record](cncore-BU-amend-relatedlist.md)
+[Add amendment tabs to contract repository record]()
 
-[Add Contract documents tab to the contract repository record](cncore-add-con-doc-relatedl.md)
+[Add Contract documents tab to the contract repository record]()
 
-[Copy fields from parent request to contract request](cncore-copy-fld-frm-parent.md)
+[Copy fields from parent request to contract request]()
 
-[Group contract documents by contract type in a contract request](cncore-config-srp-grouping.md)
+[Group contract documents by contract type in a contract request]()
 
-[Add access to obligation management from contract repository records](cmpro-add-access-to-ob-mgmt.md)
+[Add access to obligation management from contract repository records]()
 
-[Configure the contract request form header for your workspace](cncore-configure-header.md)
+[Configure the contract request form header for your workspace]()
 
-[Assign a role for configuring template mappings](cncore-tbl-access-config-role.md)
+[Assign a role for configuring template mappings]()
 
-[Enable contract request fields in condition builders](cncore-add-cmr-condtion-build.md)
+[Enable contract request fields in condition builders]()
 
-[Configuring the Playbook tab on contract repository records](cmpro-config-playbook-tab.md)
+[Configuring the Playbook tab on contract repository records]()
 

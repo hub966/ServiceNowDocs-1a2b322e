@@ -2,6 +2,7 @@
 title: Send case email replies containing interaction emails in activity history
 description: Include emails from related interactions in agent case email responses to provide full context of prior email communications. The history is created by embedding an email script within an email client template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/send-case-email-replies-interaction-emails-activity-history.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -30,7 +31,7 @@ Role required: admin
     **Note:**
 
     -   The number of emails in the activity history matches the value set in the system properties, **include\_system\_emails\_in\_notification and number\_of\_activities\_in\_reply**.
-    -   You can also create a client template and map it to the Interaction table. For more information, see [Create an email client template](https://www.servicenow.com/docs/access?context=t_CreateAnEmailClientTemplate&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    -   You can also create a client template and map it to the Interaction table. For more information, see [Create an email client template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAnEmailClientTemplate.md).
 4.  Select **Update**.
 
 
@@ -41,5 +42,5 @@ The get\_activity\_of\_case\_and\_related\_interaction\_for\_email script retrie
 **Related topics**  
 
 
-[Enable agents to respond to customers with email activity history](enable-agent-respond-customer-email-activity-history.md)
+[Enable agents to respond to customers with email activity history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/enable-agent-respond-customer-email-activity-history.md)
 

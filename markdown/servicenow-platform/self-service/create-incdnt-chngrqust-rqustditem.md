@@ -2,6 +2,7 @@
 title: Create incidents and change requests from a requested item
 description: You can quickly open an incident or a change request from a requested item. It also maintains a relationship between the requested item, and its associated incidents or change requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/self-service/create-incdnt-chngrqust-rqustditem.html
 release: australia
 product: Self-service
 classification: self-service
@@ -17,7 +18,7 @@ You can quickly open an incident or a change request from a requested item. It a
 
 ## Before you begin
 
-The administrator must enable the **Create Change** and **Create Incident** UI actions for the Requested Item \[sc\_req\_item\] table. The administrator must set the **Active** field to `true` when [editing these UI actions](https://www.servicenow.com/docs/access?context=t_EditingAUIAction&version=australia&pubname=australia-platform-administration&ft:locale=en-US) .
+The administrator must enable the **Create Change** and **Create Incident** UI actions for the Requested Item \[sc\_req\_item\] table. The administrator must set the **Active** field to `true` when [editing these UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_EditingAUIAction.md) .
 
 Role required: itil
 
@@ -27,15 +28,15 @@ Role required: itil
 
 2.  Open a requested item.
 
-3.  Click the Additional actions menu icon ![Additional actions menu icon](../image/AdditionalActions.png) and select **Create Change** or **Create Incident**
+3.  Click the Additional actions menu icon \[Omitted image "AdditionalActions.png"\] Alt text: Additional actions menu icon and select **Create Change** or **Create Incident**
 
 
-**Parent Topic:**[Service catalog requests](../topic/p_ServiceCatalogRequests.md)
+**Parent Topic:**[Service catalog requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/self-service/p_ServiceCatalogRequests.md)
 
 **Related topics**  
 
 
-[Record Producer](../../../product/service-catalog-management/concept/c_RecordProducer.md)
+[Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_RecordProducer.md)
 
-[Service catalog requests](../topic/p_ServiceCatalogRequests.md)
+[Service catalog requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/self-service/p_ServiceCatalogRequests.md)
 

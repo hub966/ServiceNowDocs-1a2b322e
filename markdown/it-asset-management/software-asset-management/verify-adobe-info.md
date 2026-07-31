@@ -2,13 +2,14 @@
 title: Determine and verify Adobe subscription information in your ServiceNow instance
 description: Determine the exact software subscription information to be pulled from the Adobe admin center and verify if the complete subscription information is pulled accurately to ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/verify-adobe-info.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Integrating with Adobe Cloud, Software Asset Management publisher pack for Adobe, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Integrating with Adobe Cloud, Software Asset Management publisher pack for Adobe, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Determine and verify Adobe subscription information in your ServiceNow instance
@@ -31,7 +32,7 @@ Role required: sam\_admin
 
     After the validation is successful, look for system logs for any possible errors:
 
-    1.  **Enable debug logs and re-run the job**: This action helps in capturing detailed information about the process. For more information, see [Configure outbound logging](https://www.servicenow.com/docs/access?context=outbound-logging-configure&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+    1.  **Enable debug logs and re-run the job**: This action helps in capturing detailed information about the process. For more information, see [Configure outbound logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/outbound-logging-configure.md).
     2.  **Check outbound logs for API calls and responses**: If the API response isn't successful, check [Adobe documentation](https://helpx.adobe.com/in/support.html) for the specific error.
     3.  **If the APIs were successful, review system logs**: Look for any technical failures or issues within the code itself.
 

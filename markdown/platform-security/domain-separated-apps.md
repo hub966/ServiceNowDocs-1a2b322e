@@ -2,6 +2,7 @@
 title: Application support for domain separation
 description: Many ServiceNow applications support domain separation in the base system but not all. Some supported applications include limitations on the data and administrative settings that can be domain-separated. These definitions delineate the domain separation support levels from the perspective of actual use cases and the people who use them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/domain-separated-apps.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ Many ServiceNow applications support domain separation in the base system but no
 
 ServiceNow applications that support domain separation may support the separation of data and data routing only, have advanced business logic separation, or support tenant \(customer\) level administration of the application. ServiceNow applications are defined with the following incremental support levels.
 
-![Domain separation support levels](../image/ds-support-levels.png)
+\[Omitted image "ds-support-levels.png"\] Alt text: Domain separation support levels
 
 **No support**
 
@@ -54,69 +55,69 @@ Sometimes, a platform feature or application may effectively support SP use case
 
 |Supported feature|Basic|Standard|Enhanced|
 |-----------------|-----|--------|--------|
-|Domain column is present for base system application tables.|![supported](../image/icon-active-plugin.png)|![supported](../image/icon-active-plugin.png)|![supported](../image/icon-active-plugin.png)|
-|Domain-specific configuration is managed by instance owner.|![supported](../image/icon-active-plugin.png)|![supported](../image/icon-active-plugin.png)|![supported](../image/icon-active-plugin.png)|
-|Tenant domains can manage their own application data.| |![supported](../image/icon-active-plugin.png)|![supported](../image/icon-active-plugin.png)|
-|Application properties are domain aware when needed.| |![supported](../image/icon-active-plugin.png)|![supported](../image/icon-active-plugin.png)|
-|Business logic and processes can be domain-separated by instance owner.| |![supported](../image/icon-active-plugin.png)|![supported](../image/icon-active-plugin.png)|
-|Business logic and processes can be administered by the tenant domain.| | |![supported](../image/icon-active-plugin.png)|
+|Domain column is present for base system application tables.|\[Omitted image "icon-active-plugin.png"\] Alt text: supported|\[Omitted image "icon-active-plugin.png"\] Alt text: supported|\[Omitted image "icon-active-plugin.png"\] Alt text: supported|
+|Domain-specific configuration is managed by instance owner.|\[Omitted image "icon-active-plugin.png"\] Alt text: supported|\[Omitted image "icon-active-plugin.png"\] Alt text: supported|\[Omitted image "icon-active-plugin.png"\] Alt text: supported|
+|Tenant domains can manage their own application data.| |\[Omitted image "icon-active-plugin.png"\] Alt text: supported|\[Omitted image "icon-active-plugin.png"\] Alt text: supported|
+|Application properties are domain aware when needed.| |\[Omitted image "icon-active-plugin.png"\] Alt text: supported|\[Omitted image "icon-active-plugin.png"\] Alt text: supported|
+|Business logic and processes can be domain-separated by instance owner.| |\[Omitted image "icon-active-plugin.png"\] Alt text: supported|\[Omitted image "icon-active-plugin.png"\] Alt text: supported|
+|Business logic and processes can be administered by the tenant domain.| | |\[Omitted image "icon-active-plugin.png"\] Alt text: supported|
 
 ## Support levels by application
 
 |Product Suite|Application|Support level|
 |-------------|-----------|-------------|
-|[App development and low-code](https://www.servicenow.com/docs/access?context=hyperautomation-low-code-landing-page&version=australia&pubname=australia-hyperautomation-low-code&ft:locale=en-US)|[App Engine Studio](https://www.servicenow.com/docs/access?context=aes-overview&version=australia&pubname=australia-application-development&ft:locale=en-US)|No support|
-|[Automation Center](https://www.servicenow.com/docs/access?context=automation-center-landing-page&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)|Basic|
-|[Robotic Process Automation \(RPA\) Hub](https://www.servicenow.com/docs/access?context=rpa-explore&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)|Basic|
+|[App development, agentic development, and low-code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/hyperautomation-low-code/hyperautomation-low-code-landing-page.md)|[App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-overview.md)|No support|
+|[Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center-landing-page.md)|Basic|
+|[Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-explore.md)|Basic|
 |ServiceNow Studio|No support|
-|[Table Builder](https://www.servicenow.com/docs/access?context=tb-landing-page&version=australia&pubname=australia-application-development&ft:locale=en-US)|Basic|
-|[App Engine Management Center](https://www.servicenow.com/docs/access?context=manage-app-development&version=australia&pubname=australia-application-development&ft:locale=en-US)|No support|
-|[Decision Builder](https://www.servicenow.com/docs/access?context=decision-designer-overview&version=australia&pubname=australia-build-workflows&ft:locale=en-US)|Standard|
+|[Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/tb-landing-page.md)|Basic|
+|[App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/manage-app-development.md)|No support|
+|[Decision Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/decision-designer-overview.md)|Standard|
 |Enterprise Resource Planning Integration|No support|
 |Enterprise Resource Planning Customization Mining|No support|
-|[Next Experience UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=australia&pubname=australia-application-development&ft:locale=en-US)|Basic|
+|[Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md)|Basic|
 |Workflow Data Fabric Hub/Zero Copy Connectors|No support|
-|[Customer Service Management](https://www.servicenow.com/docs/access?context=c_CustomerServiceManagement&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)|[Communities](https://www.servicenow.com/docs/access?context=domain-separation-communities&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)|No support|
-|[Customer Service Management](https://www.servicenow.com/docs/access?context=domain-separation-customer-service&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)|Basic|
-|[Release Management](https://www.servicenow.com/docs/access?context=domain-separation-release-management&version=australia&pubname=australia-it-service-management&ft:locale=en-US)|Basic\*|
+|[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceManagement.md)|[Communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/domain-separation-communities.md)|No support|
+|[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/domain-separation-customer-service.md)|Basic|
+|[Release Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/domain-separation-release-management.md)|Basic\*|
 |Order Management for Customer Service Management|Basic|
 |Post-Sales Support|Basic|
-|[Workforce Optimization for CSM](https://www.servicenow.com/docs/access?context=domain-separation-configurable-wfo-cs&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)|Basic|
-|[Now Assist for CSM](https://www.servicenow.com/docs/access?context=now-assist-csm&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)|Basic|
-|[DevOps](https://www.servicenow.com/docs/access?context=dev-ops-landing-page&version=australia&pubname=australia-it-service-management&ft:locale=en-US)|[Dev Ops](https://www.servicenow.com/docs/access?context=devops-domain-separation&version=australia&pubname=australia-it-service-management&ft:locale=en-US)|No support|
-|[Dev Ops Config](https://www.servicenow.com/docs/access?context=devops-config-domain-separation&version=australia&pubname=australia-it-service-management&ft:locale=en-US)|No support|
-|[Employee Service Management](https://www.servicenow.com/docs/access?context=employee-service-management-overview&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)|[HR Service Delivery](https://www.servicenow.com/docs/access?context=hr-domain-separation&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)|Basic\*|
-|[Health and Safety](https://www.servicenow.com/docs/access?context=health-safety-domain-separation&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)|No support|
-|[Legal Service Delivery](https://www.servicenow.com/docs/access?context=legal-domain-separation&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)|Basic|
-|[Procurement Service Management \(PSM\)](https://www.servicenow.com/docs/access?context=psm-domain-separation&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)|No support|
-|[Safe Workplace Suite](https://www.servicenow.com/docs/access?context=domain-separation-safe-workplace&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)|See application site for individual application support levels|
-|[SharePoint Online Search Connector](https://www.servicenow.com/docs/access?context=sharepoint-online-search-connector-domain-separation&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)|Basic|
-|[Universal Request](https://www.servicenow.com/docs/access?context=domain-sep-universal-request&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)|Basic|
-|[Universal Task](https://www.servicenow.com/docs/access?context=domain-sep-universal-task&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)|Basic|
-|[Workforce Optimization for HR](https://www.servicenow.com/docs/access?context=wfo-hr-overview&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)|Basic|
-|[Environmental, Social, and Governance Management](https://www.servicenow.com/docs/access?context=esg-landing-page&version=australia&pubname=australia-environmental-social-governance&ft:locale=en-US)|[Environmental, Social, and Governance Management](https://www.servicenow.com/docs/access?context=esg-landing-page&version=australia&pubname=australia-environmental-social-governance&ft:locale=en-US)|No support\*|
-|[Field Service Management](https://www.servicenow.com/docs/access?context=fsm-application-landing-page&version=australia&pubname=australia-field-service-management&ft:locale=en-US)|[Field Service Management](https://www.servicenow.com/docs/access?context=domain-separation-field-service&version=australia&pubname=australia-field-service-management&ft:locale=en-US)|Basic|
-|[Governance, Risk, and Compliance](https://www.servicenow.com/docs/access?context=r_WhatIsGRC&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)|[Advanced Risk](https://www.servicenow.com/docs/access?context=domain-separation-risk-management&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)|Basic|
-|[Audit Management](https://www.servicenow.com/docs/access?context=grc-domain-separation&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)|Basic|
+|[Workforce Optimization for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/domain-separation-configurable-wfo-cs.md)|Basic|
+|[Now Assist for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-csm.md)|Basic|
+|[DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/dev-ops-landing-page.md)|[Dev Ops](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-domain-separation.md)|No support|
+|[Dev Ops Config](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-config-domain-separation.md)|No support|
+|[Employee Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-service-management-overview.md)|[HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-domain-separation.md)|Basic\*|
+|[Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-safety-domain-separation.md)|No support|
+|[Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-domain-separation.md)|Basic|
+|[Procurement Service Management \(PSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/psm-domain-separation.md)|No support|
+|[Safe Workplace Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/domain-separation-safe-workplace.md)|See application site for individual application support levels|
+|[SharePoint Online Search Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/sharepoint-online-search-connector-domain-separation.md)|Basic|
+|[Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/domain-sep-universal-request.md)|Basic|
+|[Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/domain-sep-universal-task.md)|Basic|
+|[Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/wfo-hr-overview.md)|Basic|
+|[Environmental, Social, and Governance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/esg-landing-page.md)|[Environmental, Social, and Governance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/esg-landing-page.md)|No support\*|
+|[Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-application-landing-page.md)|[Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/domain-separation-field-service.md)|Basic|
+|[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/r_WhatIsGRC.md)|[Advanced Risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/domain-separation-risk-management.md)|Basic|
+|[Audit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-domain-separation.md)|Basic|
 |Business Continuity Management|Basic|
-|[Compliance Case Management](https://www.servicenow.com/docs/access?context=grc-domain-separation&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)|Basic|
-|[Continuous Authorization and Monitoring](https://www.servicenow.com/docs/access?context=grc-domain-separation&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)|Basic|
-|[Governance, Risk, and Compliance \(GRC\)](https://www.servicenow.com/docs/access?context=grc-domain-separation&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)|Basic|
+|[Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-domain-separation.md)|Basic|
+|[Continuous Authorization and Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-domain-separation.md)|Basic|
+|[Governance, Risk, and Compliance \(GRC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-domain-separation.md)|Basic|
 |Model Risk Management|Basic|
-|[Operational Resilience](https://www.servicenow.com/docs/access?context=grc-opres-landing-page&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)|Basic|
-|[Privacy Management](https://www.servicenow.com/docs/access?context=grc-domain-separation&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)|Basic|
-|[Policy and Compliance](https://www.servicenow.com/docs/access?context=domain-separation-pol-comp&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)|Basic|
-|[Regulatory Change Management](https://www.servicenow.com/docs/access?context=grc-domain-separation&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)|No support\*|
-|[Third-party risk management](https://www.servicenow.com/docs/access?context=tprm-domain-separation&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)|Basic|
-|[GRC: Metrics](https://www.servicenow.com/docs/access?context=esg-domain-separation&version=australia&pubname=australia-environmental-social-governance&ft:locale=en-US)|Basic|
+|[Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-opres-landing-page.md)|Basic|
+|[Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-domain-separation.md)|Basic|
+|[Policy and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/domain-separation-pol-comp.md)|Basic|
+|[Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-domain-separation.md)|No support\*|
+|[Third-party risk management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/tprm-domain-separation.md)|Basic|
+|[GRC: Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/esg-domain-separation.md)|Basic|
 |Now Assist for TPRM|No support\*|
 |Now Assist for IRM|No support\*|
-|[Smart Assessment Engine](https://www.servicenow.com/docs/access?context=grc-domain-separation&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)|Basic|
-|[Industry Products](https://www.servicenow.com/docs/access?context=industry-products-landing&version=australia&pubname=australia-industry-products&ft:locale=en-US)|
-|•[Financial Services](https://www.servicenow.com/docs/access?context=fso-overview&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US)|Financial Services Card Operations|Basic|
+|[Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-domain-separation.md)|Basic|
+|[Industry Products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industry-products/industry-products-landing.md)|
+|•[Financial Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-overview.md)|Financial Services Card Operations|Basic|
 |Financial Services Deposit Operations|Basic|
 |Financial Services Loan Operations|Basic|
-|[Financial Services Payment Operations](https://www.servicenow.com/docs/access?context=domain-separation-financial-services-payment-operations&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US)|Basic|
+|[Financial Services Payment Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/domain-separation-financial-services-payment-operations.md)|Basic|
 |Financial Services Treasury Operations|Basic|
 |Intelligent Servicing for Fraud|Basic|
 |Property and Casualty Insurance Servicing|Basic|
@@ -125,162 +126,162 @@ Sometimes, a platform feature or application may effectively support SP use case
 |Individual Life Claims|Basic|
 |Financial Services Know Your Customer|Basic|
 |Financial Services Credit Operation|Basic|
-|[Financial Services Document Processor](domain-separated-apps.md)|Basic|
+|[Financial Services Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md)|Basic|
 |Now Assist for Financial Services Operations|Basic|
 |Dispute Rules Content Pack for Visa|Basic|
 |Dispute Rules Content Pack for Mastercard|Basic|
-|• [Healthcare and Life Sciences](https://www.servicenow.com/docs/access?context=hcls-overview&version=australia&pubname=australia-healthcare-life-sciences&ft:locale=en-US)|[EMR Help](https://www.servicenow.com/docs/access?context=emr-help-domain-sep&version=australia&pubname=australia-healthcare-life-sciences&ft:locale=en-US)|Basic|
-|[Healthcare and Life Sciences Service Management Core](https://www.servicenow.com/docs/access?context=hcls-domain-sep-serv-mgmt-core&version=australia&pubname=australia-healthcare-life-sciences&ft:locale=en-US)|Basic|
-|[Pre-Visit Management](https://www.servicenow.com/docs/access?context=pre-visit-domain-sep&version=australia&pubname=australia-healthcare-life-sciences&ft:locale=en-US)|Basic|
-|[Patient Support Services](https://www.servicenow.com/docs/access?context=pss-domain-sep&version=australia&pubname=australia-healthcare-life-sciences&ft:locale=en-US)|Basic|
-|[Vaccine Administration Management](https://www.servicenow.com/docs/access?context=VAM-domain-separation&version=australia&pubname=australia-healthcare-life-sciences&ft:locale=en-US)|Basic|
+|• [Healthcare and Life Sciences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hcls-overview.md)|[EMR Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/emr-help-domain-sep.md)|Basic|
+|[Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hcls-domain-sep-serv-mgmt-core.md)|Basic|
+|[Pre-Visit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-domain-sep.md)|Basic|
+|[Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-domain-sep.md)|Basic|
+|[Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/VAM-domain-separation.md)|Basic|
 |Healthcare Operations Core|Basic|
 |Care Team Operations for Healthcare IT|Basic|
 |Care Team Operations for Biomed|Basic|
 |Care Team Operations for Facilities|Basic|
 |Care Team Operations for Environmental Services|Basic|
-|[Manufacturing Commercial Operations](https://www.servicenow.com/docs/access?context=manufacturing-overview&version=australia&pubname=australia-manufacturing&ft:locale=en-US)|[Manufacturing Commercial Operations](https://www.servicenow.com/docs/access?context=mco-domain-separation&version=australia&pubname=australia-manufacturing&ft:locale=en-US)|Basic|
-|[Retail Core](https://www.servicenow.com/docs/access?context=mco-domain-separation&version=australia&pubname=australia-manufacturing&ft:locale=en-US)|Basic|
-|[Public Sector Digital Services \(PSDS\)](https://www.servicenow.com/docs/access?context=bun-public-sector-landing-page&version=australia&pubname=australia-government-industry&ft:locale=en-US)|Public Sector Digital Services|Basic|
-|[Telecommunications, Media, and Technology \(TMT\)](https://www.servicenow.com/docs/access?context=telecom-media-tech-landing&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US)|[Customer Success Management](https://www.servicenow.com/docs/access?context=account-lifecycle-domain-separation&version=australia&pubname=australia-acct-lifecycle-events&ft:locale=en-US)|Basic|
+|[Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/manufacturing-overview.md)|[Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-domain-separation.md)|Basic|
+|[Retail Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-domain-separation.md)|Basic|
+|[Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/bun-public-sector-landing-page.md)|Public Sector Digital Services|Basic|
+|[Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecom-media-tech-landing.md)|[Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-domain-separation.md)|Basic|
 |Customer Service Problem Management|Basic|
-|[Now Assist for Telecommunications, Media and Technology \(TMT\)](https://www.servicenow.com/docs/access?context=now-assist-spmc&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US)|Basic \(Inherited from [Domain separation in the Now Assist Admin console](https://www.servicenow.com/docs/access?context=domain-separation-in-the-now-assist-admin-console&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)\).|
-|[Proactive Service Experience Workflows](https://www.servicenow.com/docs/access?context=domain-separation-assurance-workflows&version=australia&pubname=australia-proactive-service-exp-workflows&ft:locale=en-US)|Standard|
-|[Service Bridge](https://www.servicenow.com/docs/access?context=service-bridge-v2-domain-separation&version=australia&pubname=australia-service-exchange&ft:locale=en-US)|Standard|
-|[Exploring Technology Product Support Case](https://www.servicenow.com/docs/access?context=tech-product-support-case-app&version=australia&pubname=australia-proactive-service-exp-workflows&ft:locale=en-US)|Basic \(Inherited from [Customer Service Management](https://www.servicenow.com/docs/access?context=domain-separation-customer-service&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)\).|
-|[Telecommunications Network Inventory](https://www.servicenow.com/docs/access?context=domain-seperation-telecommunication-network-inventory&version=australia&pubname=australia-telecom-network-inventory&ft:locale=en-US)|Basic|
-|[IT Asset Management](https://www.servicenow.com/docs/access?context=it-asset-management&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)|[Cloud Insights](https://www.servicenow.com/docs/access?context=domain-separation-cloudin&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)|No support|
-|[Hardware Asset Management](https://www.servicenow.com/docs/access?context=domain-separation-ham&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)|Enhanced|
-|[Software Asset Management](https://www.servicenow.com/docs/access?context=domain-separation-software-asset-management&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)|Enhanced|
-|[Enterprise Asset Management](https://www.servicenow.com/docs/access?context=domain-separation-eam&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)|Standard|
-|[Asset Audit Response](https://www.servicenow.com/docs/access?context=asset-audit-response-domain-separation&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)|Basic|
-|[Strategic Portfolio Management](https://www.servicenow.com/docs/access?context=r_ITBusinessManagement&version=australia&pubname=australia-it-business-management&ft:locale=en-US)|[Agile Development](https://www.servicenow.com/docs/access?context=agile-development-2.0-domain-separation&version=australia&pubname=australia-it-business-management&ft:locale=en-US)|Basic\*|
-|[Alignment Planner Workspace](https://www.servicenow.com/docs/access?context=alignment-planner-domain-separation&version=australia&pubname=australia-it-business-management&ft:locale=en-US)|Basic|
+|[Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-spmc.md)|Basic \(Inherited from [Domain separation in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/domain-separation-in-the-now-assist-admin-console.md)\).|
+|[Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/domain-separation-assurance-workflows.md)|Standard|
+|[Service Bridge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-domain-separation.md)|Standard|
+|[Exploring Technology Product Support Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/tech-product-support-case-app.md)|Basic \(Inherited from [Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/domain-separation-customer-service.md)\).|
+|[Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/domain-seperation-telecommunication-network-inventory.md)|Basic|
+|[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/it-asset-management.md)|[Cloud Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/domain-separation-cloudin.md)|No support|
+|[Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/domain-separation-ham.md)|Enhanced|
+|[Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/domain-separation-software-asset-management.md)|Enhanced|
+|[Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/domain-separation-eam.md)|Standard|
+|[Asset Audit Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-audit-response-domain-separation.md)|Basic|
+|[Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/r_ITBusinessManagement.md)|[Agile Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development-2.0-domain-separation.md)|Basic\*|
+|[Alignment Planner Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/alignment-planner-domain-separation.md)|Basic|
 |Application Portfolio Management|Basic|
-|[Cost Management](https://www.servicenow.com/docs/access?context=domain-separation-cost-management&version=australia&pubname=australia-it-business-management&ft:locale=en-US)|No support|
-|[Demand Management](https://www.servicenow.com/docs/access?context=domain-sep-demand-mgt&version=australia&pubname=australia-it-business-management&ft:locale=en-US)|Basic|
+|[Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/domain-separation-cost-management.md)|No support|
+|[Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/domain-sep-demand-mgt.md)|Basic|
 |Financial Management|No support|
-|[Investment Funding](https://www.servicenow.com/docs/access?context=domain-separation-investment-funding&version=australia&pubname=australia-it-business-management&ft:locale=en-US)|Basic|
-|[Project Portfolio Management](https://www.servicenow.com/docs/access?context=domain-separation-project-portfolio-financials&version=australia&pubname=australia-it-business-management&ft:locale=en-US)|Basic\*|
-|[Release Management](https://www.servicenow.com/docs/access?context=domain-separation-release-management&version=australia&pubname=australia-it-service-management&ft:locale=en-US)|Basic\*|
-|[Scaled Agile Framework \(SAFe\)](https://www.servicenow.com/docs/access?context=domain-separation-scaled-agile-framework&version=australia&pubname=australia-it-business-management&ft:locale=en-US)|Basic\*|
-|[Test Management](https://www.servicenow.com/docs/access?context=domain-separation-test-management&version=australia&pubname=australia-it-business-management&ft:locale=en-US)|Basic\*|
-|[Goal Framework](https://www.servicenow.com/docs/access?context=goal-framework-domain-separation&version=australia&pubname=australia-it-business-management&ft:locale=en-US)|Basic|
-|[IT Operations Management](https://www.servicenow.com/docs/access?context=r_ITOMApplications&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)|[Cloud Provisioning and Governance](https://www.servicenow.com/docs/access?context=domain-separation-cloud-management&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)|Basic|
-|[Agent Client Collector](https://www.servicenow.com/docs/access?context=domain-separation-agent-client-collector&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)|Basic|
-|[Discovery](https://www.servicenow.com/docs/access?context=c_DiscoveryDomainSeparation&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)|Standard|
-|[Event Management](https://www.servicenow.com/docs/access?context=domain-separation-event-management&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)|Basic|
+|[Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/domain-separation-investment-funding.md)|Basic|
+|[Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/domain-separation-project-portfolio-financials.md)|Basic\*|
+|[Release Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/domain-separation-release-management.md)|Basic\*|
+|[Scaled Agile Framework \(SAFe\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/domain-separation-scaled-agile-framework.md)|Basic\*|
+|[Test Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/domain-separation-test-management.md)|Basic\*|
+|[Goal Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework-domain-separation.md)|Basic|
+|[IT Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/r_ITOMApplications.md)|[Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/domain-separation-cloud-management.md)|Basic|
+|[Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/domain-separation-agent-client-collector.md)|Basic|
+|[Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c_DiscoveryDomainSeparation.md)|Standard|
+|[Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/domain-separation-event-management.md)|Basic|
 |Service Operations Workspace for ITOM|Basic|
-|[Health Log Analytics](https://www.servicenow.com/docs/access?context=hla-domain-separation&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)|Basic|
-|[Metric Intelligence](https://www.servicenow.com/docs/access?context=domain-separation-operational-intelligence&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)|Basic|
-|[Service Mapping](https://www.servicenow.com/docs/access?context=domain-separation-service-mapping&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)|Basic|
+|[Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/hla-domain-separation.md)|Basic|
+|[Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/domain-separation-operational-intelligence.md)|Basic|
+|[Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/domain-separation-service-mapping.md)|Basic|
 |Cloud Migration Assessment|Basic|
 |Action Library|No support|
 |Cloud Configuration Governance|No support|
-|[Tag Governance](https://www.servicenow.com/docs/access?context=tag-governance-domain-separation&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)|Basic|
+|[Tag Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/tag-governance-domain-separation.md)|Basic|
 |Cloud Insights Billing|No support|
-|[Cloud Provisioning and Governance: Google Cloud](https://www.servicenow.com/docs/access?context=cloud-mgmt-dom-sep-recommend&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)|Basic|
-|m[Cloud Provisioning and Governance Terrafor](https://www.servicenow.com/docs/access?context=domain-separation-cloud-management&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)|Basic|
+|[Cloud Provisioning and Governance: Google Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-mgmt-dom-sep-recommend.md)|Basic|
+|m[Cloud Provisioning and Governance Terrafor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/domain-separation-cloud-management.md)|Basic|
 |Cloud Operation Workspace|Basic|
 |Cloud Discovery|Standard|
 |Synthetic Monitoring|Basic|
 |Service Observability|Basic|
-|[IT Service Management](https://www.servicenow.com/docs/access?context=r_ITServiceManagement&version=australia&pubname=australia-it-service-management&ft:locale=en-US)|[Benchmarks](https://www.servicenow.com/docs/access?context=domain-separation-benchmarks&version=australia&pubname=australia-it-service-management&ft:locale=en-US)|No support|
-|[Change Management](https://www.servicenow.com/docs/access?context=domain-separation-change-mgt&version=australia&pubname=australia-it-service-management&ft:locale=en-US)|Basic|
+|[IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/r_ITServiceManagement.md)|Benchmarks|No support|
+|[Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/domain-separation-change-mgt.md)|Basic|
 |Coaching|Basic|
-|[Continual Improvement Management](https://www.servicenow.com/docs/access?context=cim-domain-separation&version=australia&pubname=australia-it-service-management&ft:locale=en-US)|Basic|
-|[Contract Management](https://www.servicenow.com/docs/access?context=domain-separation-contract-mgmt&version=australia&pubname=australia-it-service-management&ft:locale=en-US)|No support|
+|[Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/cim-domain-separation.md)|Basic|
+|[Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/domain-separation-contract-mgmt.md)|No support|
 |Digital End-User Experience|No support|
-|[Domain separation and Digital Product Release](https://www.servicenow.com/docs/access?context=dpr-domain-separation-digital-product-release&version=australia&pubname=australia-it-service-management&ft:locale=en-US)|Basic|
-|[Expense Line](https://www.servicenow.com/docs/access?context=r_InstalledWithExpenseLine&version=australia&pubname=australia-it-service-management&section=domain-separation-expense-line&ft:locale=en-US)|No support|
-|[Incident Communications Management](https://www.servicenow.com/docs/access?context=domain-separation-incident-comm-mgt&version=australia&pubname=australia-it-service-management&ft:locale=en-US)|Standard|
-|[Incident Management](https://www.servicenow.com/docs/access?context=domain-separation-incident-management&version=australia&pubname=australia-it-service-management&ft:locale=en-US)|Standard|
-|[Facilities Service Management](https://www.servicenow.com/docs/access?context=domain-separation-facilities-service-mgt&version=australia&pubname=australia-service-management-for-the-enterprise&ft:locale=en-US)|Standard|
-|[Incident Management](https://www.servicenow.com/docs/access?context=domain-separation-incident-management&version=australia&pubname=australia-it-service-management&ft:locale=en-US)|Standard|
-|[On-Call Scheduling](https://www.servicenow.com/docs/access?context=domain-separation-on-call-scheduling&version=australia&pubname=australia-it-service-management&ft:locale=en-US)|Standard|
+|[Domain separation and Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/dpr-domain-separation-digital-product-release.md)|Basic|
+|[Expense Line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/r_InstalledWithExpenseLine.md)|No support|
+|[Incident Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/domain-separation-incident-comm-mgt.md)|Standard|
+|[Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/domain-separation-incident-management.md)|Standard|
+|[Facilities Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/domain-separation-facilities-service-mgt.md)|Standard|
+|[Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/domain-separation-incident-management.md)|Standard|
+|[On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/domain-separation-on-call-scheduling.md)|Standard|
 |Asset Management|Basic|
-|[Problem Management](https://www.servicenow.com/docs/access?context=domain-separation-and-problem-management&version=australia&pubname=australia-it-service-management&ft:locale=en-US)|Standard|
-|[Procurement](https://www.servicenow.com/docs/access?context=domain-separation-procurement&version=australia&pubname=australia-it-service-management&ft:locale=en-US)|Standard\*|
-|[Product Catalog](https://www.servicenow.com/docs/access?context=domain-separation-product-catalog&version=australia&pubname=australia-it-service-management&ft:locale=en-US)|Standard|
-|[Request Management](https://www.servicenow.com/docs/access?context=domain-sep-req-management&version=australia&pubname=australia-it-service-management&ft:locale=en-US)|Standard|
-|[Service Catalog](https://www.servicenow.com/docs/access?context=domain-separation-service-catalog-management&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)|Standard|
-|[Service Level Management](https://www.servicenow.com/docs/access?context=domain-separation-sla&version=australia&pubname=australia-it-service-management&ft:locale=en-US)|Basic|
-|[Service Portfolio Management](https://www.servicenow.com/docs/access?context=SPM2-landing-page&version=australia&pubname=australia-it-service-management&ft:locale=en-US)|Basic\*|
+|[Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/domain-separation-and-problem-management.md)|Standard|
+|[Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/domain-separation-procurement.md)|Standard\*|
+|[Product Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/domain-separation-product-catalog.md)|Standard|
+|[Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/domain-sep-req-management.md)|Standard|
+|[Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/domain-separation-service-catalog-management.md)|Standard|
+|[Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/domain-separation-sla.md)|Basic|
+|[Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/SPM2-landing-page.md)|Basic\*|
 |Site Reliability Operations|Basic\*|
-|[Task outage](https://www.servicenow.com/docs/access?context=domain-separation-task-outage&version=australia&pubname=australia-it-service-management&ft:locale=en-US)|Basic|
+|[Task outage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/domain-separation-task-outage.md)|Basic|
 ||No support|
-|[Walk-up Experience](https://www.servicenow.com/docs/access?context=domain-separation-walkup-experience&version=australia&pubname=australia-it-service-management&ft:locale=en-US)|Basic|
-|[Configure Now Assist for IT Service Management \(ITSM\)](https://www.servicenow.com/docs/access?context=configure-now-assist-for-itsm&version=australia&pubname=australia-it-service-management&ft:locale=en-US)|Basic|
-|[Mobile Configuration and Navigation](https://www.servicenow.com/docs/access?context=mobile-config-navigation&version=australia&pubname=australia-mobile&ft:locale=en-US)|[Mobile](https://www.servicenow.com/docs/access?context=mobile-domain-separation&version=australia&pubname=australia-mobile&ft:locale=en-US)|Basic|
-|[Now Intelligence](https://www.servicenow.com/docs/access?context=c_performanceAnalyticsAndReporting&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)|[Dashboards](https://www.servicenow.com/docs/access?context=domain-separation-in-dashboards&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)|Basic|
-|[Performance Analytics](https://www.servicenow.com/docs/access?context=c_PAWithDomainSeparation&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)|Enhanced|
-|[Process Optimization](https://www.servicenow.com/docs/access?context=domain-separation-process-optimization&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)|Basic|
-|[Reporting](https://www.servicenow.com/docs/access?context=domain-separation-in-reporting&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)|Basic|
-|[Usage Insights](https://www.servicenow.com/docs/access?context=user-exp-analytics-landing&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)|Basic|
-|[The ServiceNow AI Platform](https://www.servicenow.com/docs/access?context=now-platform-landing&version=australia&pubname=australia-now-platform&ft:locale=en-US)|[Advanced Work Assignment](https://www.servicenow.com/docs/access?context=awa-domain-separation&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)|Standard|
-|[Agent Chat](https://www.servicenow.com/docs/access?context=ci-agent-chat-reference&version=australia&pubname=australia-conversational-interfaces&section=domain-separation-agent-chat&ft:locale=en-US)|Standard|
-|[AI Search/Now Assist in AI Search](https://www.servicenow.com/docs/access?context=ai-search-domain-separation&version=australia&pubname=australia-platform-administration&ft:locale=en-US)|Searches respect domain restrictions from indexed records|
-|[App Engine Studio](https://www.servicenow.com/docs/access?context=aes-domain-sep&version=australia&pubname=australia-application-development&ft:locale=en-US)|No support|
-|[Application Management](https://www.servicenow.com/docs/access?context=app-management-domain-separation&version=australia&pubname=australia-application-development&ft:locale=en-US)|No support|
-|[Assessments](https://www.servicenow.com/docs/access?context=domain-separation-assessments&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)|Standard|
-|[Automated Test Framework](https://www.servicenow.com/docs/access?context=domain-separation-auto-test-framework&version=australia&pubname=australia-application-development&ft:locale=en-US)|Standard\*|
-|[ServiceNow Voice](https://www.servicenow.com/docs/access?context=domain-separation-voice&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)|Basic|
-|[Code Signing](../../encryption/concept/code-signing-landing.md)|No support|
-|[Contextual Search](https://www.servicenow.com/docs/access?context=domain-separation-contextual-search&version=australia&pubname=australia-platform-administration&ft:locale=en-US)|Standard|
-|[Configuration Management \(CMDB\)](https://www.servicenow.com/docs/access?context=domain-separation-cmdb&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)|Standard|
-|[Content Management System](https://www.servicenow.com/docs/access?context=domain-separation-content-management&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)|No support|
-|[Credentials and Connections](../../../product/credentials/concept/domain-separation-credentials_conn.md)|Standard|
+|[Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/domain-separation-walkup-experience.md)|Basic|
+|[Configure Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configure-now-assist-for-itsm.md)|Basic|
+|[Mobile Configuration and Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-config-navigation.md)|[Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-domain-separation.md)|Basic|
+|[Now Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_performanceAnalyticsAndReporting.md)|[Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/domain-separation-in-dashboards.md)|Basic|
+|[Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_PAWithDomainSeparation.md)|Enhanced|
+|[Process Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/domain-separation-process-optimization.md)|Basic|
+|[Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/domain-separation-in-reporting.md)|Basic|
+|[Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/user-exp-analytics-landing.md)|Basic|
+|[The ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-platform/now-platform-landing.md)|[Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-domain-separation.md)|Standard|
+|[Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ci-agent-chat-reference.md)|Standard|
+|[AI Search/Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search-domain-separation.md)|Searches respect domain restrictions from indexed records|
+|[App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-domain-sep.md)|No support|
+|[Application Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-management-domain-separation.md)|No support|
+|[Assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/domain-separation-assessments.md)|Standard|
+|[Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/domain-separation-auto-test-framework.md)|Standard\*|
+|[ServiceNow Voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/domain-separation-voice.md)|Basic|
+|[Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/code-signing-landing.md)|No support|
+|[Contextual Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/domain-separation-contextual-search.md)|Standard|
+|[Configuration Management \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/domain-separation-cmdb.md)|Standard|
+|[Content Management System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/domain-separation-content-management.md)|No support|
+|[Credentials and Connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/domain-separation-credentials_conn.md)|Standard|
 |Data Certification|Basic\*|
-|[Data Classification](../../security/concept/domain-separation-data-classification.md)|Enhanced|
+|[Data Classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-classification/domain-separation-data-classification.md)|Enhanced|
 |Data Privacy|No support|
-|[Data Management](https://www.servicenow.com/docs/access?context=domain-separation-data-management&version=australia&pubname=australia-platform-administration&ft:locale=en-US)|Basic\*|
-|[Delegated Development](https://www.servicenow.com/docs/access?context=domain-separation-delegated-development&version=australia&pubname=australia-application-development&ft:locale=en-US)|No support|
-|[Dependency Views](https://www.servicenow.com/docs/access?context=domain-separation-dependency-views&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)|Basic|
-|[Document Services](https://www.servicenow.com/docs/access?context=domain-separation-document-services&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)|No support|
-|[Dynamic Translation](https://www.servicenow.com/docs/access?context=domain-sep-dynamic-translation&version=australia&pubname=australia-platform-administration&ft:locale=en-US)|Basic|
-|[Edge Encryption](../../edge-encryption/concept/edge-encryption-domain-separation.md)|Basic support|
+|[Data Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/domain-separation-data-management.md)|Basic\*|
+|[Delegated Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/domain-separation-delegated-development.md)|No support|
+|[Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/domain-separation-dependency-views.md)|Basic|
+|[Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/domain-separation-document-services.md)|No support|
+|[Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/domain-sep-dynamic-translation.md)|Basic|
+|[Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/edge-encryption-domain-separation.md)|Basic support|
 |External Content Connectors|No support\*|
-|[Field Encryption](../../encryption/concept/field-encryption.md)|No support|
-|[Encryption](../../security/concept/encryption-landing.md)|No support|
-|[Cloud Encryption with Key Management](../../encryption-dare/concept/dare-overview.md)|Basic support|
-|[Field Normalization](https://www.servicenow.com/docs/access?context=domain-separation-field-normalization&version=australia&pubname=australia-platform-administration&ft:locale=en-US)|No support|
-|[Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer-domain-separation&version=australia&pubname=australia-build-workflows&ft:locale=en-US)|Standard\*|
-|[Guided Setup](https://www.servicenow.com/docs/access?context=domain-separation-guided-setup&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)|No support|
-|[Domain separation and Integration Hub](https://www.servicenow.com/docs/access?context=domain-separation-integrationhub&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)|Standard\*|
-|[Integrations with third-party applications and data sources](https://www.servicenow.com/docs/access?context=domain-separation-app-data-source-integration&version=australia&pubname=australia-platform-administration&ft:locale=en-US)|Basic+Standard|
-|[Knowledge Management](https://www.servicenow.com/docs/access?context=domain-separation-knowledge&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)|Standard|
+|[Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/field-encryption.md)|No support|
+|[Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/encryption-landing.md)|No support|
+|[Cloud Encryption with Key Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/cloud-encryption/dare-overview.md)|Basic support|
+|[Field Normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/domain-separation-field-normalization.md)|No support|
+|[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-designer-domain-separation.md)|Standard\*|
+|[Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/domain-separation-guided-setup.md)|No support|
+|[Domain separation and Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/domain-separation-integrationhub.md)|Standard\*|
+|[Integrations with third-party applications and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/domain-separation-app-data-source-integration.md)|Basic+Standard|
+|[Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/domain-separation-knowledge.md)|Standard|
 |Hermes Messaging Service|Basic|
-|[Managed Documents](https://www.servicenow.com/docs/access?context=domain-separation-managed-documents&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)|No support|
-|[MetricBase](https://www.servicenow.com/docs/access?context=domain-separation-metricbase&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)|Basic|
-|[Natural Language Understanding](https://www.servicenow.com/docs/access?context=domain-separation-virtual-agent&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)|Basic+Standard|
-|[Notifications](https://www.servicenow.com/docs/access?context=domain-separation-notifications&version=australia&pubname=australia-platform-administration&ft:locale=en-US)|Standard|
-|[ODBC Driver](https://www.servicenow.com/docs/access?context=domain-separation-odbc-driver&version=australia&pubname=australia-api-reference&ft:locale=en-US)|Basic\*|
-|[Orchestration](https://www.servicenow.com/docs/access?context=domain-separation-orchestration&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)|Standard\*|
-|[Password Reset](https://www.servicenow.com/docs/access?context=domain-separation-pwd-reset&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)|Standard|
-|[Platform Security](domain-sep-landing-page.md)|Domain separation landing page|
+|[Managed Documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/domain-separation-managed-documents.md)|No support|
+|[MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/domain-separation-metricbase.md)|Basic|
+|[Natural Language Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/domain-separation-virtual-agent.md)|Basic+Standard|
+|[Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/domain-separation-notifications.md)|Standard|
+|[ODBC Driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/domain-separation-odbc-driver.md)|Basic\*|
+|[Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/domain-separation-orchestration.md)|Standard\*|
+|[Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/domain-separation-pwd-reset.md)|Standard|
+|[Platform Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)|Domain separation landing page|
 |Data Privacy|No support|
-|[Predictive Intelligence](https://www.servicenow.com/docs/access?context=domain-separation-predictive-intelligence&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)|Standard|
+|[Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/domain-separation-predictive-intelligence.md)|Standard|
 |Proactive Triggers|Basic|
-|[Process Automation Designer](https://www.servicenow.com/docs/access?context=process-automation-designer-domain-separation&version=australia&pubname=australia-build-workflows&ft:locale=en-US)|Basic|
-|[Remote Tables](https://www.servicenow.com/docs/access?context=domain-separation-remote-tables&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)|No support|
-|[Schedules](https://www.servicenow.com/docs/access?context=domain-support-for-schedules&version=australia&pubname=australia-platform-administration&ft:locale=en-US)|Basic|
-|[Script debugger](https://www.servicenow.com/docs/access?context=domain-separation-script-debugging&version=australia&pubname=australia-api-reference&ft:locale=en-US)|Basic|
-|[Search Suggestions](https://www.servicenow.com/docs/access?context=domain-separation-search-suggestions&version=australia&pubname=australia-platform-administration&ft:locale=en-US)|No support|
-|[Service Portal](https://www.servicenow.com/docs/access?context=domain-separation-service-portal&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)|No support|
+|[Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer-domain-separation.md)|Basic|
+|[Remote Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/domain-separation-remote-tables.md)|No support|
+|[Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/domain-support-for-schedules.md)|Basic|
+|[Script debugger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/domain-separation-script-debugging.md)|Basic|
+|[Search Suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/domain-separation-search-suggestions.md)|No support|
+|[Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/domain-separation-service-portal.md)|No support|
 |Service Graph Connectors|No support|
-|[Domain separation and Sidebar](https://www.servicenow.com/docs/access?context=sidebar-domain-separation&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)|Standard|
-|[State Flows](https://www.servicenow.com/docs/access?context=domain-separation-state-flows&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)|No support|
+|[Domain separation and Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar-domain-separation.md)|Standard|
+|[State Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/domain-separation-state-flows.md)|No support|
 |Subscription Management|Basic\*|
-|[Survey Management](https://www.servicenow.com/docs/access?context=domain-separation-surveys&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)|Basic\*|
+|[Survey Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/domain-separation-surveys.md)|Basic\*|
 |Task Intelligence|No support|
-|[Domain separation and Time Card](https://www.servicenow.com/docs/access?context=domain-separation-time-card&version=australia&pubname=australia-it-business-management&ft:locale=en-US)|Basic\*|
-|[UI Builder](https://www.servicenow.com/docs/access?context=uib-domain-sep&version=australia&pubname=australia-application-development&ft:locale=en-US)|Standard|
-|[Virtual Agent](https://www.servicenow.com/docs/access?context=domain-separation-virtual-agent&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)|Basic|
-|[Visual Task Boards](https://www.servicenow.com/docs/access?context=domain-separation-visual-task-boards&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)|Basic|
-|[Web Services](https://www.servicenow.com/docs/access?context=domain-separation-web-services&version=australia&pubname=australia-api-reference&ft:locale=en-US)|Standard\*|
-|[Workflow](https://www.servicenow.com/docs/access?context=c_WorkflowsAndDomainSeparation&version=australia&pubname=australia-build-workflows&ft:locale=en-US)|Standard\*|
+|[Domain separation and Time Card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/domain-separation-time-card.md)|Basic\*|
+|[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/uib-domain-sep.md)|Standard|
+|[Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/domain-separation-virtual-agent.md)|Basic|
+|[Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/domain-separation-visual-task-boards.md)|Basic|
+|[Web Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/domain-separation-web-services.md)|Standard\*|
+|[Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/c_WorkflowsAndDomainSeparation.md)|Standard\*|
 |Workspace|Standard|
-|Platform Fundamentals|[Impact](https://www.servicenow.com/docs/access?context=impact-landing-page&version=australia&pubname=australia-impact&ft:locale=en-US)|No support|
+|Platform Fundamentals|[Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-landing-page.md)|No support|
 |Instance Data Replication|No support|
 |Integration Hub|Standard\*|
 |Integrations with third-party applications and data sources|Basic Standard|
@@ -311,7 +312,7 @@ Sometimes, a platform feature or application may effectively support SP use case
 |Service Portal|No support|
 |Sidebar \(aka Collaborative Chat\)|Standard|
 |State Flows|No support|
-|[Domain separation and Subscription Management](https://www.servicenow.com/docs/access?context=domain-separation-subscription-mgmt&version=australia&pubname=australia-platform-administration&ft:locale=en-US)|Basic\*|
+|[Domain separation and Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/domain-separation-subscription-mgmt.md)|Basic\*|
 |Survey Management|Basic\*|
 |Task Intelligence|No support|
 |Theme Builder|No support|
@@ -328,24 +329,24 @@ Sometimes, a platform feature or application may effectively support SP use case
 |Industrial Process Manager|Basic|
 |Operational Technology Vulnerability Response|Basic|
 |Operational Technology Incident Management|Basic|
-|[Security Operations](https://www.servicenow.com/docs/access?context=security-operations-landing-page&version=australia&pubname=australia-security-management&ft:locale=en-US)|Subscription Management[Configuration Compliance](https://www.servicenow.com/docs/access?context=domain-separation-config-compliance&version=australia&pubname=australia-security-management&ft:locale=en-US)|Standard|
-|[IBM QRadar Offense Ingestion](https://www.servicenow.com/docs/access?context=qradar-ibm-domain-sep&version=australia&pubname=australia-security-management&ft:locale=en-US)|Basic|
-|[Microsoft Graph Security API alert ingestion integration](https://www.servicenow.com/docs/access?context=ms-graph-domain-sep&version=australia&pubname=australia-security-management&ft:locale=en-US)|Basic|
-|[Security Incident Response](https://www.servicenow.com/docs/access?context=domain-separation-security-incident-response&version=australia&pubname=australia-security-management&ft:locale=en-US)|Standard|
-|[Threat Intelligence](https://www.servicenow.com/docs/access?context=domain-separation-threat-intelligence&version=australia&pubname=australia-security-management&ft:locale=en-US)|Standard|
+|[Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations-landing-page.md)|Subscription Management[Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/domain-separation-config-compliance.md)|Standard|
+|[IBM QRadar Offense Ingestion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/qradar-ibm-domain-sep.md)|Basic|
+|[Microsoft Graph Security API alert ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/ms-graph-domain-sep.md)|Basic|
+|[Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/domain-separation-security-incident-response.md)|Standard|
+|[Threat Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/domain-separation-threat-intelligence.md)|Standard|
 |Threat Intelligence Security Center|Standard|
-|[Vulnerability Response](https://www.servicenow.com/docs/access?context=domain-separation-vulnerability-response&version=australia&pubname=australia-security-management&ft:locale=en-US)|Standard|
-|[Service Management](https://www.servicenow.com/docs/access?context=c_ServiceManagement&version=australia&pubname=australia-service-management-for-the-enterprise&ft:locale=en-US)|[Facilities Service Management](https://www.servicenow.com/docs/access?context=domain-separation-facilities-service-mgt&version=australia&pubname=australia-service-management-for-the-enterprise&ft:locale=en-US)|Standard|
-|[Planned Maintenance](https://www.servicenow.com/docs/access?context=domain-separation-planned-maintenance&version=australia&pubname=australia-service-management-for-the-enterprise&ft:locale=en-US)|Standard\*|
+|[Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/domain-separation-vulnerability-response.md)|Standard|
+|[Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_ServiceManagement.md)|[Facilities Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/domain-separation-facilities-service-mgt.md)|Standard|
+|[Planned Maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/domain-separation-planned-maintenance.md)|Standard\*|
 |Structured Problem Analysis|No support|
 |Workforce Optimization for ITSM|Basic|
 |Vendor Management Workspace|Basic|
-|[Proactive Triggers](https://www.servicenow.com/docs/access?context=proactive-triggers&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)|Basic|
+|[Proactive Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/proactive-triggers.md)|Basic|
 |Employee Service Management|SharePoint Online Search Connector|Basic|
 |Workforce Optimization for ITSM|Basic|
 |Application Portfolio Management|Application Portfolio Management|Basic|
 |Domain separation and Conversational Analytics|Basic|
-|[Sales Customer Relationship Management](https://www.servicenow.com/docs/access?context=order-mgt-overview&version=australia&pubname=australia-order-management&ft:locale=en-US)|Advanced Approval for Sales Management|Enhanced|
+|[Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-overview.md)|Advanced Approval for Sales Management|Enhanced|
 
-**Parent Topic:**[Domain separation for service providers](domain-sep-landing-page.md)
+**Parent Topic:**[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 

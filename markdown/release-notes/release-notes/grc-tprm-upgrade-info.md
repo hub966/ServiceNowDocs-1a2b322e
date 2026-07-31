@@ -4,7 +4,7 @@ description: ServiceNow Third-party Risk Management application upgrade informat
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-06-02"
 reading_time_minutes: 8
 ---
 
@@ -38,7 +38,7 @@ After upgrading to Zurich and setting the Smart Assessment Engine enabled \(**sn
     -   Smart Assessment Response Automation plugin \[com.sn\_smart\_resp\_auto\]
     -   Smart Assessment Scoring plugin \[com.sn\_smart\_scoring\]
 
-**Note:** For more information on these plugins, see [Configuring Smart Assessment Engine](https://www.servicenow.com/docs/access?context=smart-assessment-engine-cf-config&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US) and [Smart assessment configuration](https://www.servicenow.com/docs/access?context=tprm-sae-assessment-config&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US).
+**Note:** For more information on these plugins, see  and .
 
 ## Migrating to Smart Assessment Engine
 
@@ -46,7 +46,7 @@ After setting the Smart Assessment Engine enabled \(**sn\_vdr\_risk\_asmt.sae\_e
 
 The following diagram shows the questionnaire to TPRM SAE template migration workflow.
 
-![Questionnaire to TPRM SAE template migration workflow. For a text description, see the text that preceded and follows this diagram.](../image/tprm-q-to-sae-workflow.png "SAE migration workflow")
+\[Omitted image "tprm-q-to-sae-workflow.png"\] Alt text: Questionnaire to TPRM SAE template migration workflow. For a text description, see the text that preceded and follows this diagram.
 
 1.  Migrate templates either one by one or in bulk. After migration, all templates are in the Draft state by default.
 2.  Review each migrated questionnaire template individually to confirm that they’re accurate and complete.
@@ -59,7 +59,7 @@ The following diagram shows the questionnaire to TPRM SAE template migration wor
 
 4.  Review each assessment template to confirm it’s marked as Supports smart assessment. If an assessment template isn’t marked as Supports smart assessment, manually adding a new TPRM SAE questionnaire template to it updates its status.
 
-For more information, see [Migrate a template to an SAE template](https://www.servicenow.com/docs/access?context=tprm-asmnt-tmplt-migrate-metrics-to&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US), [Create a TPRM SAE questionnaire or document request template](https://www.servicenow.com/docs/access?context=create-sae-q-template&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US), [Create an external assessment template](https://www.servicenow.com/docs/access?context=create-vendor-risk-assess-temp&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US), and [Create an issue generation rule](https://www.servicenow.com/docs/access?context=tprm-generate-issue-rule&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US).
+For more information, see , , , and .
 
 ## Classic assessment engine to Smart Assessment Engine comparison
 
@@ -82,7 +82,7 @@ The following table shows the comparable features between the Classic assessment
 
 The following diagram shows the relationship between assessment templates and questionnaires after upgrading.
 
-![Assessment template impact after upgrading. For a text description, see the text that preceded and follows this diagram.](../image/tprm-assess-sae-workflow.png "Assessment templates post-upgrade")
+\[Omitted image "tprm-assess-sae-workflow.png"\] Alt text: Assessment template impact after upgrading. For a text description, see the text that preceded and follows this diagram.
 
 -   Before setting the Smart Assessment Engine enabled \(**sn\_vdr\_risk\_asmt.sae\_enabled**\) property, the following are used by default.
     -   Existing questionnaire templates
@@ -100,7 +100,6 @@ The TPRM SAE questionnaire template has the following limitations.
 
 -   All new assessments must use SAE questionnaire templates.
 -   Third-party risk assessors can no longer create issues from the View responses page. Issues generation rules can be used to create issues automatically.
--   Third-party risk assessors can no longer create comments on individual questions. They can only use the comment section at the questionnaire level.
 -   The signature feature isn’t supported.
 -   Automatic attachment of questionnaires to external assessments based on inherent risk questionnaire \(IRQ\) responses or IRQ-calculated risk tiers is currently not supported in Smart Assessment Engine.
 -   The following question types aren’t supported: percentage, ranking, image scale, and custom metric. You must either convert these question types to supported formats before migration or create new questions in the template designer after migration.
@@ -109,13 +108,24 @@ The TPRM SAE questionnaire template has the following limitations.
 
 -   If a section in the classic template contains only unsupported questions, an empty section is created in the TPRM SAE template. TPRM SAE templates with empty sections can’t be published; therefore, you must either add replacement questions to these sections or delete the empty sections before publishing.
 
-    For more information on migration results, migration limitations, and creating TPRM SAE questionnaires, see [Results of migrating a template to a TPRM SAE template](https://www.servicenow.com/docs/access?context=tprm-migrate-asmnt-template-result&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US) and [Create a TPRM SAE questionnaire or document request template](https://www.servicenow.com/docs/access?context=create-sae-q-template&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US).
+    For more information on migration results, migration limitations, and creating TPRM SAE questionnaires, see  and .
 
 -   The TPRM scoring migration proceeds only if there were no errors during the template migration. If there were errors, the TPRM scoring migration doesn’t occur.
 
-    For more information, see [Configure scoring for an assessment](https://www.servicenow.com/docs/access?context=configure-scoring-for-assessments&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US) and [Normalization in assessment](https://www.servicenow.com/docs/access?context=normalization-in-assessment&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US).
+    For more information, see  and .
 
 -   Event-driven management rules are the default option for scheduling assessments and replaces Repeating assessments.
+
+## External assessment status changes when enabling SAE
+
+When you enable the Smart Assessment Engine \(SAE\) after upgrading to Zurich, external assessment statuses change to reflect the SAE lifecycle. The following table shows how Classic engine assessment statuses map to SAE assessment statuses.
+
+|Classic engine status|SAE status \(Zurich and later\)|
+|---------------------|-------------------------------|
+|**Responses received**|**Submitted to third party**|
+|**Returned**|**In progress**|
+
+These status changes apply only when SAE is enabled. Assessments that continue to use the Classic engine retain the original states. For more information about the SAE assessment and questionnaire lifecycle, see .
 
 ## Important information for upgrading Vendor Risk Management to Australia
 
@@ -134,7 +144,7 @@ VRM
 -   Activate the Vendor Risk Management application \[com.sn\_vdr\_risk\_asmt\].
 -   Activate the Vendor Risk Management Workspace application \[sn\_vrm\_ws\] if you want to use the Vendor Risk Management workspace.
 
-For more information on licensing or metering, see [Tracking a managed activity](https://www.servicenow.com/docs/access?context=tprm-managed-activity&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US), [Third-party Risk Management \(TPRM\) Licensing](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1431058), and [Vendor Risk Management \(VRM\) Licensing](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1362674).
+For more information on licensing or metering, see , [Third-party Risk Management \(TPRM\) Licensing](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1431058), and [Vendor Risk Management \(VRM\) Licensing](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1362674).
 
 ## VRM to TPRM changes
 
@@ -158,7 +168,7 @@ The Third-party Risk Management data model uses the term “third-party” in mo
 
 The following models show VRM's and TPRM's capabilities.
 
-![Relationship Vendor risk management main tables. For a text description, see the text that preceded and follows this data model.](../image/vrm-data-model.png "VRM data model")
+\[Omitted image "vrm-data-model.png"\] Alt text: Relationship Vendor risk management main tables. For a text description, see the text that preceded and follows this data model.
 
 The components included in the Vendor Risk Management data model are as follows:
 
@@ -172,7 +182,7 @@ The components included in the Vendor Risk Management data model are as follows:
 -   Engagement risk scoring rule \[sn\_vdr\_risk\_asmt\_engagement\_risk\_scoring\_rule\]
 -   Engagement level risk rating \[sn\_vdr\_risk\_asmt\_engagement\_level\_rating\]
 
-![Relationship between due diligence, and third-party management main tables. For a text description, see the text that preceded and follows this data model.](../image/tprm-data-model-upgrade.png "TPRM data model")
+\[Omitted image "tprm-data-model-upgrade.png"\] Alt text: Relationship between due diligence, and third-party management main tables. For a text description, see the text that preceded and follows this data model.
 
 The components included in the Third-party Risk Management data model are as follows:
 
@@ -192,5 +202,5 @@ The components included in the Third-party Risk Management data model are as fol
 -   Engagement risk scoring rule \[sn\_vdr\_risk\_asmt\_engagement\_risk\_scoring\_rule\]
 -   Engagement level risk rating \[sn\_vdr\_risk\_asmt\_engagement\_level\_rating\]
 
-**Parent Topic:**[Third-party Risk Management release notes](grc-tprm-rn.md)
+**Parent Topic:**[Third-party Risk Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/grc-tprm-rn.md)
 

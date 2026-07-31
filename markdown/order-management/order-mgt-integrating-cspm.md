@@ -2,6 +2,7 @@
 title: Order Management diagnostics capability
 description: Agents can use ServiceNow Order Management diagnostics capability to diagnose and resolve service issues related to order tasks and domain orders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/order-mgt-integrating-cspm.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,6 +19,6 @@ Install these plugins:
 -   Sales Customer Relationship Management plugin
 -   Service test management plugin
 
-    For more information about service test management, see [Setting up a test group](https://www.servicenow.com/docs/access?context=setting-test-group&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US) and [Setting up test definitions](https://www.servicenow.com/docs/access?context=settingup-test-specifications&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US).
+    For more information about service test management, see [Setting up a test group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/setting-test-group.md) and [Setting up test definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/settingup-test-specifications.md).
 
 

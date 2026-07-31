@@ -2,6 +2,7 @@
 title: CSM application overview
 description: Customer service agents and managers can use the applet launcher and applets in the Customer Service mobile application to view notifications and manage customer service cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-service-mobile-overview.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -137,16 +138,16 @@ Agents can receive notifications in the Customer Service mobile application when
 |Case escalation|When an escalation is raised, users who are part of the group that has permissions to approve are notified. The approvers review and approve them.|
 |Change requests|When a change request is raised, users who are part of the group that has permissions to approve are notified. The approvers review and approve them.|
 
-**Parent Topic:**[Mobile experience for CSM](../concept/customer-service-mobile-interface.md)
+**Parent Topic:**[Mobile experience for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-mobile-interface.md)
 
 **Related topics**  
 
 
-[Get started with the Customer Service mobile application](../task/install-customer-service-mobile-app.md)
+[Get started with the Customer Service mobile application]()
 
-[Applet launcher](https://www.servicenow.com/docs/access?context=sg-mobile-applet-launcher&version=australia&pubname=australia-mobile&ft:locale=en-US)
+[Applet launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-applet-launcher.md)
 
-[Navigation bar](https://www.servicenow.com/docs/access?context=sg-mobile-tab-bar&version=australia&pubname=australia-mobile&ft:locale=en-US)
+[Navigation bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-tab-bar.md)
 
-[Mobile push notifications](https://www.servicenow.com/docs/access?context=sg-mobile-push-notifications&version=australia&pubname=australia-mobile&ft:locale=en-US)
+[Mobile push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-push-notifications.md)
 

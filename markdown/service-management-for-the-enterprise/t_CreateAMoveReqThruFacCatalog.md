@@ -2,6 +2,7 @@
 title: Create a move request through the facilities catalog
 description: Users can submit move requests by selecting from the categories of the Facilities catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_CreateAMoveReqThruFacCatalog.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,7 +28,7 @@ Role required: none
 
 4.  Fill in the fields on the form, as appropriate.
 
-    **Note:** Some request forms do not contain every field described here. For more information, see [Forms](https://www.servicenow.com/docs/access?context=c_UsingForms&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    **Note:** Some request forms do not contain every field described here. For more information, see [Forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UsingForms.md).
 
 <table id="table_gj5_llf_xq"><thead><tr><th>
 
@@ -125,5 +126,5 @@ Provides filtering and condition statements to help narrow your search for asset
 </table>5.  Click **Submit**.
 
 
-**Parent Topic:**[Facilities move requests](../concept/c_FacMoveRequests.md)
+**Parent Topic:**[Facilities move requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_FacMoveRequests.md)
 

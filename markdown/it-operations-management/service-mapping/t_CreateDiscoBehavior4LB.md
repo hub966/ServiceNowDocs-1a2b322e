@@ -2,6 +2,7 @@
 title: Create a discovery behavior for Unix-based load balancers
 description: If your network uses load balancers running on Linux hosts, create a discovery behavior to ensure that Service Mapping and Discovery discover them correctly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/t\_CreateDiscoBehavior4LB.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -102,7 +103,7 @@ Behavior
 
 </td><td>
 
-Select the behavior you created in step [1](t_CreateDiscoBehavior4LB.md#step_createBehavior).
+Select the behavior you created in step [1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_CreateDiscoBehavior4LB.md).
 
 </td></tr><tr><td>
 
@@ -126,7 +127,7 @@ Max Idle time
 
 </td><td>
 
-Set a time limit for inactivity during discovery to automatically cancel stalled processes and log the event. A discovery is only considered idle if no input records are processed and nothing remains in the processing state; idle time is measured from the most recent change to an ECC Queue record. The configured idle time is fixed at the start of the discovery and won’t reflect any edits until the next run. If no value is entered in this field, this schedule runs until complete or cancelled.**Note:** By default, the **Max Idle time** field doesn’t display in the Discovery Schedule form. To include this parameter, open the Discovery Schedules \[discovery\_schedule\] table, add the column, and configure the Max Idle time directly in the table. For information about customizing columns in tables, see [Personalize a list](https://www.servicenow.com/docs/access?context=c_PersonalLists&version=australia&pubname=australia-platform-user-interface&section=t_PersonalizeAList&ft:locale=en-US).
+Set a time limit for inactivity during discovery to automatically cancel stalled processes and log the event. A discovery is only considered idle if no input records are processed and nothing remains in the processing state; idle time is measured from the most recent change to an ECC Queue record. The configured idle time is fixed at the start of the discovery and won’t reflect any edits until the next run. If no value is entered in this field, this schedule runs until complete or cancelled.**Note:** By default, the **Max Idle time** field doesn’t display in the Discovery Schedule form. To include this parameter, open the Discovery Schedules \[discovery\_schedule\] table, add the column, and configure the Max Idle time directly in the table. For information about customizing columns in tables, see [Personalize a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_PersonalLists.md).
 
 </td></tr><tr><td>
 
@@ -153,7 +154,7 @@ Determines the run schedule of the discovery. Configure the frequency in the **R
 **Related topics**  
 
 
-[Pattern-based discovery in Service Mapping](../concept/pattern-based-discovery.md)
+[Pattern-based discovery in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/pattern-based-discovery.md)
 
-[MID Server](https://www.servicenow.com/docs/access?context=mid-server-landing&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-landing.md)
 

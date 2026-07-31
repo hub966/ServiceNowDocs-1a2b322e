@@ -2,6 +2,7 @@
 title: Supported wiki tags
 description: Basic tags are supported for Wikitext fields in the system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_SupportedWikiTags.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -137,7 +138,7 @@ Placed images
 
 </td><td>
 
-\[\[Image:&lt;image name&gt;\]\] For more information on uploading images or files to the database, see [Storing images in the database](https://www.servicenow.com/docs/access?context=c_StoringImagesInTheDatabase&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+\[\[Image:&lt;image name&gt;\]\] For more information on uploading images or files to the database, see [Storing images in the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_StoringImagesInTheDatabase.md).
 
 </td></tr><tr><td>
 

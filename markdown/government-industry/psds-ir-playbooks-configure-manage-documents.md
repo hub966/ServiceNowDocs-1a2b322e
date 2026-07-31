@@ -2,6 +2,7 @@
 title: Configure the Manage documents activity UI in Information Request Playbook
 description: Configure the Manage Documents activity UI in Information Request Playbook to allow agents to view, link, or unlink documents to an information request case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-ir-playbooks-configure-manage-documents.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Configure the Manage Documents activity UI in Information Request Playbook to al
 
 ## Before you begin
 
-This task requires the Document Management \[com.snc.platform\_document\_management\] plugin to be active on your instance. If Document Management \[com.snc.platform\_document\_management\] is not active on your instance, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US) for instructions.
+This task requires the Document Management \[com.snc.platform\_document\_management\] plugin to be active on your instance. If Document Management \[com.snc.platform\_document\_management\] is not active on your instance, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md) for instructions.
 
 Role required: admin
 

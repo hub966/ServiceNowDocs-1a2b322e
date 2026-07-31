@@ -2,6 +2,7 @@
 title: Configure a placeholder image for missing images in mobile apps
 description: You can specify an image on your instance as a placeholder for missing images. This image appears in your mobile apps when a record has an image field with an empty value, such as a user avatar or catalog item. You can select a different image to use for each table on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/set-default-missing-image.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,7 +24,7 @@ You configure placeholder images by creating properties on the System Properties
 
 ## Procedure
 
-1.  Upload an image to your instance to use as a placeholder. For details on uploading images, see [Storing images in the database](https://www.servicenow.com/docs/access?context=c_StoringImagesInTheDatabase&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+1.  Upload an image to your instance to use as a placeholder. For details on uploading images, see [Storing images in the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_StoringImagesInTheDatabase.md)
 
 2.  To open the system properties list, type `sys_properties.list` in the Application Navigator.
 
@@ -79,5 +80,5 @@ Value
 &lt;`file-name`&gt;**Note:** Match &lt;`file-name`&gt; to the file name of the image that you have uploaded.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile system property configurations](../concept/additional-mobile-configuration.md)
+</table>**Parent Topic:**[Mobile system property configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/additional-mobile-configuration.md)
 

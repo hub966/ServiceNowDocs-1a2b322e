@@ -2,6 +2,7 @@
 title: Domain separation for MCO
 description: Domain separation is supported for Manufacturing Commercial Operations. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including the users who can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-domain-separation.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,11 +23,11 @@ Domain separation is supported for Manufacturing Commercial Operations. Domain s
 
 Sample use case: An admin must be able to comment when a record closes for one tenant, but not for another.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
 ## Domain separated tables
 
 **Note:** All Manufacturing Commercial Operations tables support domain separation.
 
-**Parent Topic:**[Reference](manufacturing-reference.md)
+**Parent Topic:**[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/manufacturing-reference.md)
 

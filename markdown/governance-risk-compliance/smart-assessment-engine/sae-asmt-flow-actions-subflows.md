@@ -2,6 +2,7 @@
 title: Trigger Smart Assessment flow action
 description: Use the Trigger Smart Assessment flow action in Workflow Studio to generate and assign assessments from a published Smart Assessment Engine template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/sae-asmt-flow-actions-subflows.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -33,15 +34,15 @@ Trigger Smart Assessment
 
 Flow action that generates and assigns assessment instances from a published assessment template. The flow action takes the assessment template, assessors, scope items, and optional settings such as due date, duration, duplicate handling, and assessment group as input and creates one or more assessment instances. Each scope item specifies a table and record that the assessment is applied to.
 
- For details on the input fields, see [Trigger Smart Assessment action form](sae-smart-asmnt-action-form.md).
+ For details on the input fields, see [Trigger Smart Assessment action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-smart-asmnt-action-form.md).
 
 </td></tr></tbody>
 </table>**Related topics**  
 
 
-[Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&version=australia&pubname=australia-application-development&ft:locale=en-US)
+[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md)
 
-[Building flows](https://www.servicenow.com/docs/access?context=flows&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+[Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flows.md)
 
-[Create a flow in Workflow Studio](https://www.servicenow.com/docs/access?context=create-flow&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-flow.md)
 

@@ -2,6 +2,7 @@
 title: Developer resources
 description: Developers can use JavaScript or REST APIs to insert and retrieve time-series data from the MetricBase database and to run transforms on the data. The transformations enable you to visualize time-series data in a variety of ways.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/metricbase/developer-resources.html
 release: australia
 product: MetricBase
 classification: metricbase
@@ -17,33 +18,33 @@ Developers can use JavaScript or REST APIs to insert and retrieve time-series da
 
 ## REST APIs
 
-For information about the MetricBase REST APIs that return time-series data from the MetricBase database, see [MetricBase Time Series API](https://www.servicenow.com/docs/access?context=Clotho-Time-Series-API&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+For information about the MetricBase REST APIs that return time-series data from the MetricBase database, see [MetricBase Time Series API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/Clotho-Time-Series-API.md).
 
 ## JavaScript APIs
 
 For information about the MetricBase JavaScript APIs that return time-series data from the MetricBase database, see:
 
--   [Client](https://www.servicenow.com/docs/access?context=ClientScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US) — Execute transforms on the MetricBase database and receive the results.
--   [Data](https://www.servicenow.com/docs/access?context=DataScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US) — Return the object that contains the result of a transform.
--   [DataBuilder](https://www.servicenow.com/docs/access?context=DataBuilderScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US) — Create a series of data points for a metric.
--   [Transformer](https://www.servicenow.com/docs/access?context=TransformerScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US) — Manipulate time-series data to prepare the data for evaluation and analysis.
--   [TransformPart](https://www.servicenow.com/docs/access?context=TransformPartScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US) — Specify details of the transform to be done.
--   [TransformResult](https://www.servicenow.com/docs/access?context=TransformResultScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US) — Return the object that contains the result of the transformation.
+-   [Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClientScopedAPI.md) — Execute transforms on the MetricBase database and receive the results.
+-   [Data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DataScopedAPI.md) — Return the object that contains the result of a transform.
+-   [DataBuilder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DataBuilderScopedAPI.md) — Create a series of data points for a metric.
+-   [Transformer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/TransformerScopedAPI.md) — Manipulate time-series data to prepare the data for evaluation and analysis.
+-   [TransformPart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/TransformPartScopedAPI.md) — Specify details of the transform to be done.
+-   [TransformResult](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/TransformResultScopedAPI.md) — Return the object that contains the result of the transformation.
 
 ## Transformations
 
-For more information about MetricBase time-series data transformations, see [MetricBase transforms](https://www.servicenow.com/docs/access?context=metricbase-transforms&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+For more information about MetricBase time-series data transformations, see [MetricBase transforms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/metricbase-transforms.md).
 
 ## Data Explorer
 
-Experiment and get familiar with the JavaScript APIs by using the [MetricBase Data Explorer](../task/metricbase-data-explorer.md) that comes with the MetricBase Demo.
+Experiment and get familiar with the JavaScript APIs by using the [MetricBase Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/metricbase-data-explorer.md) that comes with the MetricBase Demo.
 
-**Parent Topic:**[MetricBase reference](reference-metricbase.md)
+**Parent Topic:**[MetricBase reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/reference-metricbase.md)
 
 **Related topics**  
 
 
-[Domain separation and MetricBase](domain-separation-metricbase.md)
+[Domain separation and MetricBase]()
 
-[MetricBase roles](../reference/metricbase-roles.md#)
+[MetricBase roles]()
 

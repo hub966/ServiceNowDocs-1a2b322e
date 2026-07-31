@@ -2,6 +2,7 @@
 title: Additional resources for ServiceNow AI Platform products and solutions
 description: If you’re looking for ServiceNow AI Platform best practices, troubleshooting, or other implementation guidelines, select a feature or resource type to discover ServiceNow resources on other relevant websites.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/adm-additional-resources.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -97,7 +98,7 @@ Release notes
 
 </td><td>
 
-[AI Search release notes](https://www.servicenow.com/docs/access?context=ai-search-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US)
+[AI Search release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/ai-search-rn.md)
 
 </td></tr><tr><td>
 
@@ -135,7 +136,7 @@ Release notes
 
 </td><td>
 
-[ServiceNow AI Platform core feature release notes](https://www.servicenow.com/docs/access?context=core-platform-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US)
+[ServiceNow AI Platform core feature release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/core-platform-rn.md)
 
 </td></tr><tr><td>
 
@@ -185,7 +186,7 @@ Release notes
 
 </td><td>
 
-[Data Management release notes](https://www.servicenow.com/docs/access?context=data-management-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US)
+[Data Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/data-management-rn.md)
 
 </td></tr><tr><td>
 

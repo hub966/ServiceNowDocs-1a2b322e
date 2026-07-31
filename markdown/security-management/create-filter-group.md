@@ -2,6 +2,7 @@
 title: Create and define filter groups in Security Operations
 description: Create and use filter groups to locate records from any table on your instance. For example, you can create a group of all computers by the same manufacturer. You can also filter configuration items \(CIs\) that have similar vulnerabilities or that fall within a particular subnet IP address range.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/create-filter-group.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -91,7 +92,7 @@ Condition
 
 </td><td>
 
-Use the [condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) to define the criteria to be filtered.
+Use the [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md) to define the criteria to be filtered.
 
 </td></tr></tbody>
 </table>4.  Select and hold \(or right-click\) the form header and select **Save**.
@@ -114,7 +115,7 @@ Use the [condition builder](https://www.servicenow.com/docs/access?context=c_Con
 
         If you want the selected filter group to filter records based on a reference field, a mapped field is automatically selected when the current record is saved.
 
-        **Note:** The **Mapped field** value cannot be edited from the **Additional Filter Group Conditions** embedded list. To change the field, select the information icon ![Information](../../vulnerability-response/image/i-icon.png) to open the record.
+        **Note:** The **Mapped field** value cannot be edited from the **Additional Filter Group Conditions** embedded list. To change the field, select the information icon \[Omitted image "i-icon.png"\] Alt text: Information to open the record.
 
     3.  Select **Update**.
 
@@ -135,5 +136,5 @@ Use the [condition builder](https://www.servicenow.com/docs/access?context=c_Con
     2.  If you changed the criteria, refresh the list by right-clicking in the form header and selecting **Refresh List**.
 
 
-**Parent Topic:**[Security Operations common functionality](../concept/sec-ops-common-functionality.md)
+**Parent Topic:**[Security Operations common functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sec-ops-common-functionality.md)
 

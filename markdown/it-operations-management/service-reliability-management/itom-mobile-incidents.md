@@ -2,6 +2,7 @@
 title: Managing incidents and major incidents on mobile
 description: Manage and resolve incidents on the go using ITOM Mobile Agent. Learn how to create, process, and collaborate on incidents on your mobile device. You can also track and collaborate on major incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/itom-mobile-incidents.html
 release: australia
 product: Service Reliability Management
 classification: service-reliability-management
@@ -19,26 +20,26 @@ ITOM Mobile Agent auto-integrates with ITSM Mobile Agent, letting you manage ale
 
 ## Manage an incident
 
--   [Collaboration with incidents](https://www.servicenow.com/docs/access?context=collaboration-incident-itsm-mobile&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
--   [Collaboration with incident tasks](https://www.servicenow.com/docs/access?context=collaboration-inc-task-itsm-mobile&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
--   [Create an incident from app landing page](https://www.servicenow.com/docs/access?context=create-incident-mobile&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
--   [Generating task summarization for incident records](https://www.servicenow.com/docs/access?context=gen-inc-rec-task-summariz&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
--   [My team dashboard](https://www.servicenow.com/docs/access?context=my-team-dashboard-mob&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
--   [Performance metrics](https://www.servicenow.com/docs/access?context=perf-metrics-mob&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
--   [Process a breached incident](https://www.servicenow.com/docs/access?context=process-breached-incident&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
--   [Process an incident at risk](https://www.servicenow.com/docs/access?context=process-incident-at-risk&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
--   [Unassigned incidents](https://www.servicenow.com/docs/access?context=process-unassigned-incident&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+-   [Collaboration with incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/collaboration-incident-itsm-mobile.md)
+-   [Collaboration with incident tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/collaboration-inc-task-itsm-mobile.md)
+-   [Create an incident from app landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/create-incident-mobile.md)
+-   [Generating task summarization for incident records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/gen-inc-rec-task-summariz.md)
+-   [My team dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/my-team-dashboard-mob.md)
+-   [Performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/perf-metrics-mob.md)
+-   [Process a breached incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/process-breached-incident.md)
+-   [Process an incident at risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/process-incident-at-risk.md)
+-   [Unassigned incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/process-unassigned-incident.md)
 
 ## Manage a major incident
 
--   [Active major incidents](https://www.servicenow.com/docs/access?context=process-misingle&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
--   [Collaboration with major incidents](https://www.servicenow.com/docs/access?context=collaboration-major-incident-itsm-mobile&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
--   [Major incident dashboard](https://www.servicenow.com/docs/access?context=mim-dashboard-mobile&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
--   [Review and work on a major incident candidate](https://www.servicenow.com/docs/access?context=major-incident-candidate&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+-   [Active major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/process-misingle.md)
+-   [Collaboration with major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/collaboration-major-incident-itsm-mobile.md)
+-   [Major incident dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/mim-dashboard-mobile.md)
+-   [Review and work on a major incident candidate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/major-incident-candidate.md)
 
-**Parent Topic:**[Use ITOM Mobile](../concept/use-itom-mobile.md)
+**Parent Topic:**[Use ITOM Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/use-itom-mobile.md)
 
-**Previous topic:**[Work with alerts in ITOM mobile](../concept/work-itom-mobile-alerts.md)
+**Previous topic:**[Work with alerts in ITOM mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/work-itom-mobile-alerts.md)
 
-**Next topic:**[Working with On-Call Scheduling on mobile](itom-mobile-on-call-scheduling.md)
+**Next topic:**[Working with On-Call Scheduling on mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/itom-mobile-on-call-scheduling.md)
 

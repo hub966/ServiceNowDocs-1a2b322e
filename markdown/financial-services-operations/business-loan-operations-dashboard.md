@@ -2,6 +2,7 @@
 title: Business Loan Operations dashboard
 description: With the Financial Services Business Loan Operations dashboard, you can get an insight into how your team and business are performing for business loan cases. You can monitor the status of loan cases, see trends, and drill down into the details from a single view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/business-loan-operations-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -26,11 +27,11 @@ For any time period that you specify, you can view the details for the open case
 
 ## Access the Financial Services Business Loan Operations dashboard
 
-To access the Financial Services Business Loan Operations dashboard, navigate to **Workspaces** &gt; **Financial Services Workspace** &gt; **Analytics Center** \(![Analytics center icon.](../../../product/fso-personal-lines-claims/image/analytics-center-icon.png)\).
+To access the Financial Services Business Loan Operations dashboard, navigate to **Workspaces** &gt; **Financial Services Workspace** &gt; **Analytics Center** \(\[Omitted image "analytics-center-icon.png"\] Alt text: Analytics center icon.\).
 
 Alternatively, you can navigate to **All** &gt; **Loan Operations** &gt; **Analytics**.
 
-You can also access the dashboard from the Platform Analytics Workspace. For more information about the Platform Analytics Workspace, see [Analytics Center](https://www.servicenow.com/docs/access?context=analytics-center&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+You can also access the dashboard from the Platform Analytics Workspace. For more information about the Platform Analytics Workspace, see [Analytics Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center.md).
 
 If you have upgraded from an earlier version, you can access the existing Core UI dashboard layout as usual by navigating to **All** &gt; **Loan Operations** &gt; **Dashboard**.
 
@@ -113,5 +114,5 @@ Needs to be able to customize views.
 -   Age
 -   Service
 
-**Parent Topic:**[Implementing Platform Analytics solutions](../../application-content-packs/concept/fso-content-pack.md)
+**Parent Topic:**[Implementing Platform Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-content-pack.md)
 

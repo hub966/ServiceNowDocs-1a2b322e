@@ -2,6 +2,7 @@
 title: Enhanced chat in Employee Center
 description: Learn more about the theme updates and how to get started with Now Assist enhanced chat.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/nass-now-assissist-self-service.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -25,7 +26,7 @@ You can see a new theme that is visually-engaging, effective, and user-friendly 
 
 This theme provides a more functional and clean design that is visually appealing to users. This theme aligns with the new sets components, a new color scheme, logo update, and CSS variable adjustments.
 
-![EC Home page and nava enhanced chat](../images/nass-owassist-ec-homepage.png "Employee Center theme")
+\[Omitted image "nass-owassist-ec-homepage.png"\] Alt text: EC Home page and nava enhanced chat
 
 ## Enhanced header
 
@@ -39,7 +40,7 @@ To get started with the Now Assist in Virtual Agent enhanced chat:
 -   Ensure that the enhanced chat is configured for the Employee Center portal by virtual\_agent\_admin.
 -   Select Employee Center from the Portals tab and select the enhanced chat.
 
-    For more information, see [Display your chat assistant on a portal, channel, or mobile app](https://www.servicenow.com/docs/access?context=display-assistant-portal-channel&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+    For more information, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/display-assistant-portal-channel.md).
 
 
 **Important:** Pinning chat windows can create responsiveness issues on the following screen resolutions and pixel range.
@@ -53,12 +54,12 @@ Ensure you avoid pinning the chat window and resizing on these screen resolution
 
 Want to learn more? Visit these resources about Now Assist in Virtual Agent enhanced chat.
 
-**Important:** By default, pinning a chat window is enabled for Service Portal. For all other portals, an admin needs to create a system property to enable pinning a chat window. For more information, see [Now Assist in Virtual Agent system properties](https://www.servicenow.com/docs/access?context=nava-sys-props&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+**Important:** By default, pinning a chat window is enabled for Service Portal. For all other portals, an admin needs to create a system property to enable pinning a chat window. For more information, see [Now Assist in Virtual Agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-sys-props.md).
 
--   [Enhanced chat](https://www.servicenow.com/docs/access?context=nava-enhanced-chat&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
--   [Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=now-assist-in-va-landing&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
--   [Portal prerequisites for enhanced chat](https://www.servicenow.com/docs/access?context=prerequisites-enhanced-chat&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
--   [Configuring assistants overview](https://www.servicenow.com/docs/access?context=configure-now-assist-va&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
--   [Using Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=using-now-assist-in-va&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
--   [Exploring Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=exploring-now-assist-va&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+-   [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-enhanced-chat.md)
+-   [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-va-landing.md)
+-   [Portal prerequisites for enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/prerequisites-enhanced-chat.md)
+-   [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md)
+-   [Using Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/using-now-assist-in-va.md)
+-   [Exploring Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/exploring-now-assist-va.md)
 

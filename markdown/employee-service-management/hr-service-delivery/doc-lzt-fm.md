@@ -2,6 +2,7 @@
 title: Use Localization Framework for Document Templates
 description: Translate content in Document Templates and document blocks Localization Framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/doc-lzt-fm.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -19,9 +20,9 @@ Translate content in Document Templates and document blocks Localization Framewo
 
 -   Role required: sn\_doc.admin
 -   Install the Localization Framework Installer plugin \(com.glide.localization\_framework.installer\).
--   Configure Localization Framework with the required artifacts. See [Artifact Configurations](https://www.servicenow.com/docs/access?context=framework-configuration&version=australia&pubname=australia-platform-administration&ft:locale=en-US) for more information.
--   Activate the required languages and configure them with Localization Framework. For more information, see [Activate a language](https://www.servicenow.com/docs/access?context=t_ActivateALanguage&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
--   If you want to use machine translators, activate the Dynamic Translation plugin \(com.glide.dynamic\_translation\). Configure the Dynamic Translation framework for the translation service provider. For more information, see [Dynamic Translation](https://www.servicenow.com/docs/access?context=dynamic-translation-overview&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   Configure Localization Framework with the required artifacts. See [Artifact Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/framework-configuration.md) for more information.
+-   Activate the required languages and configure them with Localization Framework. For more information, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateALanguage.md).
+-   If you want to use machine translators, activate the Dynamic Translation plugin \(com.glide.dynamic\_translation\). Configure the Dynamic Translation framework for the translation service provider. For more information, see [Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation-overview.md).
 
 ## Procedure
 
@@ -33,7 +34,7 @@ Translate content in Document Templates and document blocks Localization Framewo
 
 3.  Select a target language and start to manually translate the text in the space given.
 
-    ![Translate content in Document Blocks or Document Templates](doc-lzt-fm.png)
+    \[Omitted image "doc-lzt-fm.png"\] Alt text: Translate content in Document Blocks or Document Templates
 
 4.  Click **Publish Translations**.
 

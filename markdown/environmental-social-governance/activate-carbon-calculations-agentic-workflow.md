@@ -2,6 +2,7 @@
 title: Activate carbon calculations agentic workflow
 description: Configure and activate the carbon calculation workflow that uses AI agents and tools. It automates the creation of calculated metric definition \(CMD\) records and formulas for Scope 3 carbon emissions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/activate-carbon-calculations-agentic-workflow.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ Configure and activate the carbon calculation workflow that uses AI agents and t
 
 Install the Now Assist for Operational Sustainability plugin \(sn\_esg\_gen\_ai\).
 
-Attach the Calculation Guidance document to the relevant record in the Emission Calculation Guidelines table. For further details, refer to [Attaching calculation guidance document](attaching-calculation-guidance-document.md).
+Attach the Calculation Guidance document to the relevant record in the Emission Calculation Guidelines table. For further details, refer to [Attaching calculation guidance document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/attaching-calculation-guidance-document.md).
 
 Role required: sn\_nowassist\_admin.nsa\_admin
 
@@ -29,13 +30,13 @@ If you have the user sn\_esg\_gen\_ai.cmd\_agent\_user role, you can get carbon 
 
 This workflow uses an agentic approach to guide operational sustainability teams through carbon calculations, confirming accurate Scope 3 emissions reporting. It leverages conversational AI agents and integrated tools to select methodologies, map metrics, and validate emission factors for transparency and compliance. The process requires user interaction and runs under helper agent roles with ACL-based security to maintain oversight and efficiency.
 
-**Note:** You can add or remove AI agents from this workflow by making a copy and customizing it. For more information, about copying agentic workflows, see [Duplicate an agentic workflow](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Note:** You can add or remove AI agents from this workflow by making a copy and customizing it. For more information, about copying agentic workflows, see [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md).
 
 You can perform the following actions on Now Assist workflows if you have the sn\_generative\_ai.nsa\_admin role:
 
--   [Duplicate an agentic workflow](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
--   [Modify an agentic workflow](https://www.servicenow.com/docs/access?context=modify-aia-use-case&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
--   [Delete an agentic workflow](https://www.servicenow.com/docs/access?context=delete-aia-use-case&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+-   [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md)
+-   [Modify an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/modify-aia-use-case.md)
+-   [Delete an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/delete-aia-use-case.md).
 
 ## Procedure
 
@@ -45,9 +46,9 @@ You can perform the following actions on Now Assist workflows if you have the sn
 
 3.  Under the **Define key requirements**, scroll to the section **Add AI agents that can perform these steps** and activate the agents **Calculation operand AI agent CMD** and **Calculation creation AI agent**.
 
-4.  To activate the **Calculation operand AI agent CMD** agent, refer to [Activate calculation operand AI agent CMD](activate-calculation-operand-ai-agent-cmd.md).
+4.  To activate the **Calculation operand AI agent CMD** agent, refer to [Activate calculation operand AI agent CMD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/activate-calculation-operand-ai-agent-cmd.md).
 
-5.  To activate the **Calculation creation AI agent**, refer to [Activate calculation creation AI agent](activate-calculation-creation-ai-agent.md).
+5.  To activate the **Calculation creation AI agent**, refer to [Activate calculation creation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/activate-calculation-creation-ai-agent.md).
 
 6.  On the **Generate calculations for metrics** page, perform the following steps:
 
@@ -66,20 +67,20 @@ You can perform the following actions on Now Assist workflows if you have the sn
 
 ## What to do next
 
-Use the **Testing** playground to [test your new agentic workflow](https://www.servicenow.com/docs/access?context=test-aia-use-case&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) using example utterances.
+Use the **Testing** playground to [test your new agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aia-use-case.md) using example utterances.
 
 Verify that the executive summary and recommendations are generated. If activation fails, check roles and skill configuration.
 
 Once you’ve confirmed the workflow is functioning as expected, begin by selecting the Ask Now Assist action menu and entering your prompt.
 
-If you have not already set up the Now Assist panel, for more information see, [Activate the Now Assist panel standard chat](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+If you have not already set up the Now Assist panel, for more information see, [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
--   **[Activate calculation creation AI agent](activate-calculation-creation-ai-agent.md)**  
+-   **[Activate calculation creation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/activate-calculation-creation-ai-agent.md)**  
 The calculation creation AI agent creates a calculated metric definition record using the formula passed in the input.
--   **[Activate calculation operand AI agent CMD](activate-calculation-operand-ai-agent-cmd.md)**  
+-   **[Activate calculation operand AI agent CMD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/activate-calculation-operand-ai-agent-cmd.md)**  
 The calculation operand AI agent CMD identifies and retrieves relevant metric definitions and emission factors from existing sources. It then replaces generic references in the input formula with precise metric definition and emission factor names.
--   **[Attaching calculation guidance document](attaching-calculation-guidance-document.md)**  
+-   **[Attaching calculation guidance document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/attaching-calculation-guidance-document.md)**  
 Attach the Calculation Guidance PDF to the designated emission calculation guidelines table record to enable the carbon calculations agentic workflow. The agent relies on this document to extract calculation methods, formulas, and category details for automated metric definition creation.
 
-**Parent Topic:**[Configure Now Assist for Operational Sustainability \(formerly ESG\)](../concept/configure-now-assist-for-esg.md)
+**Parent Topic:**[Configure Now Assist for Operational Sustainability \(formerly ESG\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configure-now-assist-for-esg.md)
 

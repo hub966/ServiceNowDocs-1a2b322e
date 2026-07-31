@@ -2,6 +2,7 @@
 title: Extension points for CSM integration with IT Service Management
 description: Use the extension points available with CSM integration with IT Service Management to extend the functionality of your application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/itsm-extension-points.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -74,5 +75,5 @@ This feature includes an extension point that can be used to configure approval 
 **Related topics**  
 
 
-[Using extension points to extend application functionality](https://www.servicenow.com/docs/access?context=extension-points&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md)
 

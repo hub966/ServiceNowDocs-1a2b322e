@@ -2,6 +2,7 @@
 title: Role API - ServiceNow Fluent
 description: The Role API defines roles \[sys\_user\_role\] that grant specific permissions to users of an application.Create a role \[sys\_user\_role\] to control access to applications and their features.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-sdk/role-api-now-ts.html
 release: australia
 product: ServiceNow SDK
 classification: servicenow-sdk
@@ -17,14 +18,14 @@ The Role API defines roles \[sys\_user\_role\] that grant specific permissions t
 
 **Note:** For the latest ServiceNow Fluent API documentation and examples, see the [ServiceNow Fluent API reference](https://servicenow.github.io/sdk/) and [ServiceNow SDK examples repository](https://github.com/ServiceNow/sdk-examples) on GitHub.
 
-For general information about user roles, see [Managing roles](https://www.servicenow.com/docs/access?context=ua-creating-roles&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For general information about user roles, see [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ua-creating-roles.md).
 
-**Parent Topic:**[ServiceNow Fluent API reference](servicenow-fluent-api-reference.md)
+**Parent Topic:**[ServiceNow Fluent API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/servicenow-fluent-api-reference.md)
 
 **Related topics**  
 
 
-[ServiceNow Fluent](../concept/servicenow-fluent.md)
+[ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-fluent.md)
 
 ## Role object
 
@@ -76,7 +77,7 @@ Boolean
 
 </td><td>
 
-Flag that indicates if the role can be delegated to other users. For more information, see [Delegating roles](https://www.servicenow.com/docs/access?context=c_DelegateRoles&version=australia&pubname=australia-platform-administration&ft:locale=en-US).Valid values:
+Flag that indicates if the role can be delegated to other users. For more information, see [Delegating roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DelegateRoles.md).Valid values:
 
 -   true: The role can be delegated to other users.
 -   false: The role can't be delegated to other users.
@@ -105,7 +106,7 @@ Boolean
 
 </td><td>
 
-Flag that indicates whether manually accepting the responsibility of using the role before you can access the features of the role is required. For more information about elevated privileges, see [Elevated privilege roles](https://www.servicenow.com/docs/access?context=c_ElevatedPrivilege&version=australia&pubname=australia-platform-security&ft:locale=en-US).Valid values:
+Flag that indicates whether manually accepting the responsibility of using the role before you can access the features of the role is required. For more information about elevated privileges, see [Elevated privilege roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_ElevatedPrivilege.md).Valid values:
 
 -   true: You must manually accept the responsibility of using the role before you can access its features.
 -   false: You don't need to manually accept the responsibility of using the role to access its features.
@@ -151,7 +152,7 @@ Boolean
 
 </td><td>
 
-Flag that indicates whether the role is an Application Administrator role. For general information about application administration roles, see [Application administration](../../applications/concept/application-administration.md).Valid values:
+Flag that indicates whether the role is an Application Administrator role. For general information about application administration roles, see [Application administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-administration.md).Valid values:
 
 -   true: The role is an Application Administrator.
 -   false: The role isn't an Application Administrator.

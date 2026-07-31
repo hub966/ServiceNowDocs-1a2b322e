@@ -2,6 +2,7 @@
 title: System settings for the Core UI
 description: You can define system settings to customize the Core UI for yourself. The gear icon, located within the banner frame, displays the system settings window.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/r\_UI16BannerFrame.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ You can define system settings to customize the Core UI for yourself. The gear i
 
 The system settings are organized by tab.
 
-**Note:** This information is applicable to the Core UI. For information about adjusting system settings with Next Experience enabled, see [Next Experience preferences](../../../get-started/servicenow-overview/concept/set-up-preferences-next-experience.md).
+**Note:** This information is applicable to the Core UI. For information about adjusting system settings with Next Experience enabled, see [Next Experience preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/set-up-preferences-next-experience.md).
 
 <table id="table_kj4_twh_fr"><thead><tr><th>
 
@@ -75,7 +76,7 @@ Keyboard shortcuts enabled
 
 </td><td>
 
-Determines whether a user can access parts of the platform using keyboard shortcuts. For more information on available keyboard shortcuts, see [Core UI keyboard shortcuts](../../../use/navigation/reference/r_KeyboardShortcuts.md).
+Determines whether a user can access parts of the platform using keyboard shortcuts. For more information on available keyboard shortcuts, see [Core UI keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_KeyboardShortcuts.md).
 
 </td></tr><tr><td>
 
@@ -87,12 +88,12 @@ Determines whether the Home module opens **Homepages** or **Dashboards**. **Impo
 
 The functionality found in homepages, arranging information from your instance to tell a story about your data, is found in dashboards on new instances. On upgraded instances with Next Experience enabled, users can view existing homepages if they have a direct URL, but they can't create or edit them. Responsive dashboards and Analytics Overview dashboards take over homepage functionality.
 
-Use the [Homepage deprecation help tool](https://www.servicenow.com/docs/access?context=homepage-deprecation-help-tool&version=australia&pubname=australia-now-intelligence&ft:locale=en-US) to convert the homepages on your instance to responsive dashboards.
+Use the [Homepage deprecation help tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/homepage-deprecation-help-tool.md) to convert the homepages on your instance to responsive dashboards.
 
 For more information, see:
 
--   [Dashboards in the Analytics Center](https://www.servicenow.com/docs/access?context=analytics-center-dashboards&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
--   [Working with responsive dashboards](https://www.servicenow.com/docs/access?context=c_ResponsiveDashboards&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+-   [Dashboards in the Analytics Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-dashboards.md).
+-   [Working with responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_ResponsiveDashboards.md).
 
 </td></tr><tr><td>
 
@@ -108,7 +109,7 @@ Language
 
 </td><td>
 
-Select a language or return to the default language \(![Return to default language](../image/IconUI16Reset.png)\). This setting is available if a language plugin has been activated. For more information, see [Activate a language](https://www.servicenow.com/docs/access?context=t_ActivateALanguage&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Select a language or return to the default language \(\[Omitted image "IconUI16Reset.png"\] Alt text: Return to default language\). This setting is available if a language plugin has been activated. For more information, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateALanguage.md).
 
 </td></tr><tr><td>
 
@@ -116,7 +117,7 @@ Time zone
 
 </td><td>
 
-Select a time zone or return to the default time zone \(![Return to default time zone](../image/IconUI16Reset.png)\) for the current session. Upon the next login, the time zone setting reverts to the system default, or user profile setting for time zone.
+Select a time zone or return to the default time zone \(\[Omitted image "IconUI16Reset.png"\] Alt text: Return to default time zone\) for the current session. Upon the next login, the time zone setting reverts to the system default, or user profile setting for time zone.
 
 </td></tr><tr><td>
 
@@ -136,7 +137,7 @@ Places a domain picker in the banner frame, next to the user menu, when this set
 
 </td></tr><tr><td>
 
-Printer friendly version \(![Printer friendly version icon](../image/IconUI15Print.png)\)
+Printer friendly version \(\[Omitted image "IconUI15Print.png"\] Alt text: Printer friendly version icon\)
 
 </td><td>
 
@@ -184,7 +185,7 @@ Related list loading
 
 </td><td>
 
-Determines when related lists load on forms. For more information, see [Configure when a related list loads](../../../use/using-forms/task/t_ConfigureWhenARelatedListLoads.md).
+Determines when related lists load on forms. For more information, see [Configure when a related list loads](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_ConfigureWhenARelatedListLoads.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -216,8 +217,8 @@ Notification channels
 </td><td>
 
 List of your channels for receiving notifications. Use this section to:-   Enable or disable a channel by using its toggle switch. If you disable a channel, notifications are not delivered through that channel.
--   [Add channels](https://www.servicenow.com/docs/access?context=create-channel&version=australia&pubname=australia-platform-administration&ft:locale=en-US) using the **Create Channel** option.
--   [Modify channel information](https://www.servicenow.com/docs/access?context=modify-notif-channel&version=australia&pubname=australia-platform-administration&ft:locale=en-US). Click the channel row or the right arrow \(**&gt;**\) next to the appropriate channel to edit or delete it.
+-   [Add channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-channel.md) using the **Create Channel** option.
+-   [Modify channel information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/modify-notif-channel.md). Click the channel row or the right arrow \(**&gt;**\) next to the appropriate channel to edit or delete it.
 
 </td></tr><tr><td>
 
@@ -229,8 +230,8 @@ List of notification categories that identify and group related notifications. E
 
  -   Edit settings for a notification:
     -   Enable or disable channels for the selected notification.
-    -   [Apply notification conditions](https://www.servicenow.com/docs/access?context=apply-notification-conditions&version=australia&pubname=australia-platform-administration&ft:locale=en-US), such as schedules and filters, that affect the delivery of the notification.
--   [Create personal notifications](https://www.servicenow.com/docs/access?context=create-personal-notifications&version=australia&pubname=australia-platform-administration&ft:locale=en-US), which are subscriptions to specific notifications that matter to you.
+    -   [Apply notification conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/apply-notification-conditions.md), such as schedules and filters, that affect the delivery of the notification.
+-   [Create personal notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-personal-notifications.md), which are subscriptions to specific notifications that matter to you.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -242,7 +243,7 @@ Application
 
 </td><td>
 
-\(Administrators only\) Provides a link to the application picker, the Applications list \(![Link to the Applications list](../image/IconUI16ApplicationsList.png)\), and the currently selected application \(![Link to the currently selected application](../image/IconUI16Information.png)\).
+\(Administrators only\) Provides a link to the application picker, the Applications list \(\[Omitted image "IconUI16ApplicationsList.png"\] Alt text: Link to the Applications list\), and the currently selected application \(\[Omitted image "IconUI16Information.png"\] Alt text: Link to the currently selected application\).
 
 </td></tr><tr><td>
 
@@ -274,7 +275,7 @@ JavaScript Log and Field Watcher
 
 </td><td>
 
-\(Administrators only\) Opens the client-side [JavaScript debug window](https://www.servicenow.com/docs/access?context=c_JavaScriptDebugWindow&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+\(Administrators only\) Opens the client-side [JavaScript debug window](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_JavaScriptDebugWindow.md).
 
 </td></tr><tr><td>
 
@@ -285,7 +286,7 @@ Automated Test Framework Page Inspector
 Places the inspect icon in the banner frame when this setting is enabled. Enables page developers and test designers to identify page components on customized user interfaces available for custom UI testing in the Automated Test Framework.
 
 </td></tr></tbody>
-</table>![System Settings window](../image/UI16SystemMenu.png "System Settings window, General tab")
+</table>\[Omitted image "UI16SystemMenu.png"\] Alt text: System Settings window
 
-**Parent Topic:**[Core UI](../concept/c_UI16.md)
+**Parent Topic:**[Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UI16.md)
 

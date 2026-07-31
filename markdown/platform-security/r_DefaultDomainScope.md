@@ -2,6 +2,7 @@
 title: Domain system properties and user preferences
 description: Administrators have access to properties and user preferences that control domain scope.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/r\_DefaultDomainScope.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -53,7 +54,7 @@ Restricts domain scope to the record's domain for all data.-   Type: true \| fal
 -   **glide.sys.domain.domain\_change\_notify**
 -   **glide.sys.domain.no\_change\_roles**
 
-For a full list of properties see [Available system properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For a full list of properties see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 **Note:**
 
@@ -145,5 +146,5 @@ When true, displays a visual cue that record values include an expanded domain s
 </table>**Related topics**  
 
 
-[Domain separation application properties](../concept/ds-application-properties.md)
+[Domain separation application properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ds-application-properties.md)
 

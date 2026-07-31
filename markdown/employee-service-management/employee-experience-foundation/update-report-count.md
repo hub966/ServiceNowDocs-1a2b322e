@@ -2,6 +2,7 @@
 title: Update the report count based on eligible users
 description: Update the direct and other report count by running a script execution job.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/update-report-count.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -25,17 +26,17 @@ Role required: admin
 
 2.  On the scheduled jobs page, select the **Populate Manager Reportee Count Using Eligible Users** job.
 
-    **Important:** If the [Domain Separation plugin](https://www.servicenow.com/docs/access?context=domain-sep-plugin&version=australia&pubname=australia-platform-security&ft:locale=en-US) is activated on your instance, select the **Populate Manager Reportee Count Using Eligible Users \[Domain Separated\]** job.
+    **Important:** If the [Domain Separation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-plugin.md) is activated on your instance, select the **Populate Manager Reportee Count Using Eligible Users \[Domain Separated\]** job.
 
 3.  On the scheduled script execution page, select **Execute Now**.
 
 
 ## Result
 
-The report count is updated based on the [eligible users](config-eligible-users-orgchart.md) and is populated in the organization chart.
+The report count is updated based on the [eligible users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-eligible-users-orgchart.md) and is populated in the organization chart.
 
 **Related topics**  
 
 
-[Organization chart in Employee Center Pro](../concept/employee-profile-org-chart.md)
+[Organization chart in Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-profile-org-chart.md)
 

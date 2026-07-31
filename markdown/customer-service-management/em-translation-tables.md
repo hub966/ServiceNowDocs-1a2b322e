@@ -2,6 +2,7 @@
 title: Engagement Messenger translation tables
 description: Engagement Messenger uses the \[sys\_translated\_text\] and \[sys\_ui\_message\] tables to store translated text.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/em-translation-tables.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -39,7 +40,7 @@ Stores translations for configurable fields such as User Greeting and Search Mes
 -   **Table Name**: Name of the feature instance.
 -   **Value**: Translated text that the user sees.
 
- For details about translating text content into different languages, see [Translated text table](https://www.servicenow.com/docs/access?context=r_TranslatedText&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and [Translating text fields](https://www.servicenow.com/docs/access?context=c_UseTranslatedText&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+ For details about translating text content into different languages, see [Translated text table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_TranslatedText.md) and [Translating text fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UseTranslatedText.md).
 
 </td></tr><tr><td>
 
@@ -47,8 +48,8 @@ Message \[sys\_ui\_message\]
 
 </td><td>
 
-Stores translations for static messages in Engagement Messenger.For more information about the Message table, see [Message table](https://www.servicenow.com/docs/access?context=r_MessageTable&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Stores translations for static messages in Engagement Messenger.For more information about the Message table, see [Message table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_MessageTable.md).
 
 </td></tr></tbody>
-</table>**Note:** For information about Virtual Agent chat translation, see [Virtual Agent translation tables](https://www.servicenow.com/docs/access?context=va-translation-tables&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+</table>**Note:** For information about Virtual Agent chat translation, see [Virtual Agent translation tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/va-translation-tables.md)
 

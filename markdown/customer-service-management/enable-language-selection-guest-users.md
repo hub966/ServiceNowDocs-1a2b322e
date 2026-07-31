@@ -2,6 +2,7 @@
 title: Enable language selection for guest users
 description: The language selector widget enables guest users and unauthenticated users to select, view, and update content in their preferred language.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/enable-language-selection-guest-users.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ When a user selects a preferred language, the portal content reloads into the se
 
 
 
-![Language selector widget with languages grouped by region.](../image/lang-selector-widget-grouped.png)
+\[Omitted image "lang-selector-widget-grouped.png"\] Alt text: Language selector widget with languages grouped by region.
 
 If languages aren’t grouped, users can view all available languages as a full-screen experience.
 
@@ -25,16 +26,16 @@ If languages aren’t grouped, users can view all available languages as a full-
 
 
 
-![Language selector widget with languages in an ascending order without region grouping.](../image/lang-selector-widget-ungrouped.png)
+\[Omitted image "lang-selector-widget-ungrouped.png"\] Alt text: Language selector widget with languages in an ascending order without region grouping.
 
-**Parent Topic:**[Customer Service Management](c_CustomerServiceManagement.md)
+**Parent Topic:**[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceManagement.md)
 
 **Related topics**  
 
 
-[Enable language selector widget](https://www.servicenow.com/docs/access?context=configure-header-menu&version=australia&pubname=australia-platform-user-interface&section=enable-lang-selector-widget&ft:locale=en-US)
+[Enable language selector widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-header-menu.md)
 
-[Service Portal properties](https://www.servicenow.com/docs/access?context=properties-service-portal&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[Service Portal properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/properties-service-portal.md)
 
-[Create regions for language selection in portals](https://www.servicenow.com/docs/access?context=create-regions&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[Create regions for language selection in portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-regions.md)
 

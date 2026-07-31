@@ -2,6 +2,7 @@
 title: Create an operating system group
 description: Operating system groups are used to map an operating system to specific process types and scripts in Security Incident Response workflows. The scripts define how running processes for the defined operating system groups are retrieved. New operating systems can be added as needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/create-new-os-group.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -28,7 +29,7 @@ Role required: sn\_sec\_cmn.admin
     -   Windows OS
 2.  Select **New**.
 
-    ![Operating system groups](../image/os-groups.png)
+    \[Omitted image "os-groups.png"\] Alt text: Operating system groups
 
 3.  Fill in the fields, as needed.
 
@@ -40,13 +41,13 @@ Role required: sn\_sec\_cmn.admin
     |Active|Select this check box to activate the operating system group.|
     |Use filter group|Select this check box to use a filter group for locating matching records in the selected table.|
     |Filter group|Select the filter group for locating matching records in the selected table. This field displays only if you selected the **Use filter group** check box.|
-    |Condition|The [condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) fields display only if you did not select the **Use filter group** check box.|
+    |Condition|The [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md) fields display only if you did not select the **Use filter group** check box.|
 
 4.  Select and hold \(or right-click\) in the form header and select **Save**.
 
     The Operating System Related Scripts related list opens.
 
-    ![Operating System Related Scripts](../image/os-related-scripts.png)
+    \[Omitted image "os-related-scripts.png"\] Alt text: Operating System Related Scripts
 
 5.  Select **New**.
 
@@ -55,10 +56,10 @@ Role required: sn\_sec\_cmn.admin
 7.  Select **Submit**.
 
 
-**Parent Topic:**[Security Operations common functionality](../concept/sec-ops-common-functionality.md)
+**Parent Topic:**[Security Operations common functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sec-ops-common-functionality.md)
 
 **Related topics**  
 
 
-[Attach a script file to a file synchronized MID Server](https://www.servicenow.com/docs/access?context=mid-server-script-attach&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[Attach a script file to a file synchronized MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-script-attach.md)
 

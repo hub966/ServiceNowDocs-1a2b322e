@@ -2,6 +2,7 @@
 title: Constrain the assignment group field
 description: This example shows how to use an advanced reference qualifier with JavaScript and a script include to restrict the incident Assignment group choices to only the groups that contain the user specified in the Assigned to field.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_ExJSConstrainAssignmentGroupField.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -39,7 +40,7 @@ Role required: personalize\_dictionary or admin
 
     This name ensures the API Name is generated correctly, based on the Name field.
 
-10. [Script includes](https://www.servicenow.com/docs/access?context=c_ScriptIncludes&version=australia&pubname=australia-api-reference&ft:locale=en-US) with the following JavaScript code.
+10. [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md) with the following JavaScript code.
 
     Ensure that the **Accessible form** field is properly set for the environment.
 

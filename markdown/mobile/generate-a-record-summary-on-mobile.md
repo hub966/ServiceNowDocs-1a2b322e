@@ -2,6 +2,7 @@
 title: Generate a record summary on mobile
 description: Generate a summary of a record in your Now mobile app using Now Assist.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/generate-a-record-summary-on-mobile.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,7 +15,7 @@ breadcrumb: [Using Now Assist, Now Assist for Mobile, Mobile Platform]
 
 Generate a summary of a record in your Now mobile app using Now Assist.
 
-Before you begin, make sure that Now Assist is enabled in your instance. For more information, see [Now Assist](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Before you begin, make sure that Now Assist is enabled in your instance. For more information, see [Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
 
 You can generate record summary from within the record you want summarized, or search for the desired record by asking Now Assist from the home screen.
 
@@ -35,5 +36,5 @@ You can generate record summary from within the record you want summarized, or s
 5.  Now Support will confirm which record you want to summarize. Select **Yes** if the listed record is correct.
 6.  The record summary will display.
 
-**Parent Topic:**[Using Now Assist for Mobile](using-now-assist-mobile.md)
+**Parent Topic:**[Using Now Assist for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/using-now-assist-mobile.md)
 

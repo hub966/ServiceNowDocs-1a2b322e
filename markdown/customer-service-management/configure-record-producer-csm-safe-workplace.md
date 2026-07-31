@@ -2,6 +2,7 @@
 title: Configure the health screening form
 description: Provide additional information on contacts or consumers to health screeners by adding fields to the health screening form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-record-producer-csm-safe-workplace.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,7 +28,7 @@ Role required: admin
 
     3.  Create a variable.
 
-        For more information about the different types of variables and how to configure them, see [Creating variables](https://www.servicenow.com/docs/access?context=r_CreatingVariablesForFieldTypes&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+        For more information about the different types of variables and how to configure them, see [Creating variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_CreatingVariablesForFieldTypes.md).
 
     4.  Click **Submit**.
 
@@ -35,12 +36,12 @@ Role required: admin
 
     6.  Add the variable to the client script as a consumer or contact field.
 
-        For more information on client scripts, see [Client scripts](https://www.servicenow.com/docs/access?context=client-scripts&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+        For more information on client scripts, see [Client scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/client-scripts.md).
 
 2.  Navigate to **Activity Subscriptions** &gt; **Script Includes**.
 
     1.  Add the variables to the **HealthScreeningUtil** script include.
 
-        For more information on script includes, see [Script includes](https://www.servicenow.com/docs/access?context=c_ScriptIncludes&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+        For more information on script includes, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md).
 
 

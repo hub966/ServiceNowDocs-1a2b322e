@@ -2,6 +2,7 @@
 title: Activate Customer Central for viewing profile information
 description: Install Customer Central using Customer Service Guided Setup so that agents can have a complete view of constituent, business, or agency information in Public Sector Digital Services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/public-sector-enable-customer-central.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-Customer Central displays all the touchpoints that a constituent, business, or agency has with a government center or agency, in the form of information cards. For more information on Customer Central and how it functions with CSM Configurable Workspace, see [Customer Central](https://www.servicenow.com/docs/access?context=customer-central&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+Customer Central displays all the touchpoints that a constituent, business, or agency has with a government center or agency, in the form of information cards. For more information on Customer Central and how it functions with CSM Configurable Workspace, see [Customer Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-central.md).
 
 ## Procedure
 
@@ -34,8 +35,8 @@ Customer Central displays all the touchpoints that a constituent, business, or a
     -   The **Constituent Information** tab when the **Constituent** tab is populated.
     -   The **Business Information** tab when the **Business** tab is populated.
     -   The **Agency Information** tab when the **Agency** tab is populated.
-    You can perform other changes to this layout, as needed. For more information, see [Configure the Customer Information view using the CSM Configurable Workspace](https://www.servicenow.com/docs/access?context=cust-central-configure-info-tab&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+    You can perform other changes to this layout, as needed. For more information, see [Configure the Customer Information view using the CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/cust-central-configure-info-tab.md).
 
 
-**Parent Topic:**[Set up the CSM Configurable Workspace for Public Sector Digital Services](../concept/setting-up-csm-fsm.md)
+**Parent Topic:**[Set up the CSM Configurable Workspace for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/setting-up-csm-fsm.md)
 

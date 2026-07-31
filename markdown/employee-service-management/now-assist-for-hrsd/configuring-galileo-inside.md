@@ -2,6 +2,7 @@
 title: Configure Now Assist for HR - Galileo Inside
 description: Enable users to access functionality and benefits of the Now Assist for HR - Galileo Inside \[sn\_hr\_na\_galileo\] plugin by completing a short installation and configuration process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/configuring-galileo-inside.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -19,13 +20,13 @@ Enable users to access functionality and benefits of the Now Assist for HR - Gal
 
 Obtain the API key from The Josh Bersin Company.
 
-Role required: admin
+Role required: sn\_hr\_na\_galileo.admin
 
 ## Procedure
 
 1.  Install the Now Assist for HR - Galileo Inside \(sn\_hr\_na\_galileo\).
 
-    For information about the installation process, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 2.  Input your Josh Bersin credentials into your ServiceNow instance.
 
@@ -54,10 +55,10 @@ Role required: admin
 
 Next, assign the `sn_hr_na_galileo.read` role to users to enable them to interact with Now Assist for HR - Galileo Inside.
 
-**Parent Topic:**[Configure Now Assist for HR Service Delivery \(HRSD\)](configure-now-assist-hr.md)
+**Parent Topic:**[Configure Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 
 **Related topics**  
 
 
-[Use Now Assist for HR - Galileo Inside to answer HR-related questions](use-galileo-inside.md)
+[Use Now Assist for HR - Galileo Inside to answer HR-related questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/use-galileo-inside.md)
 

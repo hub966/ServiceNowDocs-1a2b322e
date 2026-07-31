@@ -2,9 +2,10 @@
 title: Sales CRM for Telecommunications functional architecture
 description: Sales CRM for Telecommunications is a comprehensive order management solution designed specifically for telecommunications service providers. Sales CRM for Telecommunications serves as a critical orchestration layer within the larger telecommunications ecosystem, integrating with key systems to manage the complete journey from prospect identification to service activation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/somt-func-arch.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-06"
+last_updated: "2026-07-09"
 reading_time_minutes: 3
 breadcrumb: [Explore, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -53,7 +54,7 @@ This phase covers the customer acquisition and order capture process:
 
 During this phase, Sales CRM for Telecommunications integrates with digital apps, self-care portals, account managers, product catalogs, and service feasibility systems.
 
-![Sales CRM for Telecommunications selling phase.](../image/somt-func-arch-1.jpg)
+\[Omitted image "mmasset0021737-telecomm-selling-phase-horizontal.svg"\] Alt text: Sales CRM for Telecommunications: Selling phase
 
 ## Fulfillment phase
 
@@ -65,7 +66,7 @@ After order submission, the next phase is the fulfillment process:
 
 During this phase, Sales CRM for Telecommunications coordinates with Field Service Management for Telecommunication, external inventory systems, and network activation platforms.
 
-![Sales CRM for Telecommunications fulfillment phase](../image/somt-func-arch-2.jpg)
+\[Omitted image "mmasset0021738-telecomm-fulfillment-phase-horizontal.svg"\] Alt text: Sales CRM for Telecommunications: Fulfillment phase
 
 **Note:** Sales CRM for Telecommunications orchestrates the order management process and submits service orders to downstream activation systems but does not perform network activation or provisioning.
 
@@ -73,17 +74,17 @@ During this phase, Sales CRM for Telecommunications coordinates with Field Servi
 
 The Sales CRM for Telecommunications leverages TeleManagement Forum \(TMF\) Open APIs throughout its architecture, ensuring standards-based integration with third-party systems. Key API integrations include:
 
--   Product catalog management API: Manage product catalog information from external systems. See [Product Catalog Open API](https://www.servicenow.com/docs/access?context=product-catalog-open-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
--   Product inventory API: For ServiceNow applications or external CRM / CPQ submitting orders. See [Product Inventory Open API](https://www.servicenow.com/docs/access?context=product-inventory-open-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
--   Service catalog API: For synching technical specifications with other network domain specific provisioning catalogs. See [Service Catalog Open API](https://www.servicenow.com/docs/access?context=service-catalog-open-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
--   Service order API: Service Order API: Customer order is handled by another application and Sales CRM for Telecommunications acts as a service order manager or when the decomposition and orchestration is handled by the marketplace owner and sends order to Sales CRM for Telecommunications for fulfillment. See [Service Order Open API](https://www.servicenow.com/docs/access?context=service-order-open-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
--   Technical service qualification API: Checks availability of resources and services before an order is submitted for fufillment. See [Technical Service Qualification Open API](https://www.servicenow.com/docs/access?context=ts-qualification-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
--   Quote management API: Based on the TMF 648 API. See [Quote Management API](https://www.servicenow.com/docs/access?context=quote-management-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+-   Product catalog management API: Manage product catalog information from external systems. See [Product Catalog Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/product-catalog-open-api.md).
+-   Product inventory API: For ServiceNow applications or external CRM / CPQ submitting orders. See [Product Inventory Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/product-inventory-open-api.md).
+-   Service catalog API: For synching technical specifications with other network domain specific provisioning catalogs. See [Service Catalog Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/service-catalog-open-api.md).
+-   Service order API: Use when a customer order is handled by another application and Sales CRM for Telecommunications acts as a service order manager. Also use when the marketplace owner handles decomposition and orchestration and sends the order to Sales CRM for Telecommunications for fulfillment. See [Service Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/service-order-open-api.md).
+-   Technical service qualification API: Checks availability of resources and services before an order is submitted for fufillment. See [Technical Service Qualification Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/ts-qualification-api.md).
+-   Quote management API: Based on the TMF 648 API. See [Quote Management API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/quote-management-api.md).
 
 ## Non-TMF APIs
 
--   Entitlement API: Create and fetch entitlements. See [Entitlement API](https://www.servicenow.com/docs/access?context=entitlement-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
--   Lead management API: Mapping and certification as per TMF 699. See [lead API](https://www.servicenow.com/docs/access?context=lead-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
--   Order API: See [Order API](https://www.servicenow.com/docs/access?context=order_csm-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
--   Sales agreement API: See [Sales Agreement API](https://www.servicenow.com/docs/access?context=sales_agreement-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+-   Entitlement API: Create and fetch entitlements. See [Entitlement API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/entitlement-api.md).
+-   Lead management API: Mapping and certification as per TMF 699. See [lead API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/lead-api.md).
+-   Order API: See [Order API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/order_csm-api.md).
+-   Sales agreement API: See [Sales Agreement API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/sales_agreement-api.md)
 

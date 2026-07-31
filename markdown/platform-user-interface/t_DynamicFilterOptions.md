@@ -2,6 +2,7 @@
 title: Create a dynamic filter option
 description: Dynamic filter options enhance filtering by allowing users to run existing script includes or JavaScript against a reference field within condition builders and dynamic reference qualifiers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_DynamicFilterOptions.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,9 +20,9 @@ Role required: admin
 
 ## About this task
 
-This task describes how to create a new dynamic filter option and an associated [script include](https://www.servicenow.com/docs/access?context=c_ScriptIncludes&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+This task describes how to create a new dynamic filter option and an associated [script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md).
 
-Dynamic filter options "objectize" script includes/JavaScript, enabling them to be reused in multiple [condition builders](../../common-ui-elements/concept/c_ConditionBuilder.md) and dynamic [Reference qualifiers](https://www.servicenow.com/docs/access?context=c_ReferenceQualifiers&version=australia&pubname=australia-platform-administration&ft:locale=en-US). This type of filter enables you to modify a script once and have the changes automatically take effect everywhere the dynamic filter option is used.
+Dynamic filter options "objectize" script includes/JavaScript, enabling them to be reused in multiple [condition builders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md) and dynamic [Reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ReferenceQualifiers.md). This type of filter enables you to modify a script once and have the changes automatically take effect everywhere the dynamic filter option is used.
 
 When defining a dynamic filter, you can:
 
@@ -29,15 +30,15 @@ When defining a dynamic filter, you can:
 -   use an existing dynamic filter option \(OOB or custom\)
 -   create a new dynamic filter option and script include/JavaScript
 
-All condition builder dynamic filters use the **is \(dynamic\)** operator and call a dynamic filter option. In the following example, the pre-existing dynamic filter option **Me** is being used. For a list of available pre-existing condition builder dynamic filter options, see [Dynamic operators](../reference/r_UsingTheDynamicOperator.md).
+All condition builder dynamic filters use the **is \(dynamic\)** operator and call a dynamic filter option. In the following example, the pre-existing dynamic filter option **Me** is being used. For a list of available pre-existing condition builder dynamic filter options, see [Dynamic operators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_UsingTheDynamicOperator.md).
 
 **Note:** Dynamic filters are supported in scoped applications, but they are not supported in UI policy conditions.
 
-![Dynamic operands](../image/DynamicOperands.png "Dynamic operands")
+\[Omitted image "DynamicOperands.png"\] Alt text: Dynamic operands
 
 ## Procedure
 
-1.  [Create a scripted filter](https://www.servicenow.com/docs/access?context=c_ScriptIncludes&version=australia&pubname=australia-api-reference&ft:locale=en-US) as a client-callable script include or business rule.
+1.  [Create a scripted filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md) as a client-callable script include or business rule.
 
 2.  Navigate to **System Definition** &gt; **Dynamic Filter Options**.
 
@@ -64,14 +65,14 @@ All condition builder dynamic filters use the **is \(dynamic\)** operator and ca
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Filter admin functions](../concept/filter-admin-functions.md)
+**Parent Topic:**[Filter admin functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/filter-admin-functions.md)
 
 **Related topics**  
 
 
-[Create and edit filters](t_EditingSavedFilters.md)
+[Create and edit filters]()
 
-[Delete filters](t_DeletingFilters.md)
+[Delete filters]()
 
-[Create scripted filters](t_ScriptedFilters.md)
+[Create scripted filters]()
 

@@ -2,6 +2,7 @@
 title: Tree picker lookup
 description: The reference lookup can be rendered in the tree picker format by modifying the dictionary and adding the attribute tree\_picker.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_TreePickerLookup.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,5 +21,5 @@ You cannot customize the label names used in the tree picker. The label names ar
 **Related topics**  
 
 
-[Tree picker](https://www.servicenow.com/docs/access?context=c_TreePicker&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[Tree picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_TreePicker.md)
 

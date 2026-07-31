@@ -2,11 +2,12 @@
 title: Configure a record page tab in Service Operations Workspace
 description: Configure the display order of a record page tab in Service Operations Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/configure-record-page-tab.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Configuring record pages in Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM to improve your experience, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -25,6 +26,8 @@ The record pages \(incident, problem, change, and so on\) in Service Operations 
 
 When you modify the order of a common tab in multiple record pages and workspaces, the changes are applicable in all those records and workspaces.
 
+**Note:** When you modify the order of a common tab, the change affects that tab in all associated record pages across multiple workspaces. Modify common tabs only if you want the change to apply universally. To restrict changes to a single workspace, modify record page-specific tabs only.
+
 ## Procedure
 
 1.  From the **All** menu, navigate to **sys\_ux\_app\_route.list**.
@@ -35,10 +38,10 @@ When you modify the order of a common tab in multiple record pages and workspace
     -   To modify the order of a record page-specific tab. For example, the **Overview** tab of the incident record page in Service Operations Workspace, select **Overview** whose **App Configuration** is **Service Operations Workspace** and **Parent macroponent** is **Record Page Tabs**. Any changes made are applicable only to the **Overview** tab of the incident record page in Service Operations Workspace.
 3.  On the UX App Route form, modify the **Order** field.
 
-    If the UX App Route form doesn’t contain the Order field, add the Order field to the form. For more information about adding a field to the form, see [Show or hide fields on a form](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&section=t_ConfigureAForm&ft:locale=en-US).
+    If the UX App Route form doesn’t contain the Order field, add the Order field to the form. For more information about adding a field to the form, see [Show or hide fields on a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
 
 4.  Select **Update**.
 
 
-**Parent Topic:**[Configuring record pages in Service Operations Workspace for ITSM](../concept/configuring-record-pages-sow-itsm.md)
+**Parent Topic:**[Configuring record pages in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configuring-record-pages-sow-itsm.md)
 

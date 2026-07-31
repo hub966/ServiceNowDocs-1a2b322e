@@ -2,6 +2,7 @@
 title: Operationalize workforce effectiveness and processes blueprint
 description: Select this adoption blueprint to increase the effectiveness and efficiency of your workforce processes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/admin-center/ac-ab6.html
 release: australia
 product: Admin Center
 classification: admin-center
@@ -43,7 +44,7 @@ Enhance the experience
 
 </td><td>
 
-[Advanced Work Assignment](https://www.servicenow.com/docs/access?context=awa-application-landing-page&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+[Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-application-landing-page.md)
 
 </td><td>
 
@@ -51,7 +52,7 @@ Use Advanced Work Assignment to automatically assign work items to your qualifie
 
 </td><td>
 
-[Roles installed with Advanced Work Assignment](https://www.servicenow.com/docs/access?context=awa-roles&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+[Roles installed with Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-roles.md)
 
 </td><td>
 
@@ -63,7 +64,7 @@ Enhance the experience
 
 </td><td>
 
-[Agent Forecast](https://www.servicenow.com/docs/access?context=define-number-of-agents-configurable-wfo-itsm&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+[Agent Forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/define-number-of-agents-configurable-wfo-itsm.md)
 
 </td><td>
 
@@ -103,7 +104,7 @@ Build a foundation
 
 </td><td>
 
-[Continual Improvement Management](https://www.servicenow.com/docs/access?context=cim-landing-page&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+[Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/cim-landing-page.md)
 
 </td><td>
 
@@ -111,11 +112,11 @@ Use Continual Improvement Management to request improvement opportunities, and i
 
 </td><td>
 
-[Roles installed with Continual Improvement Management \(CIM\)](https://www.servicenow.com/docs/access?context=cim-roles&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+[Roles installed with Continual Improvement Management \(CIM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/cim-roles.md)
 
 </td><td>
 
-[Continual Improvement Management \(CIM\) support](https://www.servicenow.com/docs/access?context=cim-domain-separation&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+[Continual Improvement Management \(CIM\) support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/cim-domain-separation.md)
 
 </td></tr><tr><td>
 
@@ -144,7 +145,7 @@ Build a foundation
 
 </td><td>
 
-[Skill Determination](https://www.servicenow.com/docs/access?context=add-skills-automatic-itsm-manager-workspace-configurable-workspace&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+[Skill Determination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/add-skills-automatic-itsm-manager-workspace-configurable-workspace.md)
 
 </td><td>
 
@@ -164,7 +165,7 @@ Enhance the experience
 
 </td><td>
 
-[Skills Management](https://www.servicenow.com/docs/access?context=skills-management&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management.md)
 
 </td><td>
 
@@ -172,7 +173,7 @@ Use Skills Management to associate skills with individual users or groups and as
 
 </td><td>
 
-[Roles installed with Skills Management](https://www.servicenow.com/docs/access?context=skills-management&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[Roles installed with Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management.md)
 
 </td><td>
 
@@ -184,7 +185,7 @@ Add advanced features
 
 </td><td>
 
-[Getting started with Workforce Optimization for ITSM](https://www.servicenow.com/docs/access?context=getting-started-workforce-optimization-itsm&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+[Getting started with Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/getting-started-workforce-optimization-itsm.md)
 
 </td><td>
 
@@ -192,12 +193,12 @@ Use Workforce Optimization for ITSM to manage and maintain the productivity of y
 
 </td><td>
 
-[Roles installed with Workforce Optimization for ITSM](https://www.servicenow.com/docs/access?context=configurable-itsm-manager-workspace-reference&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+[Roles installed with Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configurable-itsm-manager-workspace-reference.md)
 
 </td><td>
 
 [Workforce Optimization for ITSM overview \(video\)](https://www.youtube.com/watch?v=MD_JsQSwI5k&t=1s)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Select your adoption blueprint](../task/ac-select-business-objective.md)
+</table>**Parent Topic:**[Select your adoption blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/admin-center/ac-select-business-objective.md)
 

@@ -2,6 +2,7 @@
 title: Generate OT KB articles agentic workflow
 description: Use the Generate OT KB articles agentic workflow to generate a KB article when an Operational Technology \(OT\) incident is resolved.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/agent-ot-knowledge-generator.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -48,7 +49,7 @@ With the Generate OT KB articles agentic workflow, you can automatically generat
 
 The article is then automatically published and appears in the Attached Knowledge related list of the OT incident record in the Industrial Workspace. The KB Article Generation process isn't triggered if there's an article already attached to current OT incident.
 
-If you want to change this agentic workflow, you can [duplicate it](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US), adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead.
+If you want to change this agentic workflow, you can [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead.
 
 **Important:** When you modify an agentic workflow, AI agent, or tool, make sure you update all instructions accordingly.
 
@@ -58,5 +59,5 @@ The minimum role needed to duplicate an agentic workflow is the **sn\_aia.admin*
 
 The OT knowledge generator AI agent is used to generate a KB article related for a resolved OT incident.
 
-**Important:** This agent is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Important:** This AI agent is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 

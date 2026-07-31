@@ -2,6 +2,7 @@
 title: Customize email notifications for mobile activity stream mentions
 description: Enable users to alert their contacts by email that they are mentioned in a thread. The user enters the @ character followed by the contact's name in a record's activity stream, for their contact to be alerted. This feature is enabled by default.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/mentions-mobile-in-email.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-Configure your instance to send an email notification when a user mentions a contact within the activity stream. You can either use the default notification record or create a new notification record. For information about creating a new notification record, see [Create an email notification](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Configure your instance to send an email notification when a user mentions a contact within the activity stream. You can either use the default notification record or create a new notification record. For information about creating a new notification record, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md).
 
 ## Procedure
 
@@ -33,10 +34,10 @@ Configure your instance to send an email notification when a user mentions a con
 
 5.  Select **Update**.
 
-6.  Select the Settings icon \(![Settings icon.](../image/GearIcon.png)\) and select the **Notifications** tab.
+6.  Select the Settings icon \(\[Omitted image "GearIcon.png"\] Alt text: Settings icon.\) and select the **Notifications** tab.
 
 7.  Verify that **Allow Notifications** is enabled.
 
 
-**Parent Topic:**[Configure notifications for mobile activity stream mentions](../concept/notification-activity-stream.md)
+**Parent Topic:**[Configure notifications for mobile activity stream mentions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/notification-activity-stream.md)
 

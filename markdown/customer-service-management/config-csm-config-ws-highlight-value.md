@@ -2,6 +2,7 @@
 title: Set up a highlighted value in a form header in CSM Configurable Workspace
 description: You can configure fields that appear as highlighted values in a form header in CSM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/config-csm-config-ws-highlight-value.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -73,5 +74,5 @@ One highlighted value configuration, **CSM/FSM Configurable Workspace Highlighte
 **Related topics**  
 
 
-[Configure a highlighted value for a form header](https://www.servicenow.com/docs/access?context=config-ws-highlight-value&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[Configure a highlighted value for a form header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/config-ws-highlight-value.md)
 

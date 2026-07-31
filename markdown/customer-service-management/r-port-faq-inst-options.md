@@ -2,6 +2,7 @@
 title: Portal FAQ widget instance options form
 description: The instance options enable you to configure the Portal FAQ widget on a portal page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/r-port-faq-inst-options.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -53,7 +54,7 @@ Query
 
 Query to filter FAQs.If this field is empty, the widget displays all the FAQs.
 
-You can include fields from the provided table only in the encoded filter query. For more information, see [Generate an encoded query string through a filter](https://www.servicenow.com/docs/access?context=t_GenEncodQueryStringFilter&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+You can include fields from the provided table only in the encoded filter query. For more information, see [Generate an encoded query string through a filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_GenEncodQueryStringFilter.md)
 
 </td></tr><tr><td>
 
@@ -157,7 +158,7 @@ The default option is Exceed preview.
 </table>**Related topics**  
 
 
-[Portal FAQ widget](../concept/portal-faq-widget.md)
+[Portal FAQ widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-faq-widget.md)
 
-[Add and configure the Portal FAQ widget](config-portal-faq-widget-inst-optns.md)
+[Add and configure the Portal FAQ widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-faq-widget-inst-optns.md)
 

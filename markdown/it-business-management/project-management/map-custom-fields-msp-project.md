@@ -1,7 +1,8 @@
 ---
-title: Create custom field mapping for Microsoft Project file import
+title: Create custom field mapping for Microsoft Project import
 description: Map custom fields from Microsoft Project to ServiceNow fields before importing a project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/map-custom-fields-msp-project.html
 release: australia
 product: Project Management
 classification: project-management
@@ -11,13 +12,13 @@ reading_time_minutes: 2
 breadcrumb: [Importing and exporting projects, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Create custom field mapping for Microsoft Project file import
+# Create custom field mapping for Microsoft Project import
 
 Map custom fields from Microsoft Project to ServiceNow fields before importing a project.
 
 ## Before you begin
 
-Create custom fields in your ServiceNow instance before mapping them with Microsoft Project. For more information, see [Add and customize a field in a table](https://www.servicenow.com/docs/access?context=t_CreatingNewFields&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Create custom fields in your ServiceNow instance before mapping them with Microsoft Project. For more information, see [Add and customize a field in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreatingNewFields.md).
 
 Role required: it\_pps\_admin
 
@@ -76,23 +77,23 @@ The supported data types for field mapping between Microsoft Project and Service
 
 ## What to do next
 
--   Import the Microsoft Project file. For more information, see [Import a Microsoft Project file with the Import module](t_ImportMicrosoftProjectFiles.md).
--   Configure the Project form to add the custom fields that you want to see. For more information, see [Form configuration](https://www.servicenow.com/docs/access?context=basic-form-administration&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   Import the Microsoft Project file. For more information, see [Import a Microsoft Project file with the Import module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_ImportMicrosoftProjectFiles.md).
+-   Configure the Project form to add the custom fields that you want to see. For more information, see [Form configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/basic-form-administration.md).
 
-**Parent Topic:**[Importing and exporting projects](../concept/c_ProjectImportAndExport.md)
+**Parent Topic:**[Importing and exporting projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectImportAndExport.md)
 
 **Related topics**  
 
 
-[Project field mapping](../reference/r_ProjectFieldMapping.md)
+[Project field mapping]()
 
-[Project import from Microsoft Project](../concept/project-import-msp.md)
+[Project import from Microsoft Project]()
 
-[Import project tasks for multiple projects](import-project-tasks-multiple-projects.md)
+[Import project tasks for multiple projects]()
 
-[Project export to Microsoft Project](../concept/c_ProjectExportToMicrosoftProject.md)
+[Project export to Microsoft Project]()
 
-[Calendars and schedules- Limitations](../concept/c_CalendarsAndSchedules.md)
+[Calendars and schedules- Limitations]()
 
-[Importing and exporting projects](../concept/c_ProjectImportAndExport.md)
+[Importing and exporting projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectImportAndExport.md)
 

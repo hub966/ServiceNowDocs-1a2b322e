@@ -2,6 +2,7 @@
 title: Specify a default field value
 description: A default value populates a value in a field when a new record is created.Review the following examples about specifying default field values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_SpecifyingADefaultValue.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -32,7 +33,7 @@ The default value populates the field on the blank form for a new record, and al
     **Note:** The default value should be the underlying value that would be present in the field, not the label. For example, in a choice list field, use the **value** of the choice as the default value, not the choice's name.
 
 
-**Parent Topic:**[Customizing fields on the ServiceNow AI Platform](../concept/customize-fields-now-platform-landing.md)
+**Parent Topic:**[Customizing fields on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/customize-fields-now-platform-landing.md)
 
 ## Default field value examples
 
@@ -42,7 +43,7 @@ Review the following examples about specifying default field values.
 
 Here is an example that sets a default value for the **Priority** field.
 
-![The dictionary entry for the Priority field has a default value of 4.](../image/DefaultValueConstant.png "Default value constant")
+\[Omitted image "DefaultValueConstant.png"\] Alt text: The dictionary entry for the Priority field has a default value of 4.
 
 ### Javascript default values
 
@@ -80,5 +81,5 @@ To set a default value for a duration field, use the following in the **Default 
 javascript:current.duration_field.setDisplayValue('3 04:30:14');
 ```
 
-Avoid hard-coding a particular date-time. If the system date-time format changes, the value becomes invalid. Instead, select the **Use dynamic default** check box and assign a dynamic filter option. For more information on dynamic filters, see [Create a dynamic filter option](https://www.servicenow.com/docs/access?context=t_DynamicFilterOptions&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) .
+Avoid hard-coding a particular date-time. If the system date-time format changes, the value becomes invalid. Instead, select the **Use dynamic default** check box and assign a dynamic filter option. For more information on dynamic filters, see [Create a dynamic filter option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_DynamicFilterOptions.md) .
 

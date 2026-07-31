@@ -2,6 +2,7 @@
 title: Service Exchange for Public Sector Digital Services
 description: Connect multiple ServiceNow instances to provide support and service experiences across the Public Sector​ ecosystem, enabling coordination between multiple government service agencies and their constituents using Service Bridge for Public Sector Digital Services \(PSDS\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/servicebridge-psds-exploring.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,8 +15,6 @@ breadcrumb: [Case management, Explore, Public Sector Digital Services \(PSDS\)]
 Connect multiple ServiceNow instances to provide support and service experiences across the Public Sector​ ecosystem, enabling coordination between multiple government service agencies and their constituents using Service Bridge for Public Sector Digital Services \(PSDS\).
 
 Enable agency to agency communication and coordination across multiple ServiceNow instances using Service Bridge for Public Sector Digital Services \(PSDS\). Agencies can coordinate across the ServiceNow® Public Sector Digital Services ecosystem, facilitating cross-agency case management​, real-time coordination with dynamic task management, secure inter-agency data sharing, and streamlined approval workflows for license and permits, social benefits, and grants funding distribution.
-
-Public Sector Digital Services Overview
 
 Whether you are a government agency provider communicating with other agencies, or an agency connecting with their constituents, learn how you can establish an integration between multiple types of instances with Service Exchange. This integration allows agency providers to receive and fulfill service requests in their own instances, share data, route tasks in real-time, and more. Learn how you can use Service Exchange for inter-agency data sharing, constituent support, and service catalog management.
 
@@ -30,7 +29,7 @@ A provider instance belongs to the government agency who provides Service Bridge
 -   Receive and fulfill service requests on your instance pushed remotely from your constituents', business partners', channels', or agency partners' ServiceNow® instance\(s\).
 -   Access data synced in real-time between the provider instance and the consumer instance to track updates to government case records
 
-![Exploring Service Bridge for PSDS](../image/psds-servicebridge_graphic.png)
+\[Omitted image "psds-servicebridge\_graphic.png"\] Alt text: Exploring Service Bridge for PSDS
 
 Agencies can connect:
 
@@ -61,11 +60,11 @@ A consumer instance
 
 The main capabilities of Service Exchange include:
 
--   [Onboarding](https://www.servicenow.com/docs/access?context=service-bridge-v2-onboarding&version=australia&pubname=australia-service-exchange&ft:locale=en-US): Quickly onboard agency partners or constituents that use ServiceNow with a simplified registration process.
--   [Authorized Users](https://www.servicenow.com/docs/access?context=service-bridge-v2-auth-users&version=australia&pubname=australia-service-exchange&ft:locale=en-US): Manage and control access at the Remote Catalog item level to meet security and compliance requirements.
--   [Remote Catalog](https://www.servicenow.com/docs/access?context=service-bridge-v2-create-apps&version=australia&pubname=australia-service-exchange&ft:locale=en-US): Update shared agency service catalogs in minutes as new items are introduced.
--   [Remote Choice](https://www.servicenow.com/docs/access?context=service-bridge-v2-remote-choice-fields&version=australia&pubname=australia-service-exchange&ft:locale=en-US): Ensure up-to-date field options in downstream agency remote catalogs by retrieving real-time data from the provider's ServiceNow instance.
--   [Remote Task](https://www.servicenow.com/docs/access?context=service-bridge-v2-remote-task-overview&version=australia&pubname=australia-service-exchange&ft:locale=en-US): Help increase automation with seamless multi-party and multi-instance workflows across the ServiceNow ecosystem.
--   [Provider Tasks](https://www.servicenow.com/docs/access?context=service-bridge-v2-provider-tasks&version=australia&pubname=australia-service-exchange&ft:locale=en-US): Enable all providers of services using Service Exchange to be transparent and collaborative with their partner agencies who use ServiceNow by syncing relevant tasks like cases, to consumers as Provider Tasks.
--   [Transform Framework](https://www.servicenow.com/docs/access?context=service-bridge-v2-provider-tasks&version=australia&pubname=australia-service-exchange&ft:locale=en-US): Transform inbound and outbound remote task data for easy process transformation between ServiceNow instances.
+-   [Onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-onboarding.md): Quickly onboard agency partners or constituents that use ServiceNow with a simplified registration process.
+-   [Authorized Users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-auth-users.md): Manage and control access at the Remote Catalog item level to meet security and compliance requirements.
+-   [Remote Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-apps.md): Update shared agency service catalogs in minutes as new items are introduced.
+-   [Remote Choice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-remote-choice-fields.md): Ensure up-to-date field options in downstream agency remote catalogs by retrieving real-time data from the provider's ServiceNow instance.
+-   [Remote Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-remote-task-overview.md): Help increase automation with seamless multi-party and multi-instance workflows across the ServiceNow ecosystem.
+-   [Provider Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-provider-tasks.md): Enable all providers of services using Service Exchange to be transparent and collaborative with their partner agencies who use ServiceNow by syncing relevant tasks like cases, to consumers as Provider Tasks.
+-   [Transform Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-provider-tasks.md): Transform inbound and outbound remote task data for easy process transformation between ServiceNow instances.
 

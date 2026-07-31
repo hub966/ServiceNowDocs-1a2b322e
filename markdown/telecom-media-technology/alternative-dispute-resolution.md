@@ -2,6 +2,7 @@
 title: Alternative dispute resolution management
 description: Use the Alternative Dispute Resolution \(ADR\) case to resolve customer disputes efficiently while confirming transparency, accountability, and regulatory conformance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/alternative-dispute-resolution.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -31,7 +32,7 @@ The ADR workflow begins when a customer raises a complaint regarding a product, 
 
 ## ADR stages and activities
 
-The ADR case record uses the Case Playbook for Complaints feature to capture the details and execute the workflow. To learn more about the Case Playbook for Complaints, see [Case Playbook for Complaints](https://www.servicenow.com/docs/access?context=csm-playbook-complaint-overview&version=australia&pubname=australia-customer-service-management&ft:locale=en-US). The following table lists the stages and activities that agents can use to resolve customer issues in the ADR case record.
+The ADR case record uses the Case Playbook for Complaints feature to capture the details and execute the workflow. To learn more about the Case Playbook for Complaints, see [Case Playbook for Complaints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-complaint-overview.md). The following table lists the stages and activities that agents can use to resolve customer issues in the ADR case record.
 
 <table id="table_nrj_z2s_llb"><thead><tr><th>
 
@@ -180,10 +181,10 @@ When the customer accepts the resolution, the Outcome stage completes and the Cl
 </td></tr></tbody>
 </table>## Using ADR case
 
-To learn more about how to use ADR case, see [Using alternative dispute resolution case](use-alternative-dispute-resolution-case.md).
+To learn more about how to use ADR case, see [Using alternative dispute resolution case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/use-alternative-dispute-resolution-case.md).
 
 **Related topics**  
 
 
-[Customer service case types](https://www.servicenow.com/docs/access?context=customer-service-case-types&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[Customer service case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-case-types.md)
 

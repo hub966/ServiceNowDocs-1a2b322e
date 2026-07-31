@@ -2,6 +2,7 @@
 title: MLSolutionUtil - Global
 description: The MLSolutionUtil script include provides methods for getting Predictive Intelligence predictions.Instantiates a new MLSolutionUtil object.Gets predictions for one or more specified solutions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/MLSolutionUtilAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,16 +18,16 @@ The MLSolutionUtil script include provides methods for getting Predictive Intell
 
 This script include requires the Predictive Intelligence plugin \(com.glide.platform\_ml\) and is provided within the `sn_ml` namespace.
 
-For more information, see [Using ML APIs](https://www.servicenow.com/docs/access?context=using-ml-apis&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For more information, see [Using ML APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-ml-apis.md).
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 **Related topics**  
 
 
-[MLSolution](../../MLSolution/concept/MLSolutionAPI.md#)
+[MLSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/MLSolutionAPI.md)
 
-[MLSolutionFactory](../../MLSolutionFactory/concept/MLSolutionFactoryAPI.md#)
+[MLSolutionFactory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/MLSolutionFactoryAPI.md)
 
 ## MLSolutionUtil - MLSolutionUtil\(\)
 

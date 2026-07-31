@@ -2,11 +2,12 @@
 title: Flow execution details retention
 description: Due to the large amount of data consumed by flow execution details, your instance uses data retention policies to delete this data after a set time period.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-reporting.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-06-24"
 reading_time_minutes: 5
 breadcrumb: [Flow administration, Configure flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -17,11 +18,11 @@ Due to the large amount of data consumed by flow execution details, your instanc
 
 ## Generating flow execution details
 
-By default, the system only generates execution details when you run a test. To generate flow execution details, see [Activate flow reporting](../task/enable-flow-reporting.md#)
+By default, the system only generates execution details when you run a test. To generate flow execution details, see [Activate flow reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/enable-flow-reporting.md)
 
 ## Scheduled table cleanup
 
-The system uses a standard table cleaner records to determine when to remove execution details. Each type of flow execution content is stored in its own table and has its own retention period. Once a record is older than its default retention period, it is deleted if it is in a completed state. To learn more about how to find and configure table cleaner records, see [Table cleaner](https://www.servicenow.com/docs/access?context=table-cleaner&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+The system uses a standard table cleaner records to determine when to remove execution details. Each type of flow execution content is stored in its own table and has its own retention period. Once a record is older than its default retention period, it is deleted if it is in a completed state. To learn more about how to find and configure table cleaner records, see [Table cleaner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-cleaner.md).
 
 <table id="table_hmm_shn_z2b"><thead><tr><th>
 
@@ -42,6 +43,8 @@ sys\_flow\_context
 </td><td>
 
 Parent table that stores all Workflow Studio context records and their associated process plans. Context records store the state and references to the data used to run a flow or action. See the child tables for context records in specific states.
+
+ **Warning:** This table doesn't support running custom business rules. Trying to gather state information from this table may cause performance issues or unexpected flow errors.
 
 </td><td>
 
@@ -160,7 +163,7 @@ Table that stores replicated log entries from the Log \[syslog\] table. Enables 
 
 The system removes these records in 28 days when the table is rotated or when it removes the context record, whichever comes first.
 
- The table rotation on sys\_flow\_log is configurable. For more information, see [Table rotation](https://www.servicenow.com/docs/access?context=c_TableRotation&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+ The table rotation on sys\_flow\_log is configurable. For more information, see [Table rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TableRotation.md).
 
 </td></tr><tr><td>
 
@@ -179,7 +182,7 @@ The system removes these records 12 months after creation.**Important:** The sys
 
 A message displays at the top of the flow report to indicate that action reports are not available for a flow because of table cleanup. The **Show Action Details** link and Action states are not available in this case. A similar message is shown to indicate when reporting for a flow has been deactivated. In this case, a link to the report settings also displays.
 
-![Flow execution details page displaying the data retention notification, The action details for this flow have been removed according to the report retention policy.](../images/flow-execution-cleanup-notification.png "Sample flow execution details with data removed by the report retention policy")
+\[Omitted image "flow-execution-cleanup-notification.png"\] Alt text: Flow execution details page displaying the data retention notification, The action details for this flow have been removed according to the report retention policy.
 
 ## Recovery options
 
@@ -187,5 +190,5 @@ A message displays at the top of the flow report to indicate that action reports
 
 To know the period until which a data recovery request is accepted, see the [Instance Backup and Recovery \[KB0547654\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0547654) article in the Now Support Knowledge Base.
 
-**Parent Topic:**[Flow administration](flow-administration.md)
+**Parent Topic:**[Flow administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-administration.md)
 

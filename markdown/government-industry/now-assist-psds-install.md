@@ -2,6 +2,7 @@
 title: Install Now Assist for Public Sector Digital Services \(PSDS\)
 description: Install required plugins and enable Now Assist for Public Sector Digital Services \(PSDS\) to configure and use generative AI skills in Configurable Workspace, Playbooks, and Core UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/now-assist-psds-install.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,13 +30,13 @@ The following plug-ins and store apps are required for use of Now Assist for Pub
 
 **Note:**
 
-Now LLM Service is currently the only provider for this Now Assist application's skills.
+Now LLM Service is currently the only provider for this application's skills.
 
-To get started with Now Assist, you must install at least one Now Assist application on your instance. The Now Assist Admin console can guide your implementation, starting with installation. Use the Now Assist Admin console to configure Now Assist for Public Sector Digital Services \(PSDS\). This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [Overview tab in Now Assist Admin](https://www.servicenow.com/docs/access?context=configuring-now-assist&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US), as well as the [Now Assist Journey Checklist](https://www.servicenow.com/docs/access?context=configuring-now-assist&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+To get started with Now Assist, you must install at least one Now Assist application on your instance. The Now Assist Admin console can guide your implementation, starting with installation. Use the Now Assist Admin console to configure Now Assist for Public Sector Digital Services \(PSDS\). This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md), as well as the [Now Assist Journey Checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
 
-For information about CSM Configurable Workspace, see [Set up CSM Configurable Workspace](https://www.servicenow.com/docs/access?context=csm-config-workspace-set-up&version=australia&pubname=australia-customer-service-management&ft:locale=en-US). For information about Now Assist AI agents, see [Install Now Assist AI Agents](https://www.servicenow.com/docs/access?context=install-ai-agents-plugins&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For information about CSM Configurable Workspace, see [Set up CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-set-up.md). For information about Now Assist AI agents, see [Install Now Assist AI Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-agents-plugins.md).
 
-To access AI agents in the Now Assist panel, you need to [turn on the Now Assist panel](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) .
+To access AI agents in the Now Assist panel, you need to [turn on the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md) .
 
 To install the Now Assist for PSDS plugin \(sn\_psds\_gen\_ai\), follow the procedure below.
 
@@ -51,7 +52,7 @@ To install the Now Assist for PSDS plugin \(sn\_psds\_gen\_ai\), follow the proc
 
     Plugins appear as cards. Review all Now Assist plugins on the **Available for you** tab. Plugins that you have already installed appear on the **Installed** tab.
 
-    ![Example plugin card reads "Now Assist for Public Sector Digital Services (PSDS): GenAl related features for Public Sector Digital Services that are powered by Now Assist." Select Get plugins on the card to install it.](../image/na-psds-plugin-card-config.png)
+    \[Omitted image "na-psds-plugin-card-config.png"\] Alt text: Example plugin card reads "Now Assist for Public Sector Digital Services \(PSDS\): GenAl related features for Public Sector Digital Services that are powered by Now Assist." Select Get plugins on the card to install it.
 
 4.  Select **Get plugins** on the Now Assist for Customer Service Management \(CSM\) and Now Assist for Public Sector Digital Services \(PSDS\) cards.
 
@@ -65,7 +66,7 @@ To install the Now Assist for PSDS plugin \(sn\_psds\_gen\_ai\), follow the proc
 
 8.  In the dialog box, select **Refresh**.
 
-    For more detailed information about the installation process, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    For more detailed information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 
 ## Result
@@ -74,5 +75,5 @@ Your Now Assist Admin console is successfully configured with the necessary plug
 
 ## What to do next
 
-[Activate the Now Assist panel standard chat](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)or [Activate a Now Assist Skill.](../concept/now-assist-psds-configure-skill.md)
+[Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md)or [Activate a Now Assist Skill.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-configure-skill.md)
 

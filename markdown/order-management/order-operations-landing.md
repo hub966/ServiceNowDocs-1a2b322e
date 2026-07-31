@@ -2,6 +2,7 @@
 title: Order operations
 description: Explore tools that help manage exceptions, returns, and process visibility across the order life cycle.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/order-operations-landing.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -19,20 +20,13 @@ Select a link from the following table to explore tools that support exception h
 
 |Application|Description|
 |-----------|-----------|
-|[Order Operations Case Management](https://www.servicenow.com/docs/access?context=csm-case-mgmt-order-ops&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)|Capture and manage order exceptions.|
-|[Case Lines and Workflows](https://www.servicenow.com/docs/access?context=csm-case-mgmt-case-lines&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)|Track and manage multiple related issues in a single case.|
-|[Case Management for Invoice Operations](https://www.servicenow.com/docs/access?context=csm-invoice-operations&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)|Capture and manage invoice exceptions.|
-|[Lead-to-Cash Process Management](explore-lead-cash-process-management.md)|Create dashboards using consolidated sales data across ERP and ServiceNow systems to gain visibility into the full sales process.|
-|[Return Merchandise Authorization](return-merchandise-authorization.md)|Manage return, replacement, or refund cases for installed products.|
+|[Order Operations Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-case-mgmt-order-ops.md)|Capture and manage order exceptions.|
+|[Case Lines and Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-case-mgmt-case-lines.md)|Track and manage multiple related issues in a single case.|
+|[Case Management for Invoice Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-invoice-operations.md)|Capture and manage invoice exceptions.|
+|[Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-lead-cash-process-management.md)|Create dashboards using consolidated sales data across ERP and ServiceNow systems to gain visibility into the full sales process.|
+|[Return Merchandise Authorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/return-merchandise-authorization.md)|Manage return, replacement, or refund cases for installed products.|
 
-## Related links
+## What to explore next
 
-Configure the order operations applications, so your agents and customers can use them in their sales workflows. For more information, see [Configuring the order operations applications](configuring-order-operations.md).
-
-**Related topics**  
-
-
-[Using order operations applications](using-order-operations.md)
-
-[Order operations reference](reference-order-operations.md)
+Configure the order operations applications, so your agents and customers can use them in their sales workflows. For more information, see [Configuring the order operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-order-operations.md).
 

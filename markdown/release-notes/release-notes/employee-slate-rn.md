@@ -30,65 +30,74 @@ For more information, see  documentation.
 
 ## New in the Australia release
 
--   **[Conversation-first experience in Employee Slate](https://www.servicenow.com/docs/access?context=eslate-conversation-first&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   ****
 
     Replaces traditional browse navigation with an AI-powered search bar and personalized canvas, supporting service delivery across departments.
 
--   **[Employee Slate home](https://www.servicenow.com/docs/access?context=emp-slate-home-page&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   ****
 
     Provides a homepage centered on an AI-powered search bar with five configurable widgets: To-dos, Employee Communications, Trending Content, Quick Links, and Holiday Calendar.
 
--   **Interactive split view [Employee Slate home](https://www.servicenow.com/docs/access?context=emp-slate-home-page&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   **Interactive split view**
 
     Displays content alongside the conversation for seamless interaction with forms, articles, and tasks.
 
--   **[Personalized canvas](https://www.servicenow.com/docs/access?context=eslate-personalized-canvas&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   ****
 
     Employees can drag, drop, resize, and remove widgets; administrators can lock widgets to keep critical information visible.
 
--   **[Inbox](https://www.servicenow.com/docs/access?context=emp-slate-inbox&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   ****
 
     Consolidates tasks, requests, approvals, and to-dos from multiple departments and external applications, with AI summaries from Now Assist.
 
--   **[Employee Org chart](https://www.servicenow.com/docs/access?context=emp-slate-orgchart&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   ****
 
     Displays organizational hierarchies with employee details and supports contextual AI questions through Now Assist.
 
--   **[Employee communications](https://www.servicenow.com/docs/access?context=eslate-employee-comms&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   ****
 
     Displays targeted banner announcements on the homepage, linked to knowledge articles or other resources.
 
--   **[Visual content authoring](https://www.servicenow.com/docs/access?context=emp-slate-home-page&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   **Visual content authoring**
 
     Provides a content library accessible from the profile icon where authors can create, filter, and publish announcements, with Now Assist generating content from a prompt.
 
--   **[Employee Slate notifications](https://www.servicenow.com/docs/access?context=emp-slate-notifications&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   ****
 
     Delivers 14 pre-configured notification types for approvals, tasks, and requests, with support for bulk actions and grouping.
 
--   **[Configure branding and theme](https://www.servicenow.com/docs/access?context=eslate-config-admin-console&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   ****
 
     Applies a logo, primary color, and accent color consistently across the portal, Moveworks, and Now Assist experiences, with a live preview panel.
 
--   **[AI-powered widget builder](https://www.servicenow.com/docs/access?context=eslate-ai-widget-builder&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   **AI-powered widget builder**
 
     Builds custom widgets through a prompt-driven interface using a model context protocol \(MCP\) with built-in design components and accessibility support.
 
--   **[Analytics and reporting](https://www.servicenow.com/docs/access?context=eslate-analytics-reporting&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   ****
 
     Tracks session details, page visits, and widget interactions in a dedicated Employee Slate destination within User Experience Analytics. Measures announcement impressions, clicks, and top-performing content through the communications analytics dashboard in User Experience Analytics.
 
--   **Now Assist search and chat [Conversation-first catalog and knowledge](https://www.servicenow.com/docs/access?context=eslate-conversational-catalog&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   **Search and chat**
 
     Integrates search results directly into chat responses, with a side panel for filtering and exploration across all configured connectors. Chat pre-fills catalog form fields from conversation context and opens forms in split view for review and completion.
 
--   **Moveworks enterprise search [Employee Slate for Moveworks](https://www.servicenow.com/docs/access?context=employee-slate-moveworks&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   ****
 
     Searches documents across enterprise systems including SharePoint, OneDrive, Google Drive, Slack, and Outlook through the Moveworks assistant.
 
--   **[Calendar and schedule management](https://www.servicenow.com/docs/access?context=eslate-calendar-schedule&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   ****
 
     Provides time-aware information through calendar management with My Calendar widget in Canvas displaying the meetings from your schedule. And the Upcoming Holiday widget displays the next relevant holiday on the home page.
+
+-   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
+
+    The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
+
+    -   Foundation: AI basics to deliver insights
+    -   Advanced: AI to boost productivity across relevant use cases
+    -   Prime: Act autonomously with all AI assets, and create your own
+    Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 ## Activation information
@@ -111,7 +120,7 @@ Employee Slate includes built-in accessibility compliance through the AI widget 
 
     Enhanced employee portal with AI capabilities that continues as an option for customers needing features not yet migrated to Employee Slate, with coexistence options available for organizations requiring both portals.
 
--   **[Now Assist](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
 
     ServiceNow AI assistant providing contextual, bi-directional chat capabilities, agentic catalog experiences, and platform-native notifications when embedded in Employee Slate. Requires migration to off-Glide AI orchestrator for optimal performance.
 
@@ -119,10 +128,10 @@ Employee Slate includes built-in accessibility compliance through the AI widget 
 
     AI assistant platform providing enterprise search across multiple systems, specialized assistance apps like World Knowledge, cross-platform notifications, and over 100 language support when embedded in Employee Slate.
 
--   **[Usage Insights](https://www.servicenow.com/docs/access?context=user-exp-analytics-landing&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)**
+-   **[Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/user-exp-analytics-landing.md)**
 
     Analytics platform that includes dedicated Employee Slate destination for tracking sessions, events, page visits, and communications effectiveness with custom funnel building capabilities and integrated communications analytics dashboard.
 
 
-**Parent Topic:**[Unified Employee Experience release notes](uex-rn-landing.md)
+**Parent Topic:**[Unified Employee Experience release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/uex-rn-landing.md)
 

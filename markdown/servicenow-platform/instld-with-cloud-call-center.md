@@ -2,6 +2,7 @@
 title: Components installed with ServiceNow Voice Core
 description: Several types of components are installed with activation of the ServiceNow Voice Core application \(sn\_cti\_core\), including user roles, plugins, and operation handlers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instld-with-cloud-call-center.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -13,7 +14,7 @@ breadcrumb: [ServiceNow Voice reference, ServiceNow Voice, Manage people and wor
 
 Several types of components are installed with activation of the ServiceNow Voice Core application \(sn\_cti\_core\), including user roles, plugins, and operation handlers.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 ## Roles installed
 
@@ -124,7 +125,7 @@ authenticate
 
 </td><td>
 
-Authenticates a user based on the PIN. For information on PIN configuration, see [Configuring a phone PIN](../concept/set-pin-ccc.md#).
+Authenticates a user based on the PIN. For information on PIN configuration, see [Configuring a phone PIN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/set-pin-ccc.md).
 
 </td></tr><tr><td>
 
@@ -135,5 +136,5 @@ fetchVoiceInteraction
 Fetches interaction and processes createConversation flag for creating conversation.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ServiceNow Voice reference](ccc-reference.md)
+</table>**Parent Topic:**[ServiceNow Voice reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ccc-reference.md)
 

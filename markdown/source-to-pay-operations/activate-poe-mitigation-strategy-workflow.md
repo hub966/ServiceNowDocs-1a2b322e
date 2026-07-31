@@ -2,6 +2,7 @@
 title: Review the define PO exception mitigation strategy workflow
 description: Review the define PO exception mitigation strategy agentic workflow that uses Now Assist agentic support to identify and execute mitigation strategies for purchase order exceptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/activate-poe-mitigation-strategy-workflow.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,11 +24,11 @@ Role required: admin
 
 **Important:** This agentic workflow is active by default. All fields are read-only. To modify other fields, clone the workflow. Currently, you can't edit agent prompts or provide feedback for training.
 
-Users with \[sn\_poem\_core.operational\_buyer\] role and the Now Assist Fulfiller \[sn\_poem\_gen\_ai.now\_assist\_fulfiller\] rolec will get mitigation strategies using the Define PO exception mitigation strategy agentic workflow in the Now Assist panel.
+Users with \[sn\_poem\_core.operational\_buyer\] role and the Now Assist Fulfiller \[sn\_poem\_gen\_ai.now\_assist\_fulfiller\] role will get mitigation strategies using the Define PO exception mitigation strategy agentic workflow in the Now Assist panel.
 
 This workflow uses the Now Assist agentic support to identify and execute mitigation strategies for purchase order exceptions.
 
-You can add or remove AI agents from this workflow by making a copy and customizing it. For more information, about copying agentic workflows, see [Duplicate an agentic workflow](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+You can add or remove AI agents from this workflow by making a copy and customizing it. For more information, about copying agentic workflows, see [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md).
 
 ## Procedure
 
@@ -39,7 +40,7 @@ You can add or remove AI agents from this workflow by making a copy and customiz
 
 3.  Open the workflow configuration page by selecting **Define PO exception mitigation strategy**.
 
-    If you want to modify this AI agent, you can refer to [Modify an AI agent](https://www.servicenow.com/docs/access?context=modify-ai-agent&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US). Adjust the settings for your specific needs, and activate the duplicated version of the agentic workflow.
+    If you want to modify this AI agent, you can refer to [Modify an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/modify-ai-agent.md). Adjust the settings for your specific needs, and activate the duplicated version of the agentic workflow.
 
 4.  Select the **Define key requirements** page to review the following fields.
 
@@ -103,5 +104,5 @@ Model providers that this agentic workflow doesn’t support.All model providers
 
 After reviewing the agentic workflow, you can get started by selecting **Now Assist** button on a purchase order exception record or the exception card on the **Purchase order management** tab in the Source-to-Pay Workspace.
 
-**Parent Topic:**[Configure Now Assist for Purchase Order Management \(POM\)](configure-now-assist-purch-order-mgmt.md)
+**Parent Topic:**[Configure Now Assist for Purchase Order Management \(POM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/configure-now-assist-purch-order-mgmt.md)
 

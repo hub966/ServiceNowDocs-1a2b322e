@@ -2,6 +2,7 @@
 title: Create a visitor badge template
 description: Create an HTML template that can be used to print badges for your workplace locations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/create-visitor-badge-template.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -69,10 +70,18 @@ Order
 
 Order of the visitor badge template. A template with a lower order is selected first.
 
+</td></tr><tr><td>
+
+Paper size
+
+</td><td>
+
+Paper size that is used to print the badge.
+
 </td></tr></tbody>
 </table>4.  In the **Apply if** field, add conditions for when the badge template is applicable.
 
-    For more information about conditions, see [Condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    For more information about conditions, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
 
     For example, `Visitor type is Client` specifies that the badge is printed for clients.
 
@@ -83,27 +92,27 @@ Order of the visitor badge template. A template with a lower order is selected f
 
 ## What to do next
 
-Assign the badge template to a workplace location. For more information, see [Assign badge templates to a workplace location](assign-badge-location.md).
+Assign the badge template to a workplace location. For more information, see [Assign badge templates to a workplace location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/assign-badge-location.md).
 
--   **[Assign badge templates to a workplace location](assign-badge-location.md)**  
+-   **[Assign badge templates to a workplace location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/assign-badge-location.md)**  
 Assign a badge template to a workplace location.
 
-**Parent Topic:**[Configuring Workplace Visitor Management](../concept/configure-visitor-mgmt.md)
+**Parent Topic:**[Configuring Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/configure-visitor-mgmt.md)
 
 **Related topics**  
 
 
-[Install Workplace Visitor Management](install-workplace-visitor-mgmt.md)
+[Install Workplace Visitor Management]()
 
-[Create a visitor policy](create-visitor-policy.md)
+[Create a visitor policy]()
 
-[Create a record producer for visitor management](create-rec-prodcr-visit-mgmt.md)
+[Create a record producer for visitor management]()
 
-[Configure a visitor type](configure-visitor-type.md)
+[Configure a visitor type]()
 
-[Configure visit requirements](configure-visit-requirements.md)
+[Configure visit requirements]()
 
-[Configuring Workplace Visitor Management for Workplace Services Kiosk](../concept/config-visitor-for-kiosk.md)
+[Configuring Workplace Visitor Management for Workplace Services Kiosk]()
 
-[Quick start test for Workplace Visitor Management](../../../administer/atf-quick-start-tests/reference/quick-start-tests-wsd-visitor-mgmt.md)
+[Quick start test for Workplace Visitor Management]()
 

@@ -2,6 +2,7 @@
 title: Additional resources for AI products and solutions
 description: If you’re looking for AI best practices, troubleshooting, or other implementation guidelines, select a feature or resource type to discover ServiceNow resources on other relevant websites.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-additional-resources.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -36,7 +37,7 @@ Release Notes
 
 </td><td>
 
-[Now Assist AI Agents Release Notes](https://www.servicenow.com/docs/access?context=now-assist-ai-agents-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US).
+Now Assist AI Agents Release Notes.
 
 </td></tr><tr><td>
 
@@ -76,7 +77,7 @@ Glossary
 
 </td><td>
 
-[Now Assist and Agentic AI glossary](../../now-assist-platform/concept/now-assist-glossary.md#)
+[Now Assist and Agentic AI glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-glossary.md)
 
 </td></tr><tr><td>
 
@@ -110,7 +111,7 @@ Release notes
 
 </td><td>
 
-[AI Control Tower release notes](https://www.servicenow.com/docs/access?context=ai-control-tower-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US)
+
 
 </td></tr><tr><td>
 
@@ -134,7 +135,7 @@ Release notes
 
 </td><td>
 
-[Document Intelligence release notes](https://www.servicenow.com/docs/access?context=document-intelligence-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US)
+
 
 </td></tr><tr><td>
 
@@ -284,29 +285,29 @@ Release notes
 
 </td><td>
 
-[Now Assist release notes](https://www.servicenow.com/docs/access?context=now-assist-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US)
 
- [Now Assist for Creator release notes](https://www.servicenow.com/docs/access?context=now-assist-for-creator-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US)
-
- 
-
- [Now Assist in Document Intelligence release notes](https://www.servicenow.com/docs/access?context=now-assist-document-intelligence-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US)
-
- [Now Assist for Enterprise Architecture \(EA\) release notes](https://www.servicenow.com/docs/access?context=now-assist-for-ea-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US)
-
- 
-
- [Now Assist for IT Service Management \(ITSM\) release notes](https://www.servicenow.com/docs/access?context=now-assist-for-itsm-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US)
 
  
 
  
 
- [Now Assist for Strategic Portfolio Management \(SPM\) release notes](https://www.servicenow.com/docs/access?context=now-assist-for-spm-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US)
+ 
 
- [Now Assist in Virtual Agent release notes](https://www.servicenow.com/docs/access?context=now-assist-va-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US)
+ 
 
- [Generative AI Controller release notes](https://www.servicenow.com/docs/access?context=generative-ai-controller-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US)
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
 
 </td></tr><tr><td>
 
@@ -424,7 +425,7 @@ Release notes
 
 </td><td>
 
-[Predictive Intelligence release notes](https://www.servicenow.com/docs/access?context=predictive-intelligence-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US)
+
 
 </td></tr><tr><td>
 

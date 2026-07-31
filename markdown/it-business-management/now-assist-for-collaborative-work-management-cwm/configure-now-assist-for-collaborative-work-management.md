@@ -2,6 +2,7 @@
 title: Configure Now Assist for Collaborative Work Management \(CWM\)
 description: If you have the admin role, you can configure the implementation for the Now Assist for CWM application so that your team members can utilize generative AI skills in the CWM workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/now-assist-for-collaborative-work-management-cwm/configure-now-assist-for-collaborative-work-management.html
 release: australia
 product: Now Assist for Collaborative Work Management \(CWM\)
 classification: now-assist-for-collaborative-work-management-cwm
@@ -17,9 +18,9 @@ If you have the admin role, you can configure the implementation for the Now Ass
 
 ## Before you begin
 
--   The minimum version of CWM application that is required to support Now Assist for CWM features is v6.0.0 and later. If you're on earlier versions, upgrade your app through Application Manager. See [Update an application or plugin](https://www.servicenow.com/docs/access?context=update-application-app-mgr&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
--   Install the Now Assist for Collaborative Work Management \(CWM\) plugin \(sn\_cwm\_ai\). See [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
--   [Activate the Now Assist panel standard chat](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+-   The minimum version of CWM application that is required to support Now Assist for CWM features is v6.0.0 and later. If you're on earlier versions, upgrade your app through Application Manager. See [Update an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/update-application-app-mgr.md).
+-   Install the Now Assist for Collaborative Work Management \(CWM\) plugin \(sn\_cwm\_ai\). See [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+-   [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 Role required: admin
 
@@ -51,7 +52,7 @@ Use the Now Assist Admin console to activate the following skills of Now Assist 
 
 4.  Review the skill configuration settings from the following sections.
 
-    To edit the inputs, switch your application scope to **Now Assist for Collaborative Work Management \(CWM\)**. For more information on these inputs, see [Skill inputs for Now Assist for Collaborative Work Management \(CWM\)](../reference/skill-inputs-now-assist-for-cwm.md).
+    To edit the inputs, switch your application scope to **Now Assist for Collaborative Work Management \(CWM\)**. For more information on these inputs, see [Skill inputs for Now Assist for Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-collaborative-work-management-cwm/skill-inputs-now-assist-for-cwm.md).
 
     **Note:** The display options are available based on the skill.
 
@@ -82,12 +83,12 @@ The skill is successfully activated.
 
 Return to the CWM skill grouping and repeat the process to activate any remaining skills.
 
-If you have custom roles that require access to a skill, update the ACLs for those roles that require access. For more information, see [Implement access control in Now Assist AI agents](https://www.servicenow.com/docs/access?context=aia-security-implementation&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+If you have custom roles that require access to a skill, update the ACLs for those roles that require access. For more information, see [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md).
 
 **Related topics**  
 
 
-[Supporting information for Now Assist for Collaborative Work Management \(CWM\)](../reference/supporting-information-now-assist-for-cwm.md)
+[Supporting information for Now Assist for Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-collaborative-work-management-cwm/supporting-information-now-assist-for-cwm.md)
 
-[Skill inputs for Now Assist for Collaborative Work Management \(CWM\)](../reference/skill-inputs-now-assist-for-cwm.md)
+[Skill inputs for Now Assist for Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-collaborative-work-management-cwm/skill-inputs-now-assist-for-cwm.md)
 

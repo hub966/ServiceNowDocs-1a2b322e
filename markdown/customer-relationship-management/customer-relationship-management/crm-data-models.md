@@ -16,7 +16,7 @@ The CRM portfolio is built on a layered data architecture where each tier inheri
 
 The CRM portfolio is organized into four tiers.
 
-![Architecture that shows the Now platform as the bottom layer, with CRM foundation components, Customer Workflows, and Industry Workflows.](../image/crm-product-architecture-ai-platform.png "CRM product architecture")
+\[Omitted image "crm-product-architecture-ai-platform.png"\] Alt text: Architecture that shows the Now platform as the bottom layer, with CRM foundation components, Customer Workflows, and Industry Workflows.
 
 At the base, the Now Platform provides the core tables, AI capabilities, and engines that every ServiceNow product inherits. Above that, the CRM Foundation defines the shared data objects \(Customer, Organization, Territory, Product, and Pricing\) along with shared engines and the transactional objects \(Opportunity, Quote, Order, Install Base, Contract, Case, Work Order\) that all CRM products use. The Customer Workflows tier delivers the three core CRM products at the same level: Sales CRM, Customer Service Management \(CSM\), and Field Service Management \(FSM\). At the top, Industry Workflows provide preconfigured solutions for verticals including Telecom, Technology, Financial Services, Public Sector, Healthcare, Retail, and Manufacturing.
 
@@ -148,13 +148,13 @@ This structural connection is what makes the sell, fulfill, and service story co
 **Related topics**  
 
 
-[Customer data](https://www.servicenow.com/docs/access?context=customer-data&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[Customer data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-data.md)
 
-[User management](https://www.servicenow.com/docs/access?context=user-management&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[User management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/user-management.md)
 
-[Product data](https://www.servicenow.com/docs/access?context=product-data&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[Product data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/product-data.md)
 
-[Data models](https://www.servicenow.com/docs/access?context=data-models&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[Data models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/data-models.md)
 
-[Configure Service Model Foundation](https://www.servicenow.com/docs/access?context=configure-industry-data-model&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[Configure Service Model Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-industry-data-model.md)
 

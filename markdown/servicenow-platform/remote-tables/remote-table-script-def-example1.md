@@ -2,6 +2,7 @@
 title: Example 1: Retrieving all incident records from an external source
 description: These are examples of script definitions you might create for retrieval and caching of data from sources external to your current instance. In this first example, we create a script to load all incident records from an external source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/remote-tables/remote-table-script-def-example1.html
 release: australia
 product: Remote Tables
 classification: remote-tables
@@ -17,9 +18,9 @@ These are examples of script definitions you might create for retrieval and cach
 
 For Remote Table API information, refer to:
 
--   [v\_query – Scoped, Global](https://www.servicenow.com/docs/access?context=v_queryAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
--   [v\_record - Scoped, Global](https://www.servicenow.com/docs/access?context=v_recordAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
--   [v\_table – Scoped, Global](https://www.servicenow.com/docs/access?context=v_tableAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+-   [v\_query – Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/v_queryAPI.md)
+-   [v\_record - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/v_recordAPI.md)
+-   [v\_table – Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/v_tableAPI.md)
 
 ```javascript
 /**
@@ -120,7 +121,7 @@ function fetchAllIncidents(v_table, v_query) {
 
 You can create a RestMessage and directly use it in the script. In this example, it uses a RESTMessageV2 API with the name of `Remote Instance Incidents`, and the function `All Incidents`, which gets all incident data. Once a response is returned from the server, an error message appears if problems are encountered in the data retrieval.
 
-**Note:** To learn more about use of RESTMessageV2 and how to define a direct message, see [RESTMessageV2 - Scoped, Global](https://www.servicenow.com/docs/access?context=c_RESTMessageV2API&version=australia&pubname=australia-api-reference&ft:locale=en-US) and [Direct RESTMessageV2 example](https://www.servicenow.com/docs/access?context=r_DirectRESTMessageV2Example&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+**Note:** To learn more about use of RESTMessageV2 and how to define a direct message, see [RESTMessageV2 - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_RESTMessageV2API.md) and [Direct RESTMessageV2 example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/r_DirectRESTMessageV2Example.md).
 
 If no problems are encountered in the data retrieval, it gets the data body for the records.
 
@@ -169,16 +170,16 @@ It then uses the Transformer API to perform any required data transformations, e
 
 **Note:** You must map a sys\_id in the transformer definition to an element in the external data. In this case, the sys\_id is mapped to the external incident sys\_id. The maximum length of the sys\_id is 32 characters. You do this sys\_id mapping so forms that use the external data can operate properly.
 
-**Parent Topic:**[Create script definitions for a remote table](../task/create-remote-table-script.md)
+**Parent Topic:**[Create script definitions for a remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/create-remote-table-script.md)
 
 **Related topics**  
 
 
-[Debugging remote table script definitions](debugging-remote-table-scripts.md)
+[Debugging remote table script definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/debugging-remote-table-scripts.md)
 
-[TransformerDefinition API - Scoped, Global](https://www.servicenow.com/docs/access?context=TransformerDefinitionAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[TransformerDefinition API - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/TransformerDefinitionAPI.md)
 
-[TransformerRuleList API - Scoped, Global](https://www.servicenow.com/docs/access?context=TransformerRuleListAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[TransformerRuleList API - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/TransformerRuleListAPI.md)
 
-[TransformerScripted API - Scoped, Global](https://www.servicenow.com/docs/access?context=TransformerScriptedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[TransformerScripted API - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/TransformerScriptedAPI.md)
 

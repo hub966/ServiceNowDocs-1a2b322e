@@ -2,6 +2,7 @@
 title: Set preferences for security event notifications
 description: Configure preferences for the types of notifications you want to receive for occurrences of specific security events. For each type, you designate whether to receive notifications by email, by push notification in Now Mobile, or in third party messaging applications such as Slack or Microsoft Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/enable-notification-preferences.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Configure preferences for the types of notifications you want to receive for occ
 
 ## Before you begin
 
-To enable third party messaging applications to send security event notifications, you must activate the Messaging Notification \(com.glide.notification.messaging\) plugin. Individual users must configure their own settings. For details, see [Notifications in messaging applications](https://www.servicenow.com/docs/access?context=messaging-integration&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+To enable third party messaging applications to send security event notifications, you must activate the Messaging Notification \(com.glide.notification.messaging\) plugin. Individual users must configure their own settings. For details, see [Notifications in messaging applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/messaging-integration.md).
 
 Role required: admin.
 
@@ -53,7 +54,7 @@ Failed Login
 
 </td><td>
 
-Send the selected type of notification whenever other users fail to log in into this instance in less than the number of attempts defined in the **glide.user.max\_unlock\_attempts** property. If you don't configure this property, the default value is 5. To learn more about this property, see [Specify lockout for failed login attempts](t_LockoutForFailedLogins.md).
+Send the selected type of notification whenever other users fail to log in into this instance in less than the number of attempts defined in the **glide.user.max\_unlock\_attempts** property. If you don't configure this property, the default value is 5. To learn more about this property, see [Specify lockout for failed login attempts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_LockoutForFailedLogins.md).
 
 </td></tr><tr><td>
 
@@ -61,7 +62,7 @@ HP Role Added
 
 </td><td>
 
-Send the selected type of notification whenever a high privilege security role \(including oauth\_admin, admin, security\_admin, and impersonator roles\) is granted to another user.To learn more about elevating user security, see [Elevate to a privileged role](t_ElevateToAPrivilegedRole.md) and [Elevated privilege roles](../concept/c_ElevatedPrivilege.md).
+Send the selected type of notification whenever a high privilege security role \(including oauth\_admin, admin, security\_admin, and impersonator roles\) is granted to another user.To learn more about elevating user security, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ElevateToAPrivilegedRole.md) and [Elevated privilege roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_ElevatedPrivilege.md).
 
 </td></tr><tr><td>
 
@@ -69,7 +70,7 @@ Impersonation
 
 </td><td>
 
-Send the selected type of notification whenever another user is impersonating you.To learn more about impersonating users, see [Impersonate a user](https://www.servicenow.com/docs/access?context=c_ImpersonateAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Send the selected type of notification whenever another user is impersonating you.To learn more about impersonating users, see [Impersonate a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ImpersonateAUser.md).
 
 </td></tr><tr><td>
 
@@ -94,15 +95,15 @@ Send a weekly digest on the selected type of notification. It includes:-   A sum
 
     You can select multiple notification methods for each.
 
-<table id="choicetable_amb_lb4_mnb"><thead><tr><th align="left" id="d33157e212">
+<table id="choicetable_amb_lb4_mnb"><thead><tr><th align="left" id="d33708e212">
 
 Check box
 
-</th><th align="left" id="d33157e215">
+</th><th align="left" id="d33708e215">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d33157e221">
+</th></tr></thead><tbody><tr><td id="d33708e221">
 
 **Email**
 
@@ -110,7 +111,7 @@ Description
 
 Send an email for this type of security event.
 
-</td></tr><tr><td id="d33157e230">
+</td></tr><tr><td id="d33708e230">
 
 **Slack**
 
@@ -118,7 +119,7 @@ Send an email for this type of security event.
 
 Send notifications for this type of security event through Slack. **Note:** This column appears only if you have set up Slack integration to the ServiceNow AI Platform.
 
-</td></tr><tr><td id="d33157e251">
+</td></tr><tr><td id="d33708e251">
 
 **Teams**
 
@@ -126,7 +127,7 @@ Send notifications for this type of security event through Slack. **Note:** This
 
 Send notifications for this security event through Microsoft Teams.**Note:** This column appears only if you have set up Microsoft Teams integration to the ServiceNow AI Platform.
 
-</td></tr><tr><td id="d33157e272">
+</td></tr><tr><td id="d33708e272">
 
 **Push**
 
@@ -134,7 +135,7 @@ Send notifications for this security event through Microsoft Teams.**Note:** Thi
 
 Send push notifications on Now Mobile for this type of security event. **Note:** This column appears only if you first log into Now Mobile.
 
-</td></tr><tr><td id="d33157e291">
+</td></tr><tr><td id="d33708e291">
 
 **Select All**
 
@@ -146,5 +147,5 @@ Select a specific type of notification for all types security events. For exampl
 </table>3.  Click **Save**.
 
 
-**Parent Topic:**[Monitor security events](../concept/instance-sec-center-event-ribbon.md)
+**Parent Topic:**[Monitor security events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-sec-center-event-ribbon.md)
 

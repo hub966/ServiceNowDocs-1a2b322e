@@ -2,6 +2,7 @@
 title: Create a questionnaire for a work order or task
 description: Create a questionnaire record and then associate it with Work Order Task table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/create-questionnaire-for-work-order.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -45,7 +46,7 @@ The administrator can view questionnaire records from the Questionnaire list and
 
 4.  Select **Submit**.
 
-    ![questionnaire form](../image/create-questionnaire.png)
+    \[Omitted image "create-questionnaire.png"\] Alt text: questionnaire form
 
     The system creates the record, displays the Questionnaire form, and adds the **Questionnaire Designer** button.
 
@@ -53,7 +54,7 @@ The administrator can view questionnaire records from the Questionnaire list and
 
     The Survey Designer tool opens in a new window.
 
-6.  To create the questions or checklist items that appear on the questionnaire, use the [Survey designer](https://www.servicenow.com/docs/access?context=c_SurveyDesigner&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) tool.
+6.  To create the questions or checklist items that appear on the questionnaire, use the [Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesigner.md) tool.
 
 7.  Select **Save** and close the Survey Designer window.
 
@@ -71,5 +72,5 @@ To edit a questionnaire, open the form, make your changes, and select **Update**
 **Related topics**  
 
 
-[Complete a questionnaire for a work order or task](complete-wo-or-task-questionnaire.md)
+[Complete a questionnaire for a work order or task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/complete-wo-or-task-questionnaire.md)
 

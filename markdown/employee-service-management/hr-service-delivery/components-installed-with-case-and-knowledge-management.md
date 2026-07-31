@@ -2,6 +2,7 @@
 title: Components installed with Case and Knowledge Management
 description: Several types of components install with the activation of the Case and Knowledge Management plugin, including tables, user roles, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/components-installed-with-case-and-knowledge-management.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Case and Knowledge Management, HR Service Delivery, Empl
 
 Several types of components install with the activation of the Case and Knowledge Management plugin, including tables, user roles, and scheduled jobs.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 Demo data is available for this feature.
 
@@ -302,11 +303,11 @@ Grants access to write all HR cases, write basic user profile information, write
 </td></tr></tbody>
 </table>You can assign these roles to the appropriate roles, groups, or users in your application.
 
--   To assign a role to another role, see [Add a role to an existing role](https://www.servicenow.com/docs/access?context=t_AddARoleToAnExistingRole&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
--   To assign a role to a group, see [Assign a role to a group](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
--   To assign a role to a user, see [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   To assign a role to another role, see [Add a role to an existing role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddARoleToAnExistingRole.md).
+-   To assign a role to a group, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignRoleToGroup.md).
+-   To assign a role to a user, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignARoleToAUser.md).
 
-For further information on user administration and how to manage users, see [User administration](https://www.servicenow.com/docs/access?context=c_UserAdministration&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For further information on user administration and how to manage users, see [User administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UserAdministration.md).
 
 ## Scheduled jobs installed
 
@@ -359,11 +360,11 @@ Update Client Roles
 Updates role assignments for HR profiles that are beginning or ending their employment based on the HR condition table. This scheduled job runs daily.**Note:** The base system assigns the HR Admin \(hradmin\) user to this scheduled job. If you delete the HR Admin user, ensure that you assign another user with the HR admin \(sn\_hr\_core.admin\) role to this scheduled job.
 
 </td></tr></tbody>
-</table>For further information on scheduled jobs and how to use them, see [Scheduled jobs](https://www.servicenow.com/docs/access?context=c_ScheduledJobs&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+</table>For further information on scheduled jobs and how to use them, see [Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ScheduledJobs.md).
 
 ## Tables installed
 
-The \* next to a table indicates it was deprecated for customers taking the Rome release to support a new data model. Existing customers using the legacy COEs and tables are not affected. These tables have been replaced by the Employee Relations feature. For more information, see [Employee Relations](../concept/hr-case-employee-relations.md).
+The \* next to a table indicates it was deprecated for customers taking the Rome release to support a new data model. Existing customers using the legacy COEs and tables are not affected. These tables have been replaced by the Employee Relations feature. For more information, see [Employee Relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-case-employee-relations.md).
 
 <table id="table_pfy_pqk_hbb"><thead><tr><th>
 
@@ -383,7 +384,7 @@ Contains information about an allegation type and subtype.**Note:** A non-metada
 
 </td></tr><tr><td>
 
-\*Allegation Subtype\[sn\_hr\_core\_allegation\_sub\_type\]
+\*Allegation Subtype\[sn\_hr\_er\_allegation\_sub\_type\]
 
 </td><td>
 
@@ -392,7 +393,7 @@ Metadata table that provides 59 records to the base system. Allegation subtypes 
 
 </td></tr><tr><td>
 
-\*Allegation Type\[sn\_hr\_core\_allegation\_type\]
+\*Allegation Type\[sn\_hr\_er\_allegation\_type\]
 
 </td><td>
 
@@ -1088,5 +1089,5 @@ Who is covered\[sn\_hr\_core\_who\_is\_covered\]
 Who is covered table.
 
 </td></tr></tbody>
-</table>For further information on table administration and how to manage data, see [Table administration](https://www.servicenow.com/docs/access?context=c_TableAdministration&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+</table>For further information on table administration and how to manage data, see [Table administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TableAdministration.md).
 

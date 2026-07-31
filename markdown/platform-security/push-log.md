@@ -2,6 +2,7 @@
 title: Push logs
 description: Consult the push log to track the status of push notifications that are queued to send from your system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/push-log.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -73,5 +74,5 @@ Status to indicate whether the push notification has been sent. The Type column 
 </table>**Related topics**  
 
 
-[Scheduled jobs](https://www.servicenow.com/docs/access?context=c_ScheduledJobs&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ScheduledJobs.md)
 

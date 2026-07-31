@@ -2,6 +2,7 @@
 title: Configure AI Data Explorer and Query Generation skills
 description: You can configure the AI Data Explorer and Query Generation skills to provide AI-assisted data exploration features and generate insights in Enterprise Architecture Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/configure-ai-data-explr-qry-genr-skills.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ You can configure the AI Data Explorer and Query Generation skills to provide AI
 
 ## Before you begin
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 Role required:
 
@@ -30,7 +31,7 @@ Configuring AI Data Explorer and Query Generation skills enables you to use a co
 
 1.  AI Data Explorer skills.
 
-    For information on how to activate AI Data Explorer skills, see [Activate AI Data Explorer skills](https://www.servicenow.com/docs/access?context=activate-now-ass-explorer&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+    For information on how to activate AI Data Explorer skills, see [Activate AI Data Explorer skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/activate-now-ass-explorer.md).
 
     **Note:**
 
@@ -42,7 +43,7 @@ Configuring AI Data Explorer and Query Generation skills enables you to use a co
     -   **Data visualization generation**
 2.  Activate Query Generation skills.
 
-    For information on how to Activate Query Generation skills, see [Query Generation skills](https://www.servicenow.com/docs/access?context=enable-query-generation&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+    For information on how to Activate Query Generation skills, see [Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/enable-query-generation.md).
 
     **Note:** Activate the following skills for Enterprise Architecture Workspace dashboard insights:
 
@@ -50,15 +51,15 @@ Configuring AI Data Explorer and Query Generation skills enables you to use a co
     -   **Analytics hidden insights generation**
 3.  Configure AI Search.
 
-    For information on how to configure AI Search, see [Configuring AI Search](https://www.servicenow.com/docs/access?context=configuring-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+    For information on how to configure AI Search, see [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configuring-ais.md)
 
 
-**Parent Topic:**[Configure Now Assist for Enterprise Architecture \(EA\)](configure-now-assist-ea.md)
+**Parent Topic:**[Configure Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/configure-now-assist-ea.md)
 
 **Related topics**  
 
 
-[Generate insights for Enterprise Architecture Workspace dashboard widgets](generate-insights-ea-dashboard.md)
+[Generate insights for Enterprise Architecture Workspace dashboard widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/generate-insights-ea-dashboard.md)
 
-[Explore the Enterprise Architecture Workspace dashboard](../../../use/dashboards/concept/eaw-workspace-dashboard.md)
+[Explore the Enterprise Architecture Workspace dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-workspace-dashboard.md)
 

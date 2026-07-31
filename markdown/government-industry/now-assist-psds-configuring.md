@@ -2,6 +2,7 @@
 title: Configure Now Assist for Public Sector Digital Services \(PSDS\)
 description: If you have the admin role, you can configure the Now Assist for Public Sector Digital Services \(PSDS\) application so that your agents and managers can use the generative-AI skills in CSM Configurable Workspace and in Core UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/now-assist-psds-configuring.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,7 +14,7 @@ breadcrumb: [Now Assist for PSDS, Public Sector Digital Services \(PSDS\)]
 
 If you have the admin role, you can configure the Now Assist for Public Sector Digital Services \(PSDS\) application so that your agents and managers can use the generative-AI skills in CSM Configurable Workspace and in Core UI.
 
-Use the Now Assist Admin console to configure Now Assist for Public Sector Digital Services \(PSDS\). This console contains everything that you need to install the available Now Assist plugins and configure generative AI skills. For additional information, see [Overview tab in Now Assist Admin](https://www.servicenow.com/docs/access?context=configuring-now-assist&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Use the Now Assist Admin console to configure Now Assist for Public Sector Digital Services \(PSDS\). This console contains everything that you need to install the available Now Assist plugins and configure generative AI skills. For additional information, see [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
 
 The following table lists the features and skills that are available for use with Now Assist for Public Sector Digital Services \(PSDS\) and are accessible through the Now Assist Admin console.
 
@@ -65,5 +66,5 @@ Search
 </td></tr></tbody>
 </table>**Note:**
 
-Now LLM Service is currently the only provider for this Now Assist application's skills.
+Now LLM Service is currently the only provider for this application's skills.
 

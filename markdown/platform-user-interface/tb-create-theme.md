@@ -2,6 +2,7 @@
 title: Create a theme with Theme Builder
 description: Create a theme record for your web or mobile experiences by using the Home view in the Theme Builder application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/tb-create-theme.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,7 +19,7 @@ Create a theme record for your web or mobile experiences by using the Home view 
 
 Role required: ui\_builder\_admin
 
-For information on granular roles, see [Granular admin roles](https://www.servicenow.com/docs/access?context=granular-admin-roles&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For information on granular roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/granular-admin-roles.md).
 
 ## Procedure
 
@@ -26,7 +27,7 @@ For information on granular roles, see [Granular admin roles](https://www.servic
 
     The Theme Builder landing page opens in a new tab and is displayed in the Home page view.
 
-    ![Theme Builder Home screen](../image/tb-home.png "Theme Builder Home screen")
+    \[Omitted image "tb-home.png"\] Alt text: Theme Builder Home screen
 
 2.  Select **Create a theme**.
 
@@ -38,7 +39,7 @@ For information on granular roles, see [Granular admin roles](https://www.servic
 
     **Note:** In the Color Name dialog box, you can select the color model that you prefer: HEX, RGB, or HSL.
 
-    ![Your brand's primary color](../image/tb-select-primary-color.png "Your brand's primary color")
+    \[Omitted image "tb-select-primary-color.png"\] Alt text: Your brand's primary color
 
 5.  After you identify the primary color of your brand, select **Apply**.
 
@@ -58,7 +59,7 @@ For information on granular roles, see [Granular admin roles](https://www.servic
 
     **Note:** From this screen, you can edit any part of the theme before selecting **Create theme**. After the theme is created, any changes you make are automatically saved.
 
-    ![Final review screen showing theme information, brand colors, and a preview before creating the theme.](../image/tb-nap-wizard-flow-summary.png "Theme details and final preview before creation")
+    \[Omitted image "tb-nap-wizard-flow-summary.png"\] Alt text: Final review screen showing theme information, brand colors, and a preview before creating the theme.
 
 
 ## Result
@@ -67,7 +68,7 @@ Your theme is saved as a draft in Theme Builder and appears in the Unpublished s
 
 ## What to do next
 
-After creating your theme in the wizard, you are directed to the Editor view of the theme where you can continue [modifying](tb-edit-theme.md) or [publish your theme](tb-apply-theme.md).
+After creating your theme in the wizard, you are directed to the Editor view of the theme where you can continue [modifying](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-edit-theme.md) or [publish your theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-apply-theme.md).
 
-**Parent Topic:**[Configuring Next Experience with Theme Builder](configuring-next-experience-with-theme-builder.md)
+**Parent Topic:**[Configuring Next Experience with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configuring-next-experience-with-theme-builder.md)
 

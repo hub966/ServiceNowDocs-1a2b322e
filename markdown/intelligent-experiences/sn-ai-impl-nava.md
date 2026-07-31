@@ -2,6 +2,7 @@
 title: Now Assist in Virtual Agent readiness on the ServiceNow AI Platform
 description: Now Assist enhances Virtual Agent with AI-driven capabilities that understand natural language, guide users through complex tasks, and deliver high-confidence answers without relying on rigid keyword matching or manual configurations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/sn-ai-impl-nava.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -32,7 +33,7 @@ Now Assist in Virtual Agent provides the following features:
 
     Users can request Service Catalog items using natural conversation. Virtual Agent asks clarifying questions and confirms the user's intent before completing the request.
 
-    **Note:** Service Catalog items must be marked as conversational to work with Virtual Agent. For details, see [Catalog item conversational details page overview](https://www.servicenow.com/docs/access?context=using-catalog-conversational-experience&version=australia&pubname=australia-servicenow-platform&section=catalog-item-conv-details-page-overview&ft:locale=en-US).
+    **Note:** Service Catalog items must be marked as conversational to work with Virtual Agent. For details, see .
 
 -   Multi-turn Q&amp;A
 
@@ -49,7 +50,7 @@ Setting up Now Assist in Virtual Agent requires customizing or creating a new LL
 
     To set up Now Assist in Virtual Agent, you configure an assistant.
 
-    See: [Configuring assistants overview](https://www.servicenow.com/docs/access?context=configure-now-assist-va&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+    See: 
 
 -   **2. Review your Virtual Agent topic inventory**
 
@@ -59,15 +60,15 @@ Setting up Now Assist in Virtual Agent requires customizing or creating a new LL
 
     See:
 
-    -   [Conversational Analytics dashboard in Platform Analytics experience](https://www.servicenow.com/docs/access?context=VA-dashboard-landing-page-pae&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
-    -   [Create an Automation Discovery report](https://www.servicenow.com/docs/access?context=create-auto-discovry-report&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+    -   [Conversational Analytics dashboard in Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/VA-dashboard-landing-page-pae.md)
+    -   [Create an Automation Discovery report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-auto-discovry-report.md)
 -   **Review your knowledge base**
 
     Identify KB articles that can self-serve any of the top intents you identified.
 
     Why? This simplifies topic management and enables self-service.
 
-    See: [Knowledge Base readiness for Now Assist on the ServiceNow AI Platform](sn-ai-impl-kb-readiness.md)
+    See: [Knowledge Base readiness for Now Assist on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-impl-kb-readiness.md)
 
 -   **4. Migrate NLU topics to LLM**
 
@@ -75,7 +76,7 @@ Setting up Now Assist in Virtual Agent requires customizing or creating a new LL
 
     Why? Leverage existing Virtual Agent topics with minimal effort.
 
-    See: [Migrating NLU/keyword Virtual Agent topics to LLM topics](https://www.servicenow.com/docs/access?context=llm-topic-migration&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+    See: 
 
 -   **5. Review Service Catalog items**
 
@@ -83,7 +84,7 @@ Setting up Now Assist in Virtual Agent requires customizing or creating a new LL
 
     Why? To avoid redundancy and eliminate the need to create new Virtual Agent topics.
 
-    See: [Service Catalog readiness for Now Assist on the ServiceNow AI Platform](sn-ai-impl-srvc-catalog.md)
+    See: [Service Catalog readiness for Now Assist on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-impl-srvc-catalog.md)
 
 -   **Review LLM Virtual Agent topics that come with Now Assist**
 
@@ -91,25 +92,25 @@ Setting up Now Assist in Virtual Agent requires customizing or creating a new LL
 
     Why? New LLM versions of older NLU Virtual Agent topics reduce rework.
 
-    See: [ITSM Virtual Agent pre-built LLM topics](https://www.servicenow.com/docs/access?context=itsm-va-prebuilt-topics&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+    See: 
 
 
 ## Tips
 
 -   When migrating legacy NLU topics, ensure that you optimize topic descriptions so that the topic is clearly described and aligned with the intent and expected results.
 
-    For details, see [LLM description and instruction guidelines for Virtual Agent topics](https://www.servicenow.com/docs/access?context=va-llm-description-guidelines&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+    For details, see .
 
 -   You can customize the look of your assistant and the chat experience during guided setup.
 
-    For details, see [Brand an assistant](https://www.servicenow.com/docs/access?context=brand-assistant&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+    For details, see .
 
 -   You can choose the chat experience you want for each assistant:
-    -   [Standard chat](https://www.servicenow.com/docs/access?context=nava-standard-chat&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
-    -   [Enhanced chat](https://www.servicenow.com/docs/access?context=nava-enhanced-chat&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+    -   
+    -   
 -   You can integrate Now Assist in Virtual Agent with Microsoft Teams.
 
-    For details, see [Integrating Now Assist in Virtual Agent with Microsoft Teams](https://www.servicenow.com/docs/access?context=integrating-now-assist-va-msteams&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+    For details, see .
 
 
 For more information about conversational catalogs in AI, see the following information from ServiceNow Community and YouTube:

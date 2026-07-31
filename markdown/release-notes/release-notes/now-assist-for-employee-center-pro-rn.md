@@ -27,11 +27,11 @@ Now Assist for Employee Center Pro only provides employee or requester conversat
 
 ## New in the Australia release
 
--   **[Manage approvals with Now Assist Approval Assistance AI agent](https://www.servicenow.com/docs/access?context=manage-approvals-with-approvals-agent&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   ****
 
     Accelerate request approvals by automatically aggregating relevant details, validating requests against policies, and recommending approval decisions to managers.
 
--   **[Quick start tests for Employee Center](https://www.servicenow.com/docs/access?context=quick-start-tests-employee-center&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   ****
 
     After upgrades and deployments of new applications or integrations, run quick start tests to verify that Employee Center works as expected. If you customized Employee Center, copy the quick start tests and configure them for your customizations.
 
@@ -56,9 +56,9 @@ Now Assist for Employee Center Pro is a ServiceNow AI Platform feature that is a
     Now Assist for Employee Center Pro is layered with Employee Center Pro, a multi-department employee destination site that drives employee engagement and productivity. Now Assist, which improves productivity, efficiency, and self-service while empowering your users to search more effectively. AI Search, which enables your users to have a powerful consumer-grade search experience.
 
 
-**Parent Topic:**[Unified Employee Experience release notes](uex-rn-landing.md)
+**Parent Topic:**[Unified Employee Experience release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/uex-rn-landing.md)
 
-**Parent Topic:**[Now Assist and agentic AI release notes](../now-assist/now-assist-rn-landing.md)
+**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn-landing.md)
 
 **Related topics**  
 

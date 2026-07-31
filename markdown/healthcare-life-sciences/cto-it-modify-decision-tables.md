@@ -2,6 +2,7 @@
 title: Modify state decision tables in Care Team Operations for Healthcare IT
 description: Use Decision Builder to change the state mappings for cases and incidents in Care Team Operations for Healthcare IT.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-it-modify-decision-tables.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,13 +14,13 @@ breadcrumb: [Configure, Care Team Operations for Healthcare IT, Healthcare Opera
 
 Use Decision Builder to change the state mappings for cases and incidents in Care Team Operations for Healthcare IT.
 
-![HCIT state sync map](../image/cto-it-state-sync-1.png)
+\[Omitted image "cto-it-state-sync-1.png"\] Alt text: HCIT state sync map
 
 The HCIT case state sync map displays all current mappings between Healthcare IT case and incident states.
 
-To modify these state mappings, see [Modify decision table structure in Workflow Studio](https://www.servicenow.com/docs/access?context=format-decision-table-in-decision-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US)**.**
+To modify these state mappings, see **.**
 
-To learn more about decisions tables, see [Edit decision tables using draft authoring](https://www.servicenow.com/docs/access?context=edit-decision-tables-using-draft-authoring&version=australia&pubname=australia-build-workflows&ft:locale=en-US) and [Use decision tables](https://www.servicenow.com/docs/access?context=use-decision-tables&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+To learn more about decisions tables, see  and .
 
 The source table aligns with the input state and input sub state and the destination table aligns with the output state.
 

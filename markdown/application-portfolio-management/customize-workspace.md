@@ -2,6 +2,7 @@
 title: Show or hide sections on the home page of the EA Workspace
 description: Customize your workspace to display the components that you want to see.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/customize-workspace.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,8 +30,8 @@ For the Insights, Overview, and Health sections, you can hide some components if
 
 3.  In the Active column, select **True** or **False** to show or hide the component in the workspace.
 
-    **Note:** You can create a visualization configuration using the Platform Analytics Workspace. For instructions, see [Create a single score visualization in the Visualization Designer](https://www.servicenow.com/docs/access?context=create-dv-sing-sc-ac&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+    **Note:** You can create a visualization configuration using the Platform Analytics Workspace. For instructions, see [Create a single score visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-sing-sc-ac.md).
 
 
-**Parent Topic:**[Configuring Enterprise Architecture Workspace](../concept/eaw-concept/configure-eaw.md)
+**Parent Topic:**[Configuring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/configure-eaw.md)
 

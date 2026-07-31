@@ -2,6 +2,7 @@
 title: Domain separation and Notifications
 description: Domain separation is supported in the Notifications application. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/domain-separation-notifications.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,7 +23,7 @@ Domain separation is supported in the Notifications application. Domain separati
 
 Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
 ## Overview
 
@@ -51,42 +52,42 @@ Domain separation is not supported in email accounts for these reasons:
 1.  Sending mail: There is only one SMTP sender per account. This prohibits providing domains for each account, and they are not configurable.
 2.  For receiving Inbound mail: You can set up multiple email accounts but cannot meaningfully set the domain of an inbound email action. Inbound Actions are processed in the domain of the user who sent the email. For example: User\_A in Domain A sends an email to a ServiceNow email account which executes the “Create an incident” inbound email action. The resulting new incident created by the inbound action is in Domain A.
 
-To learn more see [Inbound email actions](c_InboundEmailActions.md).
+To learn more see [Inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_InboundEmailActions.md).
 
 **Note:** If the number of email accounts exceeds 20, reception of email slows down.
 
 ## Use case
 
-If an instance is using the [Domain separation plugin](https://www.servicenow.com/docs/access?context=c_DomainSeparationSetup&version=australia&pubname=australia-platform-security&ft:locale=en-US) and a new email notification is defined for a domain that has the same event as the notification on the global domain, the user receives two emails for the same event.
+If an instance is using the [Domain separation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainSeparationSetup.md) and a new email notification is defined for a domain that has the same event as the notification on the global domain, the user receives two emails for the same event.
 
-Solution: Set the \[sys\_overrides\] field on the notification that belongs to the domain so it overrides the setting on global. For more information, see [Delegated administration](https://www.servicenow.com/docs/access?context=c_DelegatedAdministration&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Solution: Set the \[sys\_overrides\] field on the notification that belongs to the domain so it overrides the setting on global. For more information, see [Delegated administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DelegatedAdministration.md).
 
-**Parent Topic:**[Email and SMS notifications](c_EmailNotifications.md)
+**Parent Topic:**[Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md)
 
 **Related topics**  
 
 
-[Create notification categories](../task/create-notification-categories.md)
+[Create notification categories]()
 
-[Create an email notification](../task/t_CreateANotification.md)
+[Create an email notification]()
 
-[Email notifications dashboard](email-notifications-dashboard.md)
+[Email notifications dashboard]()
 
-[Email diagnostics dashboard](email-diagnostics-dashboard.md)
+[Email diagnostics dashboard]()
 
-[Email templates](c_EmailTemplates.md)
+[Email templates]()
 
-[Email layouts](email-layouts.md)
+[Email layouts]()
 
-[Email retention](email-retention.md)
+[Email retention]()
 
-[Watermarks on notification emails](c_WorkingWithWatermarks.md)
+[Watermarks on notification emails]()
 
-[Parse an email thread](../task/parse-email.md)
+[Parse an email thread]()
 
-[Email digests](email-digests.md)
+[Email digests]()
 
-[Email FAQs and troubleshooting notification emails](troubleshooting-notification-emails.md)
+[Email FAQs and troubleshooting notification emails]()
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 

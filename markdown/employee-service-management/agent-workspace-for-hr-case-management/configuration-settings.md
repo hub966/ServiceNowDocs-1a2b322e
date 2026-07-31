@@ -2,6 +2,7 @@
 title: Page Configurations reference
 description: A description of the page configuration settings in Agent Workspace for HR Case Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/configuration-settings.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -87,7 +88,7 @@ Sidebar tabs visibility
 
 </td><td>
 
-List of tables associated with the sidebar tabs in [Contextual Side Panel](../concept/agent-ws-hr-case-mgmt-context-sidebar.md). To hide a sidebar tab from the Contextual Side Panel, remove its corresponding table entry from JSON file.
+List of tables associated with the sidebar tabs in [Contextual Side Panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-context-sidebar.md). To hide a sidebar tab from the Contextual Side Panel, remove its corresponding table entry from JSON file.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -135,7 +136,7 @@ Agent assist configuration
 
 </td><td>
 
-List of table names and sys\_id of the associated agent assist configuration record.**Note:** A sys\_id is a unique 32-character GUID \(Globally Unique ID\), that identifies each record in an instance. For more information, see [Unique record identifier \(sys\_id\)](https://www.servicenow.com/docs/access?context=c_UniqueRecordIdentifier&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+List of table names and sys\_id of the associated agent assist configuration record.**Note:** A sys\_id is a unique 32-character GUID \(Globally Unique ID\), that identifies each record in an instance. For more information, see [Unique record identifier \(sys\_id\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UniqueRecordIdentifier.md).
 
 To preview your configured setting before applying it on the case form, select **Preview**.
 
@@ -280,14 +281,14 @@ My frequently used apps
 Option to navigate to the Schedule Content page to configure the My frequently used apps section in landing page.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Workspace for HR Case Management reference](agent-ws-reference.md)
+</table>**Parent Topic:**[Agent Workspace for HR Case Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-reference.md)
 
 **Related topics**  
 
 
-[Create a new case form](case-creation-form-aws.md)
+[Create a case form]()
 
-[Highlighted value condition form](highlighted-value-form.md)
+[Highlighted value condition form]()
 
-[Bulk case request form](bulk-case-request-form.md)
+[Bulk case request form]()
 

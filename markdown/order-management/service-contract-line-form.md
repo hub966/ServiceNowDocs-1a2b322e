@@ -2,6 +2,7 @@
 title: Customer contract line form
 description: You can create customer contract lines in the Customer Contracts and Entitlements application by using the Customer Contract Line form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/service-contract-line-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -54,7 +55,7 @@ Account
 The name of the account associated with this customer contract.**Note:**
 
 -   A customer contract can be associated with either an account or a consumer.
--   An account can be created if no account is found by selecting **New** on the Accounts form. For more information on the fields in the Account form, see [Account form](https://www.servicenow.com/docs/access?context=customer-service-account-form&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+-   An account can be created if no account is found by selecting **New** on the Accounts form. For more information on the fields in the Account form, see [Account form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-account-form.md).
 
 </td></tr><tr><td>
 
@@ -86,7 +87,7 @@ Consumer
 
 </td><td>
 
-The name of the consumer associated with this contract.**Note:** If no consumer record is found, you can create a consumer and add it to the customer contract. For more information, see [Create a consumer record](https://www.servicenow.com/docs/access?context=create-a-consumer-record&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+The name of the consumer associated with this contract.**Note:** If no consumer record is found, you can create a consumer and add it to the customer contract. For more information, see [Create a consumer record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-a-consumer-record.md).
 
 </td></tr><tr><td>
 
@@ -290,5 +291,5 @@ Represents the total price of the contract line by calculating the roll-up amoun
 </td></tr></tbody>
 </table>**Note:** When a customer contract line item is created manually, the **Pricing method**, **Unit net price**, and **Periodicity** fields are invalid. They’re only applicable when the contract line is created by the Sales Customer Relationship Management workflow or by integration. In that case, these fields are auto-populated with the details from the related sold product. The start and end dates of a child customer contract line must be in between the start and end date of the associated parent customer contract line.
 
-**Parent Topic:**[Customer Contracts and Entitlements reference](../concept/pss-reference.md)
+**Parent Topic:**[Customer Contracts and Entitlements reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/pss-reference.md)
 

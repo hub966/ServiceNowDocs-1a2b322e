@@ -2,6 +2,7 @@
 title: Exploring Antivirus Scanning
 description: Use Antivirus Scanning to help protect your instance against virus infections that can be introduced by file attachments to your system records, such as incidents, problems, and stories.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/exploring-antivirus-scanning.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -34,7 +35,7 @@ The Antivirus Protection plugin \(com.glide.snap\) is activated and enabled by d
 
 ## Email scanning
 
-Inbound emails are scanned for viruses by the system [email filters](https://www.servicenow.com/docs/access?context=c_EmailFilters&version=australia&pubname=australia-platform-administration&ft:locale=en-US), not by Antivirus Scanning.
+Inbound emails are scanned for viruses by the system [email filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailFilters.md), not by Antivirus Scanning.
 
 ## File Attachment field in a table
 

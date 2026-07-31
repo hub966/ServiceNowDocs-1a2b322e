@@ -2,6 +2,7 @@
 title: Configure skill deployment settings
 description: Configure the deployment settings for the skill that you have created. The deployment settings enable you to choose where the admin can find the skill in Now Assist Admin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.html
 release: australia
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
@@ -112,7 +113,7 @@ Allows the skill to be triggered through the Now Assist Panel.
 
 </td><td>
 
-The Now Assist panel is the conversational interface found within the Now Assist Center, learn more about this feature at [Now Assist panel](../../now-assist-center/concept/now-assist-center-now-assist-panel.md).
+The Now Assist panel is the conversational interface found within the Now Assist Center, learn more about this feature at [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-now-assist-panel.md).
 
 </td></tr><tr><td>
 
@@ -128,7 +129,7 @@ After this option is selected, select a table, in the **Table** field, then sele
 
  **Note:** The created UI Action is inactive by default.
 
- Learn more about UI Actions at [Defining UI actions](https://www.servicenow.com/docs/access?context=c_UIActions&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+ Learn more about UI Actions at [Defining UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UIActions.md).
 
 </td></tr><tr><td>
 
@@ -140,7 +141,7 @@ Allows the skill to be used from a flow action. Once activated, you can access t
 
 </td><td>
 
-Details on the **Execute Skill** flow action can be found at [Execute Skill action](https://www.servicenow.com/docs/access?context=execute-skill-action&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+Details on the **Execute Skill** flow action can be found at .
 
 </td></tr><tr><td>
 
@@ -152,7 +153,7 @@ Makes the skill available for activation and use through the Now Assist context 
 
 </td><td>
 
-For details on the context menu, see[Now Assist context menu](../../now-assist-platform/concept/now-assist-write-overview.md).
+For details on the context menu, see[Now Assist context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-write-overview.md).
 
 </td></tr><tr><td>
 
@@ -164,7 +165,7 @@ Makes the skill available for activation and use in various chat experiences wit
 
 </td><td>
 
-For more information about Now Assist in Virtual Agent, see [Configuring assistants overview](https://www.servicenow.com/docs/access?context=configure-now-assist-va&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+For more information about Now Assist in Virtual Agent, see .
 
 </td></tr><tr><td>
 
@@ -176,24 +177,24 @@ Makes the skill available in UI Builder. You can find it in the Data and scripts
 
 </td><td>
 
-Learn how to use UI Builder to create web user interfaces at [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=australia&pubname=australia-application-development&ft:locale=en-US).
+Learn how to use UI Builder to create web user interfaces at [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md).
 
 </td></tr></tbody>
-</table>    **Tip:** You can select more than one deployment location. Selecting a location here makes it available for an admin to activate, but not activate the skill automatically. An admin must still activate the skill in Now Assist Admin. To learn more, see [Activate a skill](activate-skill.md).
+</table>    **Tip:** You can select more than one deployment location. Selecting a location here makes it available for an admin to activate, but not activate the skill automatically. An admin must still activate the skill in Now Assist Admin. To learn more, see [Activate a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/activate-skill.md).
 
 7.  Select **Save**.
 
 
 ## What to do next
 
-After you configure the skill settings, you can publish your skill. To learn more about publishing skills, see [Finalize and publish a skill](publish-skill.md).
+After you configure the skill settings, you can publish your skill. To learn more about publishing skills, see [Finalize and publish a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/publish-skill.md).
 
-**Parent Topic:**[Configuring Now Assist Skill Kit](../concept/configuring-now-assist-skill-kit.md)
+**Parent Topic:**[Configuring Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/configuring-now-assist-skill-kit.md)
 
 **Related topics**  
 
 
-[Configure a skill prompt](configure-skill-prompt.md)
+[Configure a skill prompt]()
 
-[Configure security controls for a skill](nask-access-control.md)
+[Configure security controls for a skill]()
 

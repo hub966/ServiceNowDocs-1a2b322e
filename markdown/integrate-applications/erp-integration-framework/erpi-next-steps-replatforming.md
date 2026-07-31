@@ -2,6 +2,7 @@
 title: Next steps after extracting data from your ERP system using Zero Copy Connector for ERP
 description: After you identify and extract ERP \(Enterprise Resource Planning\) data with Zero Copy Connector for ERP, you can use that data on the ServiceNow AI Platform as the data source for products and apps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erpi-next-steps-replatforming.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -9,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, extract, replatform, source, app]
-breadcrumb: [Building with ERP data, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Build with ERP data, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Next steps after extracting data from your ERP system using Zero Copy Connector for ERP
@@ -32,18 +33,18 @@ After ERP data is available on tables in the ServiceNow AI Platform, you can use
 
 Use any of the following ServiceNow builders to create apps using custom data:
 
--   [ServiceNow Studio](https://www.servicenow.com/docs/access?context=servicenow-studio-landing&version=australia&pubname=australia-application-development&ft:locale=en-US)
--   [Workflow Studio flows, subflows, and actions](https://www.servicenow.com/docs/access?context=workflow-studio-flows-subflows-and-actions-landing&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
--   [Workflow Studio playbooks](https://www.servicenow.com/docs/access?context=workflow-studio-playbooks-landing&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
--   [Table Builder](https://www.servicenow.com/docs/access?context=tb-landing-page&version=australia&pubname=australia-application-development&ft:locale=en-US)
--   [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=australia&pubname=australia-application-development&ft:locale=en-US)
--   [Workspace Builder](https://www.servicenow.com/docs/access?context=workspace-builder-landing&version=australia&pubname=australia-application-development&ft:locale=en-US)
+-   
+-   
+-   
+-   
+-   
+-   
 
 ## Using Glide to query ERP data
 
 You can also access data from the system of record through the Glide API.
 
-For more information, see [Sample Glide query for ERP data in Zero Copy Connector for ERP](../reference/erp-canvas-sample-glide-query-code.md).
+For more information, see [Sample Glide query for ERP data in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-sample-glide-query-code.md).
 
-**Parent Topic:**[Building with ERP data](erp-canvas-building-with-erp-data.md)
+**Parent Topic:**[Build with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-building-with-erp-data.md)
 

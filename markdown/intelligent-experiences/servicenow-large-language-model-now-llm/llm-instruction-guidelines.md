@@ -2,11 +2,12 @@
 title: General guidelines for writing instructions for generative AI large language models \(LLMs\)
 description: When using Now Assist products and skills, you may have the option to give specific instructions or other guidance to the LLM. Writing generative AI instructions is different from conducting a keyword search. Use the following general guidelines when crafting your instructions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/servicenow-large-language-model-now-llm/llm-instruction-guidelines.html
 release: australia
 product: ServiceNow Large Language Model \(Now LLM\)
 classification: servicenow-large-language-model-now-llm
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 8
 keywords: [LLM, Large language model, writing, guidelines, instructions, Now Assist, GenAI, Generative AI]
 breadcrumb: [Large language models on the ServiceNow AI Platform, Enable AI experiences]
@@ -47,7 +48,7 @@ Use instructions or questions to tell the LLM what you want. They can include fo
     Example: `Focus on email and Teams chats with [people] since June.`
 
 
-![Instructions for the LLM that includes a goal, some context, your expectations, and sources to be used.](../images/general-na-prompt-instructions.png "Sample LLM instructions")
+\[Omitted image "general-na-prompt-instructions.png"\] Alt text: Instructions for the LLM that includes a goal, some context, your expectations, and sources to be used.
 
 Continually test and refine your instructions. Creating good LLM instructions is an iterative process, and as the LLM model learns, you may want to modify your instructions over time.
 
@@ -72,7 +73,7 @@ Instructions should also be tailored to the type of task. The following table de
 |Create|Create a new ServiceNow component.|Write a new KB on common reasons for slow query execution and how to fix it, based on problems created in the last 12 months.|
 |Workflow|Leverage existing workflows and create conversations from them.|Reset my Okta password.|
 
-![Different kinds of LLM task instructions can be provided to the LLM, which then displays results to the requester. The types of instruction include answers, workflows, search, chat, and create.](../images/types-llm-task-instructions.png "LLM instruction workflow")
+\[Omitted image "types-llm-task-instructions.png"\] Alt text: Different kinds of LLM task instructions can be provided to the LLM, which then displays results to the requester. The types of instruction include answers, workflows, search, chat, and create.
 
 ## Providing context in your instructions
 
@@ -221,7 +222,7 @@ Evaluation of result
 </td></tr></tbody>
 </table>In some Now Assist applications, you may have the option to specify formatting. In those cases, you can tell the LLM to provide answers in a bulleted list, for example. Bulleted lists are often easier to read.
 
-![In the Now Assist Admin console, some skills allow you to specify formatting. The chat summarization skill has an option to render results in a bulleted list.](../images/enable-bulleted-list-chat-summarization.png "Enabling bulleted list results in the chat summarization skill")
+\[Omitted image "enable-bulleted-list-chat-summarization.png"\] Alt text: In the Now Assist Admin console, some skills allow you to specify formatting. The chat summarization skill has an option to render results in a bulleted list.
 
 ## Source
 
@@ -231,26 +232,26 @@ For developers, the sources that a skill or AI agent can access may vary dependi
 
 For more information about configuring sources for skill or AI agent use, see the following topic areas:
 
--   [AI Search](https://www.servicenow.com/docs/access?context=overview-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
--   [Now Assist in AI Search](https://www.servicenow.com/docs/access?context=now-assist-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
--   [External Content Connectors](https://www.servicenow.com/docs/access?context=ext-cont-connectors-landing-page&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
--   [Overview tab in Now Assist Admin](configuring-now-assist.md)
--   [Now Assist AI agents](../../now-assist-ai-agents/reference/na-ai-agents.md)
+-   
+-   
+-   
+-   [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md)
+-   [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md)
 
 ## Additional guidelines for Now Assist skills and tools
 
 |Skill|Reference|
 |-----|---------|
-|App generation|[General guidelines for using app generation](https://www.servicenow.com/docs/access?context=sns-app-gen-guidelines&version=australia&pubname=australia-application-development&ft:locale=en-US)|
-|Analytics generation|[Guidelines and example questions](https://www.servicenow.com/docs/access?context=example-questions-generating-dv&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)|
-|Catalog item generation|[Suggestions to describe catalog items](https://www.servicenow.com/docs/access?context=how-to-describe-catalog-item&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)|
-|Code generation|[General guidelines for code generation](https://www.servicenow.com/docs/access?context=general-guidelines-code-generation&version=australia&pubname=australia-api-reference&ft:locale=en-US)|
+|App generation||
+|Analytics generation|[Guidelines and example questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/example-questions-generating-dv.md)|
+|Catalog item generation||
+|Code generation||
 |Flow generation||
-|LLM topic skill for Virtual Agent|[LLM description and instruction guidelines for Virtual Agent topics](https://www.servicenow.com/docs/access?context=va-llm-description-guidelines&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)|
-|Now Assist Skill Kit|[General guidelines for Now Assist Skill Kit](../../now-assist-skill-kit/reference/na-skill-kit-guidelines.md)|
-|RPA bot generation|[General guidelines for RPA bot generation](https://www.servicenow.com/docs/access?context=rpa-bot-generation&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)|
-|Test generation|[Design considerations for prompting](https://www.servicenow.com/docs/access?context=tg-prompt-design-considerations&version=australia&pubname=australia-application-development&ft:locale=en-US)|
-|UI generation|[General guidelines UI generation](https://www.servicenow.com/docs/access?context=general-guidelines-ui-generation&version=australia&pubname=australia-application-development&ft:locale=en-US)|
+|LLM topic skill for Virtual Agent||
+|Now Assist Skill Kit|[General guidelines for Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/na-skill-kit-guidelines.md)|
+|RPA bot generation|General guidelines for RPA bot generation|
+|Test generation||
+|UI generation||
 
-**Parent Topic:**[Large language models on the ServiceNow AI Platform](../../general/concept/exploring-large-language-models.md)
+**Parent Topic:**[Large language models on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md)
 

@@ -2,6 +2,7 @@
 title: Preview an email from the Emails related list
 description: Preview emails directly from within cases. With this capability, you can select case-related emails and read the details in full view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/preview-email-cases.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,9 +22,9 @@ Role required: sn\_customerservice\_agent
 
 For information about adding or modifying actions on a form, see the following topics:
 
--   [Customizing your workspace with declarative actions](https://www.servicenow.com/docs/access?context=declarative-actions-landing&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
--   [Create a form action button](https://www.servicenow.com/docs/access?context=create-a-new-form-action&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
--   [Declarative actions glossary](https://www.servicenow.com/docs/access?context=declarative-actions-glossary&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+-   [Customizing your workspace with declarative actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/declarative-actions-landing.md)
+-   [Create a form action button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-a-new-form-action.md)
+-   [Declarative actions glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/declarative-actions-glossary.md)
 
 ## Procedure
 
@@ -39,7 +40,7 @@ For information about adding or modifying actions on a form, see the following t
 
     The email opens in a sub tab and displays the details.
 
-    ![Details tab displaying email information of a case record.](../image/email-tab.png)
+    \[Omitted image "email-tab.png"\] Alt text: Details tab displaying email information of a case record.
 
 5.  Select **Reply** or **Reply All** to reply to the message you’re viewing or select **Forward** to forward the email.
 

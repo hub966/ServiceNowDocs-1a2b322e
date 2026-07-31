@@ -2,6 +2,7 @@
 title: Agentic Workflow in Now Assist for Core Business Suite
 description: Agentic workflow in Now Assist for Core Business Suite supports the Core Business Suite setup process through a conversational interface.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/core-business-suite/using-ai-agent-workflows-na-cbs.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-23"
@@ -52,7 +53,7 @@ The following AI agents are used to support the conversational setup process for
 |Notification agent|Configures notification settings for CBS business units to support request, approval, and workflow notifications.|
 |CBS bulk upload agent|Processes bulk data uploads for Workplace Services and Source‑to‑Pay business units by importing records and configuration data.|
 
-For more information on the AI agents, see [Now Assist AI agents](https://www.servicenow.com/docs/access?context=na-ai-agents&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For more information on the AI agents, see [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md).
 
-**Parent Topic:**[Now Assist for Core Business Suite](now-assist-cbs.md)
+**Parent Topic:**[Now Assist for Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/now-assist-cbs.md)
 

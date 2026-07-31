@@ -16,7 +16,7 @@ Configurable workspace is a user interface that provides users with the tools an
 
 Configurable workspace is a flexible interface that displays tools and information for the tasks that a user needs to accomplish. The pages that appear in a workspace, such as landing pages, dashboards, and record pages, and the components that appear on a page, including record details, contextual side panel, and playbooks, are configured in UI Builder to support the user roles and the workflows of each organization.
 
-![CSM Configurable Workspace interface provides information such as record details, the activity stream, and tools in the contextual side panel such as recommended actions and templates.](../image/csm-config-workspace-interface.png "CSM Configurable Workspace")
+\[Omitted image "csm-config-workspace-interface.png"\] Alt text: CSM Configurable Workspace interface provides information such as record details, the activity stream, and tools in the contextual side panel such as recommended actions and templates.
 
 Configurable workspace is built on a shared component registry, which means that capabilities configured for one product context can be made available in others across the CRM suite. Configurable workspace serves as the primary interface for agents, fulfillers, and technicians in Sales CRM, CSM, FSM, and industry solutions built on the ServiceNow platform.
 
@@ -78,9 +78,9 @@ Each product within the CRM portfolio uses configurable workspace as the foundat
 **Related topics**  
 
 
-[CSM Configurable Workspace](https://www.servicenow.com/docs/access?context=csm-workspaces-configure&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md)
 
-[CSM Configurable Workspace features](https://www.servicenow.com/docs/access?context=csm-workspace-feature-overview&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[CSM Configurable Workspace features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspace-feature-overview.md)
 
-[CSM Configurable Workspace record pages and page templates](https://www.servicenow.com/docs/access?context=csm-config-ws-pages-templates&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[CSM Configurable Workspace record pages and page templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-ws-pages-templates.md)
 

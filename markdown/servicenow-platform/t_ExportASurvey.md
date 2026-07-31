@@ -2,6 +2,7 @@
 title: Export a survey
 description: You can export a survey and then import it to another instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_ExportASurvey.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ You can export a survey and then import it to another instance.
 
 Role required: admin, survey\_reader, or survey\_admin
 
-For information about update sets, see [System update sets](https://www.servicenow.com/docs/access?context=system-update-sets&version=australia&pubname=australia-application-development&ft:locale=en-US).
+For information about update sets, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets.md).
 
 ## Procedure
 
@@ -30,5 +31,5 @@ For information about update sets, see [System update sets](https://www.servicen
 4.  If applicable, follow the prompt in your browser to save the XML file.
 
 
-**Parent Topic:**[Sharing surveys](../concept/c_SurveyInportAndExport.md)
+**Parent Topic:**[Sharing surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyInportAndExport.md)
 

@@ -2,6 +2,7 @@
 title: Configure email notifications in Unified Security Exposure Management
 description: Set up email notifications to share useful information about important updates and activities such as approval and rejection of false-positive requests. Creating an email notification involves specifying when to send it, who receives it, and what it contains.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/sem-configure-email-notifications.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Set up email notifications to share useful information about important updates a
 
 ## Before you begin
 
-Role required: See [Access control lists \(ACLs\) for administration rules](../concept/sem-acls-for-admin-rules.md)
+Role required: See [Access control lists \(ACLs\) for administration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-acls-for-admin-rules.md)
 
 ## Procedure
 
@@ -27,7 +28,7 @@ Role required: See [Access control lists \(ACLs\) for administration rules](../c
 
 4.  Select **New**.
 
-    For detailed instructions on creating email notifications, see [Create an email notification](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For detailed instructions on creating email notifications, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md).
 
 
 ## Result

@@ -2,6 +2,7 @@
 title: Create a quick action in your mobile applications
 description: Provide easy access to an important item by creating a quick action. For example, you can create a quick action that opens a Service Catalog item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/sc-quick-action.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -65,7 +66,7 @@ Type of quick action that you want to create.
 
  To create a quick action that opens a Service Catalog item, select **URL**.
 
-For more information about function types, see [Configure a smart button](https://www.servicenow.com/docs/access?context=sg-studio-config-smart-button&version=australia&pubname=australia-mobile&ft:locale=en-US).
+For more information about function types, see [Configure a smart button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-config-smart-button.md).
 
 </td></tr><tr><td>
 
@@ -232,7 +233,7 @@ Icon
 
 </td><td>
 
-Icon to display next to the label. For more details on mobile icons, see [Mobile icons](https://www.servicenow.com/docs/access?context=sg-mobile-icon&version=australia&pubname=australia-mobile&ft:locale=en-US).**Note:** Not all listed icons work with quick actions. To see a list of compatible icons, filter your list where the **Icons** field contains `now-mobile-icons-buttons`.
+Icon to display next to the label. For more details on mobile icons, see [Mobile icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-icon.md).**Note:** Not all listed icons work with quick actions. To see a list of compatible icons, filter your list where the **Icons** field contains `now-mobile-icons-buttons`.
 
  **Note:** The **Icons** field is not on the icon list by default. To add the **Icon** field to your list, right-click the list header and select **Configure** &gt; **List Layout**. Then, add the Icon field to the selected list. You should see the icon field on your reference field list.
 
@@ -252,24 +253,24 @@ Number that indicates the order that the functions are listed. If there are mult
 
 ## Result
 
-Your users can open the quick action by selecting the ![Plus icon](../image/more-items.png) icon on the applet launcher page.
+Your users can open the quick action by selecting the \[Omitted image "more-items.png"\] Alt text: Plus icon icon on the applet launcher page.
 
-**Parent Topic:**[Request experience in Now Mobile](../../../product/service-catalog-management/concept/now-mobile-catalog.md)
+**Parent Topic:**[Request experience in Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/now-mobile-catalog.md)
 
 **Related topics**  
 
 
-[Configure catalogs](configure-catalog.md)
+[Configure catalogs]()
 
-[Browse catalog items using the catalog hierarchy](../../../product/service-catalog-management/task/now-mob-browse-cat-item-catalog.md)
+[Browse catalog items using the catalog hierarchy]()
 
-[Submit and track a request](order-item.md)
+[Submit and track a request]()
 
-[Enable notifications in Now Mobile](../../../product/service-catalog-management/task/enable-notification-mobile.md)
+[Enable notifications in Now Mobile]()
 
-[Enable the cart in Now Mobile](../../../product/service-catalog-management/task/enable-cart-mobile.md)
+[Enable the cart in Now Mobile]()
 
-[Edit the label of Submit button for a record producer](../../../product/service-catalog-management/task/edit-recprdcr-submit-label.md)
+[Edit the label of Submit button for a record producer]()
 
-[Configure Now Mobile properties](../../../product/service-catalog-management/task/config-now-mob-properties.md)
+[Configure Now Mobile properties]()
 

@@ -2,6 +2,7 @@
 title: Create an OpenFrame configuration
 description: This configuration specifies the OpenFrame window settings as well as the URL to be launched within OpenFrame.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_CreateAnOpenFrameConfiguration.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -160,5 +161,5 @@ Can be used to store any JSON encoded string.
 **Related topics**  
 
 
-[openFrameAPI - Client](https://www.servicenow.com/docs/access?context=c_openFrameAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[openFrameAPI - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_openFrameAPI.md)
 

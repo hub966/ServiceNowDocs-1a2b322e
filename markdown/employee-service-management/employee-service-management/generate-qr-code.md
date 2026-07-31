@@ -14,7 +14,7 @@ Generate and print a QR code for a single space or room, or for multiple spaces 
 
 ## Before you begin
 
-[Enable mobile universal linking](https://www.servicenow.com/docs/access?context=universal-linking-enable&version=australia&pubname=australia-mobile&ft:locale=en-US)
+[Enable mobile universal linking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/universal-linking-enable.md)
 
 Role required: sn\_wsd\_core.admin or sn\_wsd\_core.workplace\_manager
 
@@ -117,7 +117,7 @@ The QR codes are generated. The QR codes are printed in a single PDF file with t
 
 ## What to do next
 
-After the QR code generation is completed, go to **Manage QR codes** to view the generated file. For more information, refer to [Manage QR codes](manage-qr-codes.md).
+After the QR code generation is completed, go to **Manage QR codes** to view the generated file. For more information, refer to [Manage QR codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/manage-qr-codes.md).
 
 Click **download** to download the PDF file.
 

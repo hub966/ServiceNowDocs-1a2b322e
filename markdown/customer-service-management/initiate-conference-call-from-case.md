@@ -2,6 +2,7 @@
 title: Initiate a conference call from a case
 description: As part of resolving a customer service case, you can initiate a conference call between involved users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/initiate-conference-call-from-case.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -39,7 +40,7 @@ Notify must be set up before you can use Notify on task. Ensure there are Notify
 **Related topics**  
 
 
-[Start a conference call](https://www.servicenow.com/docs/access?context=start-a-conference-call&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[Start a conference call](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/start-a-conference-call.md)
 
-[Start a conference call from a task](https://www.servicenow.com/docs/access?context=t_StartAConferenceCallFromATask&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[Start a conference call from a task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_StartAConferenceCallFromATask.md)
 

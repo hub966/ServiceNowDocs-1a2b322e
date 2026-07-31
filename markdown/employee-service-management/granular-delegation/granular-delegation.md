@@ -2,6 +2,7 @@
 title: Granular Delegation
 description: Granular delegation allows employees to delegate their tasks to other employees for specific date and time ranges based on delegation rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/granular-delegation/granular-delegation.html
 release: australia
 product: Granular Delegation
 classification: granular-delegation
@@ -25,7 +26,7 @@ Service delegation options are available, like limiting a delegation to specific
 -   Limiting records to only approvals.
 -   Limiting records to only task assignments.
 
-**Note:** Granular Delegation is intended for employee users, not fulfiller or agent users, such as in ITSM. Depending on your use cases, fulfiller and agent delegation is better managed via [Advanced Work Assignment](https://www.servicenow.com/docs/access?context=awa-application-landing-page&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+**Note:** Granular Delegation is intended for employee users, not fulfiller or agent users, such as in ITSM. Depending on your use cases, fulfiller and agent delegation is better managed via [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-application-landing-page.md).
 
 ## Terms
 
@@ -39,27 +40,27 @@ The following terms are applicable:
 
 Granular Delegation with the HR Service Delivery base system supports the HR task \(sn\_hr\_core\_task\) table. Along with filter conditions, you can filter delegations for delegators and delegates.
 
-For more information on how user criteria filters delegations for delegators and delegates, see [Create delegation rules](../task/create-delegation-rules.md).
+For more information on how user criteria filters delegations for delegators and delegates, see [Create delegation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/granular-delegation/create-delegation-rules.md).
 
 For information on HR criteria and user criteria, see:
 
--   [HR criteria](../../../human-resources/concept/hr-criteria.md#)
--   [User criteria for Service Portal](https://www.servicenow.com/docs/access?context=user-criteria&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+-   [HR criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-criteria.md)
+-   [User criteria for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/user-criteria.md)
 
 -   **Access control rules \(ACLs\)**
 
-    Access control rules \(ACLs\) in HR Service Delivery were modified to look for the Assigned to person on an HR task. Other domains that want to use Granular Delegation must modify their ACLs to use this feature. For more information about ACLs, see [Access control list rules](https://www.servicenow.com/docs/access?context=access-control-rules&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    Access control rules \(ACLs\) in HR Service Delivery were modified to look for the Assigned to person on an HR task. Other domains that want to use Granular Delegation must modify their ACLs to use this feature. For more information about ACLs, see [Access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control-rules.md).
 
 -   **Rule-based and ad-hoc delegations**
 
     -   Rule-based: The delegation\_admin configures delegation rules, which automatically reassign tasks to specific employees.
     -   Ad-hoc: An employee who is defined as a delegator can delegate their tasks from the **My Delegates** widget in the Employee Center.
-    **Note:** The delegation\_admin must define a delegation rule table, delegation rules, and delegates. For more information on defining a delegation rule table see [Add delegation rule tables](../task/add-delegation-rules-tables.md). For more information on defining a delegation rule, see [Create delegation rules](../task/create-delegation-rules.md). For more information on defining delegators and delegates, see [Create a delegate](../task/create-delegation-admin.md).
+    **Note:** The delegation\_admin must define a delegation rule table, delegation rules, and delegates. For more information on defining a delegation rule table see [Add delegation rule tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/granular-delegation/add-delegation-rules-tables.md). For more information on defining a delegation rule, see [Create delegation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/granular-delegation/create-delegation-rules.md). For more information on defining delegators and delegates, see [Create a delegate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/granular-delegation/create-delegation-admin.md).
 
 
 ## Additional resources
 
--   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://www.servicenow.com/docs/access?context=hr-service-delivery-landing&version=australia&pubname=australia-release-notes&ft:locale=en-US).
+-   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/hr-service-delivery-landing.md).
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
 -   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).

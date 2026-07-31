@@ -2,6 +2,7 @@
 title: Client-side localization
 description: Add customized client-side translations to extend language support on your mobile device. You can include languages beyond those natively supported by the ServiceNow AI Platform base system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/localization-client.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,7 +14,7 @@ breadcrumb: [Localization, Before implementation, Configuration detail, Configur
 
 Add customized client-side translations to extend language support on your mobile device. You can include languages beyond those natively supported by the ServiceNow AI Platform base system.
 
-The ServiceNow AI Platform provides translations for multiple languages on your mobile device. These supported languages are listed in the topic [Native localization](../reference/localization-native.md). You can add and customize additional client-side languages using the Mobile Custom Localization ServiceNow Store app.
+The ServiceNow AI Platform provides translations for multiple languages on your mobile device. These supported languages are listed in the topic [Native localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/localization-native.md). You can add and customize additional client-side languages using the Mobile Custom Localization ServiceNow Store app.
 
 **Note:** The Mobile Custom Localization app is available from the 20.6.0 mobile client release.
 
@@ -24,11 +25,11 @@ Translations are provided by the administrators who must configure the required 
 For more information, refer to the following topics:
 
 -   [Client-side translations within your mobile app](https://www.servicenow.com/community/international-localization/need-to-translate-the-mobile-app-check-this/ta-p/3433635) \(ServiceNow Community article\)
--   [System Localization](https://www.servicenow.com/docs/access?context=system-localization-landing&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
--   [Localization Workspace](https://www.servicenow.com/docs/access?context=localization-workspace&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
--   [Translated Name / Field table](https://www.servicenow.com/docs/access?context=r_TranslatedNameFieldTable&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
--   [Artifact configurations](https://www.servicenow.com/docs/access?context=framework-configuration&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
--   [Create and configure a custom artifact](https://www.servicenow.com/docs/access?context=create-configure-custom-artifact&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+-   [System Localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization-landing.md)
+-   [Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace.md)
+-   [Translated Name / Field table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_TranslatedNameFieldTable.md)
+-   [Artifact configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/framework-configuration.md)
+-   [Create and configure a custom artifact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-configure-custom-artifact.md)
 -   [Localization Framework artifact examples](https://www.servicenow.com/community/international-localization/need-to-translate-a-par-dashboard-check-this/ta-p/2839751) \(ServiceNow Community article\)
 
 ## Licensing
@@ -37,8 +38,8 @@ The Mobile Custom Localization app is available from the  ServiceNow Store and
 
 For more information, refer to the following topics:
 
--   [ServiceNow Store](https://www.servicenow.com/docs/access?context=servicenow-store&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
--   [Get a free application](https://www.servicenow.com/docs/access?context=get-free-app&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+-   [ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/servicenow-store.md)
+-   [Get a free application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/get-free-app.md)
 
 ## General Guidelines for client-side localization
 
@@ -77,5 +78,5 @@ Consider these general guidelines when customizing client-side translations.
     -   For iOS: Certain areas such as the app name, App Intents, shortcuts, and Siri rely on translations contained within the bundle and can't be translated at runtime.
     -   For Android: Languages included in the device’s base setup use their own date and time formats. For custom languages, the app falls back to a default format.
 
-**Parent Topic:**[Localization on mobile devices](localization-mobile-device.md)
+**Parent Topic:**[Localization on mobile devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/localization-mobile-device.md)
 

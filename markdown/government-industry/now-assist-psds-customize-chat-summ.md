@@ -2,6 +2,7 @@
 title: Configure chat summarization skill in Now Assist for Public Sector Digital Services \(PSDS\)
 description: Activate and configure the Now Assist for Public Sector Digital Services \(PSDS\) skill so that agents can use the generative AI skills in CSM Configurable Workspace and in Public Sector Digital Services Core UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/now-assist-psds-customize-chat-summ.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,7 +34,7 @@ In the Now Assist for PSDS Admin Console, admins can:
 
 2.  In the dropdown, select **Customer** &gt; **PSDS**.
 
-    ![Now Assist Panel showing NA skills and features in PSDS](../image/now-assist-psds-panel.png)
+    \[Omitted image "now-assist-psds-panel.png"\] Alt text: Now Assist Panel showing NA skills and features in PSDS
 
 3.  On the Chat feature card, select **View Details**, then select **Chat Summarization** under Active Skills.
 
@@ -64,7 +65,7 @@ In the Now Assist for PSDS Admin Console, admins can:
     You can select both in-product, Now Assist panel, or both.
 
     -   **In-product**: When selected, Now Assist skills are displayed on forms and workspaces.
-    -   **Now Assist panel**: When selected, Now Assist skills are available in the Now Assist panel. If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    -   **Now Assist panel**: When selected, Now Assist skills are available in the Now Assist panel. If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
         Select the down arrow to configure the user roles that can access the skill.
 
@@ -72,7 +73,7 @@ In the Now Assist for PSDS Admin Console, admins can:
 
 12. Review your choices and select **Activate** to complete the skill configuration.
 
-    ![Review and activate step for Now Assist chat summarization.](../image/chat-summarization-activate-now-assist-psds.png)
+    \[Omitted image "chat-summarization-activate-now-assist-psds.png"\] Alt text: Review and activate step for Now Assist chat summarization.
 
 
 ## Result
@@ -81,5 +82,5 @@ Chat summarization is active and customized for the desired workflow.
 
 ## What to do next
 
-Review the performance of the Now Assist for PSDS chat summarization skill on the Now Assist Admin console. Learn more about tracking your Now Assist usage at [Monitoring Now Assist usage in Subscription Management](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Review the performance of the Now Assist for PSDS chat summarization skill on the Now Assist Admin console. Learn more about tracking your Now Assist usage at [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/monitoring-now-assist-usage.md).
 

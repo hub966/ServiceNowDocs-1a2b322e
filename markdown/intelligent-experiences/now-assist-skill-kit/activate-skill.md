@@ -2,6 +2,7 @@
 title: Activate a skill
 description: After you publish a skill, a Now Assist admin must activate it in Now Assist Admin. Activating the skill makes it available for users to trigger within the platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/activate-skill.html
 release: australia
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
@@ -25,7 +26,7 @@ Published custom skills appear in Now Assist Admin under the **Now Assist Skills
 
 A published skill appears on the **Available** tab with a **Not started** state badge until it is activated. After activation it moves to the **Active** tab.
 
-**Important:** Make sure you are in the correct application scope before you activate the skill. To learn more about application scopes, see [Application scope](https://www.servicenow.com/docs/access?context=c_ApplicationScope&version=australia&pubname=australia-application-development&ft:locale=en-US).
+**Important:** Make sure you are in the correct application scope before you activate the skill. To learn more about application scopes, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md).
 
 **Note:** Some skills might need to be reviewed and approved by a data steward before you can activate them.
 
@@ -64,22 +65,22 @@ After activation, the skill moves to the **Active** tab in Now Assist Admin. Use
 
 You can enable Now Assist Guardian for your skills. To learn more about Now Assist Guardian, see .
 
-**Parent Topic:**[Using Now Assist Skill Kit](../concept/using-now-assist-skill-kit.md)
+**Parent Topic:**[Using Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/using-now-assist-skill-kit.md)
 
 **Related topics**  
 
 
-[Create a skill](create-new-skill.md)
+[Create a skill]()
 
-[Create a prompt](create-prompt-template.md)
+[Create a prompt]()
 
-[Use prompt assistance](use-prompt-assistance.md)
+[Use prompt assistance]()
 
-[Test a prompt](test-prompt-template.md)
+[Test a prompt]()
 
-[Evaluate a prompt](evaluate-prompt.md)
+[Evaluate a prompt]()
 
-[Finalize and publish a skill](publish-skill.md)
+[Finalize and publish a skill]()
 
-[Call a custom skill from a script](call-custom-skill-from-script.md)
+[Call a custom skill from a script]()
 

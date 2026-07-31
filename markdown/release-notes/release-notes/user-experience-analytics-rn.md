@@ -19,28 +19,35 @@ The ServiceNow® Usage Insights application, formerly known as User Experience A
 -   View funnels you create in Usage Insights directly in Platform Analytics.
 -   Create dashboards for Platform Analytics directly in Usage Insights.
 
-See [Usage Insights](https://www.servicenow.com/docs/bundle/australia-now-intelligence/page/administer/user-exp-analytics/content-framework/landing-page/user-exp-analytics-landing.html) for more information.
+See [Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/user-exp-analytics-landing.md) for more information.
 
 **Important:** Usage Insights is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **[Creating custom events](https://www.servicenow.com/docs/access?context=tagged-events&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)**
+-   **[Creating custom events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/tagged-events.md)**
 
     Create custom events without code directly in your application using the Usage Insights page overlay. Use event descriptions to provide greater visibility and clarity on Usage Insights events.
 
--   **[Access Funnels from Platform Analytics](https://www.servicenow.com/docs/access?context=create-funnel&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)**
+-   **[Access Funnels from Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-funnel.md)**
 
     Access funnels you create in Usage Insights directly in the Platform Analytics UI to view this data along with your organization's other business metrics.
 
--   **[Customize Dashboards](https://www.servicenow.com/docs/access?context=uxa-dashboards&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)**
+-   **[Customize Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/uxa-dashboards.md)**
 
     Customize dashboards or pages for Platform Analytics directly in Usage Insights.
+
+
+## Deprecations
+
+-   **[Usage Insights in Xanadu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/user-exp-analytics-landing.md)**
+
+    Usage Insights is no longer supported in the Xanadu release. Upgrade to Yokohama, Zurich, or Australia to continue using Usage Insights.
 
 
 ## Activation information
 
 Usage Insights is a ServiceNow AI Platform feature that is active by default.
 
-**Parent Topic:**[Platform Analytics release notes](analytics-intel-report-rn-landing.md)
+**Parent Topic:**[Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/analytics-intel-report-rn-landing.md)
 

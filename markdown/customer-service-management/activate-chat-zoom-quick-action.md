@@ -2,6 +2,7 @@
 title: Activate the quick action for Zoom meetings
 description: Activate the Zoom quick action to initiate Zoom meetings using the quick action from a chat.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/activate-chat-zoom-quick-action.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Activate the Zoom quick action to initiate Zoom meetings using the quick action 
 
 ## Before you begin
 
-Install the Chat Zoom Connector application. For more information, see [Install a ServiceNow Store application](https://www.servicenow.com/docs/access?context=t_InstallApplications&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Install the Chat Zoom Connector application. For more information, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md).
 
 Role required: admin
 
@@ -36,5 +37,5 @@ By default, the Zoom quick action is inactive. Activate this quick action to ena
 
 ## Result
 
-By default, the Zoom quick action is associated with chats when the Chat Zoom Connector application is installed. In addition, if the Conversational SMS service channel application is installed, the quick action is also associated with SMS conversations. For more information, see [Conversational SMS service channel](https://www.servicenow.com/docs/access?context=conversation-sms-service-channel-store-app&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) and[Quick actions](https://www.servicenow.com/docs/access?context=ci-agent-chat-using&version=australia&pubname=australia-conversational-interfaces&section=ci-quick-actions&ft:locale=en-US) .
+By default, the Zoom quick action is associated with chats when the Chat Zoom Connector application is installed. In addition, if the Conversational SMS service channel application is installed, the quick action is also associated with SMS conversations. For more information, see [Conversational SMS service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/conversation-sms-service-channel-store-app.md) and[Quick actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ci-agent-chat-using.md) .
 

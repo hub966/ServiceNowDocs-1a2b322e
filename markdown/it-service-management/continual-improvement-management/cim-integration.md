@@ -2,6 +2,7 @@
 title: Applications integrated with Continual Improvement Management
 description: CIM provides integrations with other ServiceNow applications to enable you to create improvement initiatives from these applications. You can also create records for integrated applications from improvement initiatives.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/continual-improvement-management/cim-integration.html
 release: australia
 product: Continual Improvement Management
 classification: continual-improvement-management
@@ -19,30 +20,30 @@ You can link multiple tasks from integrated applications to a single CIM task an
 
 ## Applications from which you can create Improvement Initiatives
 
--   [Benchmarks](../../benchmarks/reference/r_Benchmarks.md)
--   [Coaching](../../cf-coaching/reference/cf-coaching-landing.md)
--   [Configuration Management](https://www.servicenow.com/docs/access?context=manage-cmdb&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
--   [Customer Service Management](https://www.servicenow.com/docs/access?context=c_CustomerServiceManagement&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
--   [Demand Management](https://www.servicenow.com/docs/access?context=c_DemandManagement&version=australia&pubname=australia-it-business-management&ft:locale=en-US)
--   [Governance, Risk, and Compliance \(GRC\)](https://www.servicenow.com/docs/access?context=r_WhatIsGRC&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)
--   [Idea Portal](https://www.servicenow.com/docs/access?context=idea-portal&version=australia&pubname=australia-it-business-management&ft:locale=en-US)
--   [Incident Management](../../incident-management/concept/c_IncidentManagement.md)
--   [Problem Management](../../problem-management/concept/c_ProblemManagement.md)
--   [Process Mining](https://www.servicenow.com/docs/access?context=process-mining&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
--   [Survey Management](https://www.servicenow.com/docs/access?context=r_SurveyManagementLandingPage&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+-   
+-   [Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/coaching/cf-coaching-landing.md)
+-   [Configuration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/manage-cmdb.md)
+-   [Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceManagement.md)
+-   [Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/c_DemandManagement.md)
+-   [Governance, Risk, and Compliance \(GRC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/r_WhatIsGRC.md)
+-   [Idea Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/idea-portal.md)
+-   [Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/c_IncidentManagement.md)
+-   [Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/c_ProblemManagement.md)
+-   [Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining.md)
+-   [Survey Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_SurveyManagementLandingPage.md)
 
-For more information, see [Create improvement initiatives from integrated applications](../task/create-improvmt-from-apps.md).
+For more information, see [Create improvement initiatives from integrated applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/create-improvmt-from-apps.md).
 
 ## Application records you can create from improvement initiatives
 
--   Change record \([Change Management](../../change-management/concept/c_ITILChangeManagement.md)\)
--   Coaching opportunity \([Coaching opportunity](../../cf-coaching/task/cf-create-coaching-opportunity.md)\)
--   Knowledge base article \([Create a knowledge article](https://www.servicenow.com/docs/access?context=create-knowledge-article&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)\)
--   Demand record \([Demand Management](https://www.servicenow.com/docs/access?context=c_DemandManagement&version=australia&pubname=australia-it-business-management&ft:locale=en-US)\)
--   Project \([Project Management](https://www.servicenow.com/docs/access?context=c_ProjectApplicationOverview&version=australia&pubname=australia-it-business-management&ft:locale=en-US)\)
--   Story record \([Agile Development](https://www.servicenow.com/docs/access?context=agile-development&version=australia&pubname=australia-it-business-management&ft:locale=en-US)\)
+-   Change record \([Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ITILChangeManagement.md)\)
+-   Coaching opportunity \([Coaching opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/coaching/cf-create-coaching-opportunity.md)\)
+-   Knowledge base article \([Create a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-knowledge-article.md)\)
+-   Demand record \([Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/c_DemandManagement.md)\)
+-   Project \([Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/c_ProjectApplicationOverview.md)\)
+-   Story record \([Agile Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development.md)\)
 
-For more information, see [Create application records from improvement initiatives](../task/create-app-records.md).
+For more information, see [Create application records from improvement initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/create-app-records.md).
 
 ## Summary of CIM Integration with other applications
 
@@ -67,19 +68,19 @@ For more information, see [Create application records from improvement initiativ
 |Service Management|
 |Coaching|Coaching opportunity|X|X|
 
--   **[Integrate Continual Improvement Management using extension point](../task/integrate-extension-api.md)**  
+-   **[Integrate Continual Improvement Management using extension point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/integrate-extension-api.md)**  
 Integrate CIM with other applications by using the CIMIntegrationAPI extension point. It defines the inbound and outbound extension points for integrating CIM with other applications.
 
-**Parent Topic:**[Continual Improvement Management overview](../concept/get-started-cim.md)
+**Parent Topic:**[Continual Improvement Management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/get-started-cim.md)
 
 **Related topics**  
 
 
-[Using extension points to extend application functionality](https://www.servicenow.com/docs/access?context=extension-points&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md)
 
-[Using scripted extension points in server-side scripts](https://www.servicenow.com/docs/access?context=scripted-extension-points&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[Using scripted extension points in server-side scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/scripted-extension-points.md)
 
-[Using UI extension points in server-side UI macros](https://www.servicenow.com/docs/access?context=ui-extension-points&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[Using UI extension points in server-side UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/ui-extension-points.md)
 
-[Using client extension points in client-side UI scripting](https://www.servicenow.com/docs/access?context=client-extension-points&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[Using client extension points in client-side UI scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/client-extension-points.md)
 

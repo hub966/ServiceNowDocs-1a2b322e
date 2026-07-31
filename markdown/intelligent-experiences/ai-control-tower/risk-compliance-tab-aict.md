@@ -2,12 +2,13 @@
 title: Risk and compliance tab in AI Control Tower
 description: The Risk and compliance tab on the AI Control Tower displays the risk classification of AI assets and the compliance posture for selected authority documents and policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/risk-compliance-tab-aict.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-05-28"
+reading_time_minutes: 4
 breadcrumb: [AI Control Tower Home, AI Control Tower dashboard, Explore, AI Control Tower, Enable AI experiences]
 ---
 
@@ -21,7 +22,7 @@ AI assets refer to the various components and resources that are essential for t
 2.  AI models: The mathematical and computational models that are trained on data to perform specific tasks. These models can range from simple linear regression models to complex deep learning neural networks.
 3.  AI datasets: The collections of data used to train, validate, and test AI models.
 
-For more information, see [AI systems](https://www.servicenow.com/docs/access?context=ai-system-airc&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US), [AI models](https://www.servicenow.com/docs/access?context=ai-model-airc&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US), and [Datasets](https://www.servicenow.com/docs/access?context=dataset-airc&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US).
+For more information, see , , and .
 
 Understanding and managing these AI assets is crucial for ensuring that AI systems are effective, reliable, and compliant with regulatory and ethical standards as defined by your organization.
 
@@ -39,11 +40,13 @@ The Risk and compliance dashboard has the following sections. You can drill down
 
     -   NIST AI Risk Management Framework: This framework displays the four key associated citations, namely map, measure, manage, and govern. Each citation's compliance score is displayed based on its control attestations.
     -   EU Artificial Intelligence Act: This framework has multiple chapters that are displayed as citations and child citations. Each citation is mapped to a control objective to provide you with a compliance percentage score.
+    -   Transparency in Frontier Artificial Intelligence Act \(SB 53\): Covers transparency and safety requirements for frontier AI system developers.
+    -   Colorado Artificial Intelligence Act \(SB 205\): Covers requirements for developers and deployers of high-risk AI systems.
     You can choose to view compliance data by selecting one of two options: **Authority Documents** or **Policies**. Additionally, you can view the overall compliance score percentage, along with the number of compliant and non-compliant authority documents and policies, by using the drop-down filter to select specific authority documents or policies. You can also see all the issues that require immediate attention and AI cases related to each authority document or policy.
 
     The authority documents are provided solely for informational and guidance purposes to assist with the initial setup of AI Risk and Compliance frameworks. It does not constitute legal advice or assurance of regulatory compliance. You are solely responsible for ensuring that all use of the content complies with applicable laws, regulations, directives, and industry standards in their jurisdictions.
 
-    **Note:** You can configure which authority documents and policies you want to display on the home page. For more information, see [Set up properties for compliance posture](https://www.servicenow.com/docs/access?context=configure-airc-properties&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US).
+    **Note:** You can configure which authority documents and policies you want to display on the home page. For more information, see Set up properties for compliance posture.
 
 
 ## Risk overview
@@ -61,7 +64,7 @@ This section monitors and tracks the risk posture of the AI assets in your organ
 
 ## Regulatory landscape overview
 
-You need to install GRC: Regulatory Change Management application to see this section. For more information, see [Installing Regulatory Change Management](https://www.servicenow.com/docs/access?context=activate-grc-rcm&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US).
+You need to install GRC: Regulatory Change Management application to see this section. For more information, see Installing Regulatory Change Management.
 
 -   **Overview**
     -   Alerts
@@ -79,7 +82,7 @@ You need to install GRC: Regulatory Change Management application to see this se
 
 The following image shows the Risk and compliance dashboard.
 
-![The dashboard monitors and manages the risk and compliance posture of the AI assets in your organization.](../image/riask-and-compliance-dashboard-aict.png "Risk and compliance dashboard")
+\[Omitted image "riask-and-compliance-dashboard-aict.png"\] Alt text: The dashboard monitors and manages the risk and compliance posture of the AI assets in your organization.
 
-For more information, see [AI Risk and Compliance documentation](https://www.servicenow.com/docs/access?context=ai-risk-and-compliance&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US).
+For more information, see AI Risk and Compliance documentation.
 

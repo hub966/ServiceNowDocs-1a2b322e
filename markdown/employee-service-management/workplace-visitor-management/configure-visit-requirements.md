@@ -2,6 +2,7 @@
 title: Configure visit requirements
 description: Configure requirements that visitors must fulfill for their visit to your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/configure-visit-requirements.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -65,9 +66,9 @@ Is initial requirement
 
 Option to display the requirement on the visit creation page. If this option is selected, the requirement is displayed on the visit creation page to the host and receptionist.
 
-Initial requirements are displayed first in the Workplace Services Kiosk self-registration flow. For more information about self-registration, see [Self-register as a visitor](../../workplace-services-kiosk/task/visitor-self-register.md).
+Initial requirements are displayed first in the Workplace Services Kiosk self-registration flow. For more information about self-registration, see [Self-register as a visitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-services-kiosk/visitor-self-register.md).
 
-Initial requirements are used by the Workplace Concierge agentic workflow to create visits. For more information, see [Workplace Concierge agentic workflow](../../now-assist-wsd/concept/workplace-concierge-ai-agent.md).
+Initial requirements are used by the Workplace Concierge agentic workflow to create visits. For more information, see [Workplace Concierge agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/workplace-concierge-ai-agent.md).
 
 If this option is not selected, the requirements appear later in the visit creation process based the conditions set in the **Apply if** section.
 
@@ -94,7 +95,7 @@ Option to set the record to active.
 
     The **Apply if** field is only available if **Is initial requirement** is not selected.
 
-    For more information about conditions, see [Condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    For more information about conditions, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
 
     To include workplace locations within a parent location, you must add conditions to dot-walk from the nested locations to the parent location.
 
@@ -114,13 +115,13 @@ Option to set the record to active.
 
 7.  On the form, fill in the fields.
 
-    For a description of the field values, see [Additional requirement form](../reference/additional-req-form.md).
+    For a description of the field values, see [Additional requirement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/additional-req-form.md).
 
 8.  On the Acknowledgment tab, in the Policy field, select a policy record.
 
     The acknowledgment tab is displayed if the **Requirement type** is `Document to acknowledge`.
 
-    For more information about creating policies, see [Create a visitor policy](create-visitor-policy.md).
+    For more information about creating policies, see [Create a visitor policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/create-visitor-policy.md).
 
 9.  On the Field mapping tab, select a **Target table** and **Target field** to map the additional information.
 
@@ -133,22 +134,22 @@ Option to set the record to active.
 
 Create more records for additional information based on your preference. You can view the created records in the related lists of the Visit requirement record.
 
-**Parent Topic:**[Configuring Workplace Visitor Management](../concept/configure-visitor-mgmt.md)
+**Parent Topic:**[Configuring Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/configure-visitor-mgmt.md)
 
 **Related topics**  
 
 
-[Install Workplace Visitor Management](install-workplace-visitor-mgmt.md)
+[Install Workplace Visitor Management]()
 
-[Create a visitor policy](create-visitor-policy.md)
+[Create a visitor policy]()
 
-[Create a record producer for visitor management](create-rec-prodcr-visit-mgmt.md)
+[Create a record producer for visitor management]()
 
-[Configure a visitor type](configure-visitor-type.md)
+[Configure a visitor type]()
 
-[Create a visitor badge template](create-visitor-badge-template.md)
+[Create a visitor badge template]()
 
-[Configuring Workplace Visitor Management for Workplace Services Kiosk](../concept/config-visitor-for-kiosk.md)
+[Configuring Workplace Visitor Management for Workplace Services Kiosk]()
 
-[Quick start test for Workplace Visitor Management](../../../administer/atf-quick-start-tests/reference/quick-start-tests-wsd-visitor-mgmt.md)
+[Quick start test for Workplace Visitor Management]()
 

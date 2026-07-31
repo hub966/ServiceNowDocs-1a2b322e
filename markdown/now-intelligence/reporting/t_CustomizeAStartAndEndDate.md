@@ -2,6 +2,7 @@
 title: Customize start and end dates
 description: You can configure calendar reports to support the spanning of multi-day events across calendar cells.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/t\_CustomizeAStartAndEndDate.html
 release: australia
 product: Reporting
 classification: reporting
@@ -27,7 +28,7 @@ The code looks for an ending field with the same name as the start date field, e
 
 ## Procedure
 
-1.  Follow the steps in [Add and customize a field in a table](https://www.servicenow.com/docs/access?context=t_CreatingNewFields&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+1.  Follow the steps in [Add and customize a field in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreatingNewFields.md).
 
 2.  Enter the following values in the form to create the start date span field.
 
@@ -46,14 +47,14 @@ The code looks for an ending field with the same name as the start date field, e
     |**Type**|Date|
 
 
-**Parent Topic:**[Customize calendar reports](../concept/c_CustomizeCalendarReports.md)
+**Parent Topic:**[Customize calendar reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_CustomizeCalendarReports.md)
 
 **Related topics**  
 
 
-[Configure how calendar entries look](t_ConfigureACalendarAttribute.md)
+[Configure how calendar entries look]()
 
-[Modifying and adding calendar report system properties](modify-add-calendar-sys-props.md#)
+[Modifying and adding calendar report system properties]()
 
-[Change highlighting of calendar report events](t_HighlightACalendarEntry.md)
+[Change highlighting of calendar report events]()
 

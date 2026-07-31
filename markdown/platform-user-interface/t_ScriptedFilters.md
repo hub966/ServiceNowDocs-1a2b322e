@@ -2,6 +2,7 @@
 title: Create scripted filters
 description: The condition builder alone cannot create some filters, such as displaying a record set that depends on an unrelated table. If you know JavaScript, you can create JavaScript functions for use in advanced filters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_ScriptedFilters.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,7 +34,7 @@ Role required: admin
     -   Ensure that the script include is **Active** and **Client callable**.
 3.  Call the JavaScript function from the condition builder.
 
-    For more information, see [GlideRecord](https://www.servicenow.com/docs/access?context=p_GlideServerAPIs&version=australia&pubname=australia-api-reference&section=c_GlideRecord&ft:locale=en-US) queries and [Script includes](https://www.servicenow.com/docs/access?context=c_ScriptIncludes&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+    For more information, see [GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/p_GlideServerAPIs.md) queries and [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md).
 
     **Note:** Grouped lists with a script include in the filter may cause slowness.
 
@@ -58,14 +59,14 @@ function myFunction(){
 }
 ```
 
-**Parent Topic:**[Filter admin functions](../concept/filter-admin-functions.md)
+**Parent Topic:**[Filter admin functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/filter-admin-functions.md)
 
 **Related topics**  
 
 
-[Create and edit filters](t_EditingSavedFilters.md)
+[Create and edit filters]()
 
-[Delete filters](t_DeletingFilters.md)
+[Delete filters]()
 
-[Create a dynamic filter option](t_DynamicFilterOptions.md)
+[Create a dynamic filter option]()
 

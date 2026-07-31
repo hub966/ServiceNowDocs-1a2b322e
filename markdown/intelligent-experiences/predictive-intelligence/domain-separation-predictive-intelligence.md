@@ -2,6 +2,7 @@
 title: Domain separation and Predictive Intelligence
 description: Domain separation is supported in the Predictive Intelligence application. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/domain-separation-predictive-intelligence.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -24,7 +25,7 @@ Domain separation is supported in the Predictive Intelligence application. Domai
 
 Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
 ## Overview of domain separation and Predictive Intelligence
 
@@ -42,18 +43,18 @@ An instance owner can train a machine learning \(ML\) solution for each domain b
 -   Tenant domains can manage their own application data
 -   Application properties are domain-aware when needed
 
-**Parent Topic:**[Predictive Intelligence references](../reference/reference-predictive-intelligence.md)
+**Parent Topic:**[Predictive Intelligence references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/reference-predictive-intelligence.md)
 
 **Related topics**  
 
 
-[Data Encryption in Predictive Intelligence](../reference/predictive-intelligence-encryption.md)
+[Data Encryption in Predictive Intelligence]()
 
-[Predictive Intelligence language support](predictive-intelligence-localization.md)
+[Predictive Intelligence language support]()
 
-[Predictive Intelligence properties](../reference/predictive-intelligence-properties.md)
+[Predictive Intelligence properties]()
 
-[Predictive Intelligence roles](../reference/predictive-intelligence-roles.md#)
+[Predictive Intelligence roles]()
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 

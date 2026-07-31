@@ -16,7 +16,7 @@ Playbooks are structured workflows that guide users, agents, and technicians ste
 
 A playbook is a structured process attached to a record, typically a case or a work order, that guides the user working on it through a defined sequence of stages and activities. Because playbooks are associated with specific record types, the correct process is applied automatically based on the nature of the work. A complaint case opens with the complaint handling playbook; a work order task opens with the corresponding field service playbook.
 
-![Playbook with a horizontal stage picker that displays stages across the top of the record and activities in the currently selected stage along the side of the record.](../image/case-playbook-horizontal-stages.png "Playbook with horizontal stages")
+\[Omitted image "case-playbook-horizontal-stages.png"\] Alt text: Playbook with a horizontal stage picker that displays stages across the top of the record and activities in the currently selected stage along the side of the record.
 
 A playbook is organized into stages and activities that progress sequentially based on conditions set by an administrator. Each stage contains a group of activities to complete before the process moves forward. Activities can be manual tasks or form entries, automated system actions that run without agent input, or guided decisions that present structured questions and branch to a recommended next action based on the response.
 
@@ -71,13 +71,13 @@ Playbooks ensure that the correct process is applied consistently across every r
 **Related topics**  
 
 
-[Playbooks for Field Service Management](https://www.servicenow.com/docs/access?context=playbooks&version=australia&pubname=australia-field-service-management&ft:locale=en-US)
+[Playbooks for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/playbooks.md)
 
-[Playbooks for Financial Services Operations applications](https://www.servicenow.com/docs/access?context=playbooks-fso-apps&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US)
+[Playbooks for Financial Services Operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/playbooks-fso-apps.md)
 
-[Playbooks for Public Sector Digital Services](https://www.servicenow.com/docs/access?context=playbooks-psds-exploring&version=australia&pubname=australia-government-industry&ft:locale=en-US)
+[Playbooks for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/playbooks-psds-exploring.md)
 
-[Configuring playbooks for Patient Support Services](https://www.servicenow.com/docs/access?context=pss-config-playbook&version=australia&pubname=australia-healthcare-life-sciences&ft:locale=en-US)
+[Configuring playbooks for Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-config-playbook.md)
 
-[Customer Engagement Sequences](https://www.servicenow.com/docs/access?context=explore-customer-engagement-sequences&version=australia&pubname=australia-order-management&ft:locale=en-US)
+[Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-customer-engagement-sequences.md)
 

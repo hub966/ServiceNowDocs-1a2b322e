@@ -2,6 +2,7 @@
 title: Render journal field entries as HTML
 description: Journal fields can render text enclosed within code tags as HTML.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/render-journal-field-entries-as-html.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -90,7 +91,7 @@ The system renders the text within code tags as HTML.
 **Related topics**  
 
 
-[General security settings properties](https://www.servicenow.com/docs/access?context=r_GeneralSecuritySettings&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[bundle-psec.r_GeneralSecuritySettings]
 
-[HTML sanitizer](https://www.servicenow.com/docs/access?context=c_HTMLSanitizer&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[HTML sanitizer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_HTMLSanitizer.md)
 

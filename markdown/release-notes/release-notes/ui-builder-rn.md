@@ -17,7 +17,7 @@ The ServiceNow® UI Builder application is a web user interface builder for buil
 -   Share UI Builder pages across experiences without copying or recreating them, reducing maintenance and keeping users in their current workspace.
 -   UI Interactions let you define reusable UI and logic that can be triggered by user actions or system events and shared across any page or experience, eliminating the need to duplicate code or UI.
 
-See [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=australia&pubname=australia-application-development&ft:locale=en-US) for more information.
+See  for more information.
 
 **Important:** UI Builder is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
@@ -27,7 +27,7 @@ Saving section for later.
 
 ## New in the Australia release
 
--   **[Create event-driven UI interactions](https://www.servicenow.com/docs/access?context=uib-ui-interactions&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **Create event-driven UI interactions**
 
     Trigger UI interactions directly from events in UI Builder, allowing you to link event-driven behavior to reusable interaction logic with the following benefits:
 
@@ -35,7 +35,7 @@ Saving section for later.
     -   Connect events to interactions without additional scripting.
     -   Centralize logic for consistent updates and fewer errors.
     -   Previously, Declarative Actions using UXF Client Actions required manual wiring on each page leading to complexity and upgrade risks. UI Interactions replace this with reusable, declarative event mapping.
--   **Update an existing UI interaction flow \(link to edit topic\)**
+-   **Update an existing UI interaction flow**
 
     As of UI Builder version 29.2, the UI interaction diagram editor now supports in-place editing, giving you more flexibility when modifying existing interactions without rebuilding downstream flows.
 
@@ -46,7 +46,7 @@ Saving section for later.
 
 ## Changed in this release
 
--   **[Use pages across experiences](https://www.servicenow.com/docs/access?context=use-across-pages&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   ****
 
     Share and reuse pages across workspaces without switching contexts or rebuilding content to help save time and simplify maintenance.
 
@@ -65,22 +65,22 @@ The expanded drop-down menus for column properties can be ready by screen reader
 
 ## Related ServiceNow applications and features
 
--   **[Build apps using App Engine Studio](https://www.servicenow.com/docs/access?context=aes-overview&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   ****
 
     After you create apps in ServiceNow App Engine Studio, you can then create their user interface in ServiceNow UI Builder.
 
--   **[Now Assist](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
 
     ServiceNow® Now Assist uses generative AI that is designed to enhance user productivity and efficiency through conversation and proactive experiences.
 
--   **[Overview tab in Now Assist Admin](https://www.servicenow.com/docs/access?context=configuring-now-assist&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md)**
 
     The Now Assist Admin console provides you with quick and effortless access to the important information that you need to set up, configure, and monitor Now Assist applications and features.
 
--   **[Now Assist Skill Kit](https://www.servicenow.com/docs/access?context=now-assist-skill-kit-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit-landing.md)**
 
     The ServiceNow® Now Assist Skill Kit enables you to create and publish custom prompts and skills for Now Assist.
 
 
-**Parent Topic:**[App development and low-code release notes](build-automate-rn-landing.md)
+**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/build-automate-rn-landing.md)
 

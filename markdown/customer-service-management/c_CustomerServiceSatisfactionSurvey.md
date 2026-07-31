@@ -2,6 +2,7 @@
 title: Customer service satisfaction surveys
 description: Customers can complete a satisfaction survey when they accept a case solution or close a case from the Customer Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/c\_CustomerServiceSatisfactionSurvey.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -26,7 +27,7 @@ You can also design your own survey using the survey designer tool. After design
 **Related topics**  
 
 
-[Assessments and Surveys](https://www.servicenow.com/docs/access?context=assessments-surveys-landing-page&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[Assessments and Surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/assessments-surveys-landing-page.md)
 
-[Service Manager dashboard](customer-service-dashboard.md)
+[Service Manager dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/analytics-and-reporting-solutions-for-customer-service/customer-service-dashboard.md)
 

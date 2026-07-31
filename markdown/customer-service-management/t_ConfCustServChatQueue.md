@@ -2,6 +2,7 @@
 title: Configure the customer service chat queue
 description: Define the customer service agents, default chat messages, schedule, and escalation path for the customer service chat queue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_ConfCustServChatQueue.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-The Customer Service Management chat communication channel uses the ServiceNow [Connect Support](https://www.servicenow.com/docs/access?context=c_ConnectSupport&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) feature.
+The Customer Service Management chat communication channel uses the ServiceNow [Connect Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ConnectSupport.md) feature.
 
 ## Procedure
 
@@ -48,5 +49,5 @@ The Customer Service Management chat communication channel uses the ServiceNow [
 **Related topics**  
 
 
-[Connect Support](https://www.servicenow.com/docs/access?context=c_ConnectSupport&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[Connect Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ConnectSupport.md)
 

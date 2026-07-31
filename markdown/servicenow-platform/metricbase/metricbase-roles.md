@@ -2,6 +2,7 @@
 title: MetricBase roles
 description: MetricBase is installed with these roles.Administrative role for time series-related functionality.Lets users query MetricBase plus data.Lets user modify tables in MetricBase plus.MetricBase REST accumulate role.MetricBase REST PUT role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/metricbase/metricbase-roles.html
 release: australia
 product: MetricBase
 classification: metricbase
@@ -15,16 +16,16 @@ breadcrumb: [Reference, MetricBase, Manage instance data sources, Extend Service
 
 MetricBase is installed with these roles.
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://www.servicenow.com/docs/access?context=managing-user-subscriptions-v2&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and contact your account representative.
+To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
-**Parent Topic:**[MetricBase reference](../concept/reference-metricbase.md)
+**Parent Topic:**[MetricBase reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/reference-metricbase.md)
 
 **Related topics**  
 
 
-[Developer resources](../concept/developer-resources.md)
+[Developer resources]()
 
-[Domain separation and MetricBase](../concept/domain-separation-metricbase.md)
+[Domain separation and MetricBase]()
 
 ## MetricBase administrator \[clotho\_admin\]
 

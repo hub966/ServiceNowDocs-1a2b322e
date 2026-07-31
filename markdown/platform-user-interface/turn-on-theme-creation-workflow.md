@@ -2,6 +2,7 @@
 title: Turn on theme creation workflow for use in the Now Assist panel
 description: Turn on the theme creation workflow to generate themes using the Now Assist panel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/turn-on-theme-creation-workflow.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -15,13 +16,13 @@ Turn on the theme creation workflow to generate themes using the Now Assist pane
 
 ## Before you begin
 
-Install the Now Assist for Creator application. See [Install Now Assist for Creator](https://www.servicenow.com/docs/access?context=install-now-assist-for-creator&version=australia&pubname=australia-application-development&ft:locale=en-US).
+Install the Now Assist for Creator application. See [Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-now-assist-for-creator.md).
 
-Turn on the Now Assist panel. See [Activate the Now Assist panel standard chat](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+Turn on the Now Assist panel. See [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md)
 
 Role required: ui\_builder\_admin
 
-For information on granular roles, see [Granular admin roles](https://www.servicenow.com/docs/access?context=granular-admin-roles&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For information on granular roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/granular-admin-roles.md).
 
 ## About this task
 
@@ -48,7 +49,7 @@ This workflow is required to use the AI feature within the Now Assist panel.
 
 ## What to do next
 
-[Create a theme using Now Assist](create-theme-now-assist.md).
+[Create a theme using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-theme-now-assist.md).
 
-**Parent Topic:**[Theme creation with AI](../concept/theme-creation-with-ai.md)
+**Parent Topic:**[Theme creation with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/theme-creation-with-ai.md)
 

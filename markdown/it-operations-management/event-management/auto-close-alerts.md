@@ -2,6 +2,7 @@
 title: Alert table clean up
 description: The Scheduled Jobs feature runs a script to automatically close alerts in the Alerts \[em\_alert\] table that meet specific conditions, helping reduce alert noise and keep the system clean and efficient.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/auto-close-alerts.html
 release: australia
 product: Event Management
 classification: event-management
@@ -21,7 +22,7 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-When the Event Management plugin is activated, by default a job is scheduled to run the `Event Management - auto close alerts` script to automatically close alerts in the alerts table that meet the specified conditions. The default retention policy for closed alerts is that the system deletes closed alerts if it is not updated for 90 days. For more information on the scheduled job, see [Table cleaner](https://www.servicenow.com/docs/access?context=table-cleaner&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+When the Event Management plugin is activated, by default a job is scheduled to run the `Event Management - auto close alerts` script to automatically close alerts in the alerts table that meet the specified conditions. The default retention policy for closed alerts is that the system deletes closed alerts if it is not updated for 90 days. For more information on the scheduled job, see [Table cleaner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-cleaner.md).
 
 Due to the high level of traffic to the table, you cannot audit the Alert table \[em\_alert\] as a whole. Instead, audit selected fields of interest on the table.
 
@@ -38,14 +39,14 @@ Due to the high level of traffic to the table, you cannot audit the Alert table 
 
 The `Event Management - auto close alerts` script runs automatically and repeatedly at the scheduled time and closes alerts that meet the specified conditions.
 
-**Parent Topic:**[Rotate event and alert table for cleanup](../concept/rotate-tables-purge-data.md)
+**Parent Topic:**[Rotate event and alert table for cleanup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/rotate-tables-purge-data.md)
 
 **Related topics**  
 
 
-[Rotate event and alert table for cleanup](../concept/rotate-tables-purge-data.md)
+[Rotate event and alert table for cleanup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/rotate-tables-purge-data.md)
 
-[Modify event table rotation](event-table-rotation.md)
+[Modify event table rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-table-rotation.md)
 
-[Purge impact status and alert history](t_EMConfigurePurge.md)
+[Purge impact status and alert history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigurePurge.md)
 

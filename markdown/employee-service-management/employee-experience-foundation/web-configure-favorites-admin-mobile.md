@@ -2,6 +2,7 @@
 title: Configure favorite content type on Mobile
 description: Configure the favorites option on Mobile to help employees personalize the content and easily access the content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/web-configure-favorites-admin-mobile.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -25,7 +26,7 @@ Role required: portal admin and sp\_admin
 
 2.  Edit the mobile UI rules to suit your needs.
 
-    See [Mobile UI Rules](https://www.servicenow.com/docs/access?context=create-mobile-ui-rule&version=australia&pubname=australia-mobile&ft:locale=en-US) and configure the following field values.
+    See [Mobile UI Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/create-mobile-ui-rule.md) and configure the following field values.
 
     **Note:** The my **Favorites** widget syncs instantly with other widgets in real-time on the web. However, when adding favorites items across devices \(example: mobile to the web\), a manual refresh is required to reflect the latest changes — **Reload the page** on web or **Pull to refresh** on mobile.
 
@@ -46,7 +47,7 @@ Role required: portal admin and sp\_admin
 
 3.  Create a function and function instance to suit your needs.
 
-    See [Create a function and function instances](../../../administer/mobile-employee/task/add-quick-action.md#) and configure the following field values.
+    See [Create a function and function instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/add-quick-action.md) and configure the following field values.
 
     |Field|Description|
     |-----|-----------|
@@ -62,7 +63,7 @@ The content type display is configured for Mobile.
 **Related topics**  
 
 
-[Now Mobile app](../../../administer/mobile-employee/concept/mobile-employee-experience.md)
+[Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md)
 
-[Mobile plugins](https://www.servicenow.com/docs/access?context=sg-mobile-plugins&version=australia&pubname=australia-mobile&ft:locale=en-US)
+[Mobile plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-plugins.md)
 

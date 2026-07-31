@@ -2,6 +2,7 @@
 title: Use state flows
 description: You can create custom state flows for any table that uses states.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/c\_UseStateFlows.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,16 +14,16 @@ breadcrumb: [State flows, Exploring Service Administration, Service Administrati
 
 You can create custom state flows for any table that uses states.
 
-Make state transitions occur in any order or skip specific states according to your business practices. State flows can manage the behavior of fields and field visibility on a task form. State flows can also trigger system events that perform work such as sending [Email and SMS notifications](https://www.servicenow.com/docs/access?context=c_EmailNotifications&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Make state transitions occur in any order or skip specific states according to your business practices. State flows can manage the behavior of fields and field visibility on a task form. State flows can also trigger system events that perform work such as sending [Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md).
 
 Administrators can configure state flows to:
 
--   Limit the [choice list](../task/t_CreateAStateFlow.md) for the **State** field to contain only those states that are valid for the flow.
--   Define the [behavior and visibility](c_StateFlows.md) of specific fields on a task form when state transitions occur and for certain end states.
--   Configure [events that are triggered when a task changes states](c_StateFlows.md).
--   [Set up](../task/t_CreateAStateFlow.md) UI actions and business rules to implement certain state transitions, or while the task is in certain states.
+-   Limit the [choice list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateAStateFlow.md) for the **State** field to contain only those states that are valid for the flow.
+-   Define the [behavior and visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_StateFlows.md) of specific fields on a task form when state transitions occur and for certain end states.
+-   Configure [events that are triggered when a task changes states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_StateFlows.md).
+-   [Set up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateAStateFlow.md) UI actions and business rules to implement certain state transitions, or while the task is in certain states.
 
-The State Flow plugin installs records used by work management to control state transitions for work orders and work order tasks. For detailed information about using work management state flows, see [State flow customization](https://www.servicenow.com/docs/access?context=c_StateFlowCustomization&version=australia&pubname=australia-service-management-for-the-enterprise&ft:locale=en-US).
+The State Flow plugin installs records used by work management to control state transitions for work orders and work order tasks. For detailed information about using work management state flows, see [State flow customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_StateFlowCustomization.md).
 
 Creating and customizing state flows requires scripting knowledge. Users with the admin role can create state flow records.
 
@@ -83,19 +84,19 @@ When matching fails, the start and end states of affected records are left blank
 
 
 
--   **[Create a state flow](../task/t_CreateAStateFlow.md)**  
+-   **[Create a state flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateAStateFlow.md)**  
 Creating State Flows.
--   **[State flow cleanup](c_StateFlowCleanup.md)**  
+-   **[State flow cleanup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_StateFlowCleanup.md)**  
 The business rules, client scripts, and UI actions that the system creates automatically to perform custom transitions exist only while the state flow records that use them are present.
--   **[Work notes](c_WorkNotes.md)**  
+-   **[Work notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_WorkNotes.md)**  
 Work notes are an important part of the state flow process and are used to communicate information about state transitions.
 
-**Parent Topic:**[State flows](c_StateFlows.md)
+**Parent Topic:**[State flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_StateFlows.md)
 
 **Related topics**  
 
 
-[Use state flows](c_UseStateFlows.md)
+[Use state flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_UseStateFlows.md)
 
-[Create a state flow](../task/t_CreateAStateFlow.md)
+[Create a state flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateAStateFlow.md)
 

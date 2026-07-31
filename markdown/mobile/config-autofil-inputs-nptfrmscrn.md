@@ -2,6 +2,7 @@
 title: Configure auto-fill inputs on input form screens
 description: Streamline form completion on input form screens by configuring auto-filled inputs based on one or more user inputs. Auto-fill inputs are configured by using mobile client scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/config-autofil-inputs-nptfrmscrn.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-Auto-fill inputs are configured by using mobile client scripts that run as a UI rule action in the UI rule of an input form screen. These scripts run in UI rules with an **OnChange** trigger type. For more information about UI rules and UI rule actions, see [Mobile UI Rules](../concept/mobile-ui-rules.md).
+Auto-fill inputs are configured by using mobile client scripts that run as a UI rule action in the UI rule of an input form screen. These scripts run in UI rules with an **OnChange** trigger type. For more information about UI rules and UI rule actions, see [Mobile UI Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-ui-rules.md).
 
 **Note:**
 
@@ -78,7 +79,7 @@ Condition under which the mobile UI rule is used. If the **Condition** field is 
 
  For example, to trigger this UI rule when a particular input changes, use the **VALCHANGES** operator. Entering `urgencyVALCHANGES` in the **Condition** field causes the UI rule to be triggered only when the value of an input named **urgency** changes.
 
- For details on the operators available for your condition, see [Operators available for filters and queries](https://www.servicenow.com/docs/access?context=r_OpAvailableFiltersQueries&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+ For details on the operators available for your condition, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
 
 </td></tr><tr><td>
 
@@ -157,7 +158,7 @@ Condition under which the mobile UI rule is used. If the **Condition** field is 
 
  For example, to trigger this UI rule when a particular input changes, use the **VALCHANGES** operator. Entering `urgencyVALCHANGES` in the **Condition** field causes the UI rule to be triggered only when the value of an input named **urgency** changes.
 
- For details on the operators available for your condition, see [Operators available for filters and queries](https://www.servicenow.com/docs/access?context=r_OpAvailableFiltersQueries&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+ For details on the operators available for your condition, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
 
 </td></tr><tr><td>
 
@@ -181,17 +182,17 @@ Make sure that at least one of the **Triggers** is set to **onChange**.
 
 5.  In the Mobile UI Rule Actions section of the mobile UI rule form, select **New**.
 
-    ![Mobile Rule UI Actions form](../image/autofill-input-form-screen-nu-act.png)
+    \[Omitted image "autofill-input-form-screen-nu-act.png"\] Alt text: Mobile Rule UI Actions form
 
     The Mobile UI Rule Action form appears.
 
 6.  In the Mobile UI Rule Action form **Operation** field, search for and select **Run Client Script**.
 
-    ![Mobile UI Rule Action form with Run Client Script Operation called out](../image/autofil-inpt-frm-scrn-rn-clnt-scrpt.png)
+    \[Omitted image "autofil-inpt-frm-scrn-rn-clnt-scrpt.png"\] Alt text: Mobile UI Rule Action form with Run Client Script Operation called out
 
 7.  Write the client script in the **Client script** field.
 
-    Client scripts use the m\_form object and the MobileScriptIncludeCaller class. For details on these JavaScript APIs, see [MobileScriptIncludeCaller - Client](https://www.servicenow.com/docs/access?context=MobileScriptInclCallerClientAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US) and [m\_form - Client](https://www.servicenow.com/docs/access?context=m_formClientAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US) in the API reference documentation.
+    Client scripts use the m\_form object and the MobileScriptIncludeCaller class. For details on these JavaScript APIs, see [MobileScriptIncludeCaller - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileScriptInclCallerClientAPI.md) and [m\_form - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/m_formClientAPI.md) in the API reference documentation.
 
     When writing the client script, be aware of the following points:
 

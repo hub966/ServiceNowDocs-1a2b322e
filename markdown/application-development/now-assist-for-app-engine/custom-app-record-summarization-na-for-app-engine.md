@@ -2,6 +2,7 @@
 title: Custom app record summarization skill
 description: The Now Assist for App Engine custom app record summarization skill generates AI summaries for the contents of records in custom applications and tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-app-engine/custom-app-record-summarization-na-for-app-engine.html
 release: australia
 product: Now Assist for App Engine
 classification: now-assist-for-app-engine
@@ -9,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
 keywords: [custom table record summarization, Now Assist for App Engine, AI skill, AI in custom apps, table summary generation]
-breadcrumb: [Explore, Now Assist for App Engine, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Explore, Now Assist for App Engine, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Custom app record summarization skill
@@ -47,7 +48,7 @@ Now Assist for App Engine can include additional data sources when generating a 
 
 For each related table or relationship that you add, you must provide the fields and field descriptions that you want Now Assist to include in summaries. Activities, such as emails and attachments, don't have fields that you can select and configure. If you select either email or attachment as an additional data source to include in a summary, Now Assist attempts to fetch that data at the time that the summary is generated. If an email or attachment is present within the record, Now Assist includes that information in the summary that it generates. Otherwise, the summary is generated without the email or attachment.
 
-**Important:** Record summarization that includes an attachment has a greater assist usage. To track your Now Assist usage, see [Monitoring Now Assist usage in Subscription Management](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Important:** Record summarization that includes an attachment has a greater assist usage. To track your Now Assist usage, see [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/monitoring-now-assist-usage.md).
 
 ## Display options
 
@@ -59,20 +60,20 @@ You can choose where you want record summarization to be available to your appli
 
     When selected, Now Assist summaries are displayed on forms and workspaces.
 
-    ![You can select the Summarize button on a record page to generate a summary.](../image/na4ae-in-product-display.png "Now Assist summary on a record page")
+    \[Omitted image "na4ae-in-product-display.png"\] Alt text: You can select the Summarize button on a record page to generate a summary.
 
-    ![You can select the Summarize button within a workspace to generate a summary.](../image/na4ae-summary-in-workspace.png "Now Assist summary in a workspace")
+    \[Omitted image "na4ae-summary-in-workspace.png"\] Alt text: You can select the Summarize button within a workspace to generate a summary.
 
     For more information about adding record summarization to a workspace, see the following resources:
 
-    -   [Customize UI Builder pages using components](../../../administer/ui-builder/concept/work-components.md)
+    -   [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-components.md)
     -   [Components documentation for the AI summary card](https://horizon.servicenow.com/workspace/components/now-ai-summary-card?release=zurich)
     -   [UI Builder setup documentation for the AI summary card](https://developer.servicenow.com/dev.do#!/reference/next-experience/zurich/now-components/now-ai-summary-card/uib-setup)
 -   **Now Assist panel**
 
-    When selected, Now Assist summaries are accessible through chat in the Now Assist panel. If you don't see this option when configuring the skill, you must activate the Now Assist panel. For more information, see [Turn on the Now Assist panel](https://www.servicenow.com/docs/bundle/zurich-intelligent-experiences/page/administer/now-assist-admin/task/activate-now-assist-panel.html).
+    When selected, Now Assist summaries are accessible through chat in the Now Assist panel. If you don't see this option when configuring the skill, you must activate the Now Assist panel. For more information, see [Turn on the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
-    ![You can select Summarize a Custom Table Record in the Now Assist panel to summarize a record through chat.](../image/na4ae-now-assist-panel.png "Option to generate a summary in the Now Assist panel")
+    \[Omitted image "na4ae-now-assist-panel.png"\] Alt text: You can select Summarize a Custom Table Record in the Now Assist panel to summarize a record through chat.
 
 
 ## Access

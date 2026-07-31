@@ -2,6 +2,7 @@
 title: Domain separation and Purchase Order Management
 description: Domain separation is unsupported for Purchase Order Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/domain-separation-pom.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,18 +19,18 @@ Domain separation is unsupported for Purchase Order Management. Domain separatio
 -   The domain field may exist on data tables but there is no business logic to manage the data.
 -   This level is not considered domain-separated.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
-**Parent Topic:**[Configure Purchase Order Management](configure-purch-order-mgmt.md)
+**Parent Topic:**[Configure Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/configure-purch-order-mgmt.md)
 
 **Related topics**  
 
 
-[Install Purchase Order Management](../task/install-purch-order-mgmt.md)
+[Install Purchase Order Management]()
 
-[Assigning priority to a purchase order](assigning-priority-to-po.md)
+[Assigning priority to a purchase order]()
 
-[Assigning purchase order exceptions to buyers](assigning-po-exceptions-to-buyers.md)
+[Assigning purchase order exceptions to buyers]()
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 

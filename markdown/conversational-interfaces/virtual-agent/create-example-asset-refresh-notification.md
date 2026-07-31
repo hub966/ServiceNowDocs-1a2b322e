@@ -2,6 +2,7 @@
 title: Create the notification for the Asset Refresh topic
 description: Create an actionable notification to trigger the Asset Refresh Virtual Agent example topic you just created. The user will automatically receive the notification when it's time for them to order a new hardware asset.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/create-example-asset-refresh-notification.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -18,13 +19,13 @@ Create an actionable notification to trigger the Asset Refresh Virtual Agent exa
 
 ## Before you begin
 
-Publish the Asset Refresh topic. [Change the application scope](change-application-scope-vad.md) in your instance to the same application you used to create your Asset Refresh topic. Ideally, the notification should be in the same application scope as your Virtual Agent topic.
+Publish the Asset Refresh topic. [Change the application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/change-application-scope-vad.md) in your instance to the same application you used to create your Asset Refresh topic. Ideally, the notification should be in the same application scope as your Virtual Agent topic.
 
 Role required: virtual\_agent\_admin or admin
 
 ## About this task
 
-The ServiceNow AI Platform and ITSM Virtual Agent Conversations come with pre-built actionable notifications, and you can also create your own. For more information, see [Notifications](https://www.servicenow.com/docs/access?context=notifications&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+The ServiceNow AI Platform and ITSM Virtual Agent Conversations come with pre-built actionable notifications, and you can also create your own. For more information, see [Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/notifications.md).
 
 **Tip:** On the Notifications page, you can view only the actionable notifications that come with ITSM Virtual Agent Conversations by filtering the list on **Application is ITSM Virtual Agent Conversations**.
 
@@ -46,7 +47,7 @@ The ServiceNow AI Platform and ITSM Virtual Agent Conversations come with pre-bu
 
         When assets in the hardware table are available for refresh, they're moved to the **In maintenance** state on this example instance. You can specify filter conditions based on the business rules for your instance.
 
-    ![A change in state for the asset on the Hardware table will trigger this notification.](../images/crawl-ex-new-notification.png)
+    \[Omitted image "crawl-ex-new-notification.png"\] Alt text: A change in state for the asset on the Hardware table will trigger this notification.
 
 5.  Select the **Who will receive** tab to configure the recipient of the notification.
 
@@ -54,17 +55,17 @@ The ServiceNow AI Platform and ITSM Virtual Agent Conversations come with pre-bu
 
     2.  In the **Available** list, select **Assigned to**, and then select the right arrow icon to move it to the **Selected** column.
 
-    ![The notification will only be sent to the owner of the asset.](../images/crawl-ex-notif-who-receives.png)
+    \[Omitted image "crawl-ex-notif-who-receives.png"\] Alt text: The notification will only be sent to the owner of the asset.
 
 6.  Select **Submit**.
 
 
 ## What to do next
 
-[Associate content with the Asset Refresh notification](associate-content-example-notification.md)
+[Associate content with the Asset Refresh notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/associate-content-example-notification.md)
 
 **Related topics**  
 
 
-[ITSM Virtual Agent pre-built actionable notifications](https://www.servicenow.com/docs/access?context=itsm-actionable-notifications&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+[ITSM Virtual Agent pre-built actionable notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-actionable-notifications.md)
 

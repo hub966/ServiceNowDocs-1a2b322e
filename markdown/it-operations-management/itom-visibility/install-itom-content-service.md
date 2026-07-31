@@ -2,6 +2,7 @@
 title: Install ITOM Content Service
 description: Install the ITOM Content Service application \(sn\_smart\_content\) to manage and monitor the creation of configuration items based on application fingerprints.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/install-itom-content-service.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -31,7 +32,7 @@ The following plugins are activated with ITOM Content Service:
 -   Normalization Data Services Client \(com.glide.data\_services\_canonicalization.client\)
 -   File Based Discovery \(com.snc.discovery.file\_based\_discovery\)—starting with ITOM Content Service version 1.5.1
 
-**Note:** The ITOM Smart Content plugin \(com.snc.itom.smart.content\) is available starting with XP5. This plugin is optional and can be requested through ServiceNow personnel. For more information, see [Request a plugin](https://www.servicenow.com/docs/access?context=t_RequestAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** The ITOM Smart Content plugin \(com.snc.itom.smart.content\) is available starting with XP5. This plugin is optional and can be requested through ServiceNow personnel. For more information, see [Request a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_RequestAPlugin.md).
 
 ## Procedure
 
@@ -54,12 +55,12 @@ The following plugins are activated with ITOM Content Service:
 
 ## What to do next
 
-[Share data on ITOM Content Service](share-data-itom-content-service.md)
+[Share data on ITOM Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/share-data-itom-content-service.md)
 
 **Related topics**  
 
 
-[ITOM Content Service](../concept/discovery-content-services.md)
+[ITOM Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/discovery-content-services.md)
 
-[Discovery Admin Workspace](../concept/discovery-admin-workspace.md)
+[Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace.md)
 
